@@ -50,6 +50,8 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 ---
 ### 1.2.1 Antecedentes y problemática
 
+<<<<<<< Updated upstream
+=======
 | Question |                                                             |
 | -------- | ------------------------------------------------------------|
 | Who?     | Estudiantes y personal educativo que desean contar con un sistema para la prevención de accidentes en un colegio y que cuente con una excelente gestión de riesgos. Mejorando la respuesta ante situaciones de emergencia.|
