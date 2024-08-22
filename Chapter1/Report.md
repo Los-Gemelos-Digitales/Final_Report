@@ -64,6 +64,11 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 
 #### 1.2.2.1 Lean UX Problem Statements. 
 
+
+Las escuelas en Perú, como la John F. Kennedy en La Perla, Callao, enfrentan serios desafíos de seguridad debido a la antigüedad de sus infraestructuras, muchas de las cuales tienen más de 50 años. Estas instituciones, ubicadas en zonas urbanas vulnerables a sismos, carecen de herramientas avanzadas para prever y mitigar los riesgos asociados a desastres naturales, como terremotos. Esta situación pone en peligro la seguridad de estudiantes y personal educativo, quienes están expuestos a posibles daños estructurales que podrían resultar en graves consecuencias durante un evento sísmico.
+El problema es especialmente crítico en un contexto donde la actividad sísmica en el país es alta; solo en el último mes, se han registrado más de 70 sismos, incluyendo uno de magnitud 7.1 en Tacna. A pesar de esta realidad, las instituciones educativas no cuentan con un sistema predictivo y preventivo eficaz que les permita anticipar situaciones peligrosas y gestionar emergencias de manera eficiente. Como resultado, la comunidad educativa vive con incertidumbre, temiendo que un sismo podría desencadenar una catástrofe debido a la falta de preparación adecuada.
+La solución que proponemos es la implementación de un gemelo digital en la escuela John F. Kennedy. Este gemelo digital funcionará como una réplica virtual del entorno escolar, permitiendo simular y predecir en tiempo real situaciones peligrosas. Esto facilitará la identificación de áreas de riesgo y la optimización de rutas de evacuación, asegurando una respuesta rápida y coordinada ante emergencias. Al resolver este problema, no solo se mejorará la seguridad en la escuela, sino que se establecerá un modelo que puede ser replicado en otras instituciones educativas, contribuyendo a un entorno escolar más seguro y resiliente en todo el país.
+
 #### 1.2.2.2 Lean UX Assumptions 
 
 #### 1.2.2.3 Lean UX Hypothesis Statements.
