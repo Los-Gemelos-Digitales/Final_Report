@@ -43,29 +43,22 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 |Soy estudiante de Ingeniería de Software de la UPC, valoro enormemente la colaboración en equipo como un pilar fundamental en el éxito de cualquier proyecto. Mi enfoque en el trabajo en equipo se basa en la comunicación abierta y la capacidad de escuchar activamente las ideas y perspectivas de mis compañeros. Reconozco que la diversidad de opiniones y habilidades en un equipo es clave para encontrar soluciones creativas y efectivas a los desafíos que enfrentamos en el desarrollo de software.| <img src="/Chapter1/images/student_saul.png" width="2000"/>|
 |||
 
-=======
->>>>>>> Stashed changes
+
 
 ## 1.2. Solution Profile
----
+
 ### 1.2.1 Antecedentes y problemática
 
-<<<<<<< Updated upstream
-=======
-| Question |                                                             |
-| -------- | ------------------------------------------------------------|
+
+| Question |                                                                     |
+| -------- | --------------------------------------------------------------------|
 | Who?     | Estudiantes y personal educativo que desean contar con un sistema para la prevención de accidentes en un colegio y que cuente con una excelente gestión de riesgos. Mejorando la respuesta ante situaciones de emergencia.|
 | What? | La reciente información del Ministerio de Educación destaca que, tras un terremoto de 7.5 grados, 13 colegios en las regiones de Amazonas, Loreto y Piura sufrieron daños en su infraestructura. Este hecho pone de relieve la vulnerabilidad de las escuelas en Perú frente a desastres naturales, incluyendo aquellas en Lima, que también pueden verse afectadas por sismos (Oficina de Prensa - MINEDU, 29 de noviembre de 2021). Ante esta problemática, desarrollaremos un gemelo digital para la prevención de accidentes en una escuela. Este gemelo digital, una réplica virtual del entorno físico escolar, permitirá la predicción en tiempo real de situaciones peligrosas, con el objetivo de identificar y mitigar los riesgos antes de que ocurran. |
 | Where? | El proyecto de digital twins se implementará en la escuela John F. Kennedy que se encuentra ubicada en La Perla, Callao. La infraestructura del edificio tiene más de 50 años de antigüedad y presenta algunas áreas que requieren mayor observación en caso de riesgos. El entorno local está en una zona urbana.|
-| When? | El cronograma del proyecto para desarrollar un gemelo digital para la prevención de accidentes en una escuela comenzará el 21 de agosto y concluirá el 23 de noviembre. Durante las dos primeras semanas se llevará a cabo la fase de planificación y análisis de requisitos. Del 4 de septiembre al 29 de octubre, se realizará la fase de diseño del sistema, que incluirá la creación del diseño técnico y el desarrollo e implementación, donde se desarrollará el gemelo digital. A continuación, entre el 30 octubre y el 12 de noviembre, se realizarán pruebas para asegurar el correcto funcionamiento del sistema.
-Finalmente, del 13 al 19 de noviembre, se implementará el sistema en la escuela seleccionada y se capacitará al personal para su uso efectivo. El 23 de noviembre, se evaluará el impacto del gemelo digital en la prevención de accidentes, concluyendo así el proyecto y entregando los resultados finales.|
+| When? | El cronograma del proyecto para desarrollar un gemelo digital para la prevención de accidentes en una escuela comenzará el 21 de agosto y concluirá el 23 de noviembre. Durante las dos primeras semanas se llevará a cabo la fase de planificación y análisis de requisitos. Del 4 de septiembre al 29 de octubre, se realizará la fase de diseño del sistema, que incluirá la creación del diseño técnico y el desarrollo e implementación, donde se desarrollará el gemelo digital. A continuación, entre el 30 octubre y el 12 de noviembre, se realizarán pruebas para asegurar el correcto funcionamiento del sistema. Finalmente, del 13 al 19 de noviembre, se implementará el sistema en la escuela seleccionada y se capacitará al personal para su uso efectivo. El 23 de noviembre, se evaluará el impacto del gemelo digital en la prevención de accidentes, concluyendo así el proyecto y entregando los resultados finales.|
 | Why? | La problemática ocurre cuando las instituciones educativas, como los colegios, requieren planificar una ruta segura de evacuación ante una futuro acontecimiento de un sismo de una magnitud significante que pondría en riesgo a los estudiantes y al personal del colegio. Según el Instituto Geofísico del Perú (CENSIS, 2024), en el último mes, el cuál fue julio, se han registrado más de 70 sismo en todo el país, destacando el que ocurrió en el 542 km al Sur de Tacna, de magnitud 7,1 en la escala de Richter el día 18 de julio. |
-| How? | Según un reporte en la página web del World Bank Group(5 de noviembre del 2021), menciona lo siguiente: 
-
-“Perú fue uno de los primeros países en utilizar el Préstamo para Políticas de Desarrollo con Opción de Retiro Diferido para Catástrofes (Cat DDO, por sus siglas en inglés) y ha logrado avances sustanciales en el avance de la agenda de gestión del riesgo de desastres (GRD)”
-
-Lo cual se concluye para poder aportar a una mejora de la seguridad de la población frente a un sismo, los colegios solicitarán nuestros servicios para poder realizar un monitoreo de ruta de evacuación gracias al gemelo digital diseñado. |
-| How much? |                                                            |
+| How? | Según un reporte en la página web del World Bank Group(5 de noviembre del 2021), menciona lo siguiente: “Perú fue uno de los primeros países en utilizar el Préstamo para Políticas de Desarrollo con Opción de Retiro Diferido para Catástrofes (Cat DDO, por sus siglas en inglés) y ha logrado avances sustanciales en el avance de la agenda de gestión del riesgo de desastres (GRD)” Lo cual se concluye para poder aportar a una mejora de la seguridad de la población frente a un sismo, los colegios solicitarán nuestros servicios para poder realizar un monitoreo de ruta de evacuación gracias al gemelo digital diseñado. |
+| How much? |                                                       |
 
 ### 1.2.2 Lean UX Process. 
 
