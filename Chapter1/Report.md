@@ -1,7 +1,39 @@
+
+<h1 align="center"> Universidad Peruana de Ciencias Aplicadas
+  (UPC)</h1>
+
+  
+
+
+
+
+
+# Registro de Versiones
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| ----------- | ---------- | --------------- | ---------------------------------------------|
+| TB1         |            | Sánchez Ramírez, Diego Antonio | Se realiza el análisis y la recopilación de datos para profundizar en la problematica elegida. |
+
+---
+# ABET – EAC - Student Outcome 3 
+
+<p align="justify">
+<strong>Criterio:</strong> Capacidad de comunicarse efectivamente con un rango de audiencias. 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de 
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro 
+del <strong>ABET – EAC - Student Outcome 3</strong>.
+</p>
+
+|Criterio específico|Acciones realizadas|Conclusiones|
+| -------------------- | --------------------------------- | ---------------------------------|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.| **PEGAR AQUI LAS ACCIONES REALIZADAS DEL TB1** | **PEGAR AQUI LAS CONCLUSIONES DEL TB1**|
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería..| **PEGAR AQUI LAS ACCIONES REALIZADAS DEL TB1** | **PEGAR AQUI LAS CONCLUSIONES DEL TB1**| 
+
+---
 # Capítulo I: Introducción
----
+
 ## 1.1. Startup Profile
----
+
 ### 1.1.1. Descripción de la Startup
 
 En, nos enfocamos en la creación de soluciones tecnológicas avanzadas, como gemelos digitales, que nos permiten simular, analizar y optimizar procesos en el sector educativo. Nuestra meta es transformar la forma en que las instituciones educativas abordan desafíos, mejorando la seguridad, la eficiencia operativa y la experiencia de los estudiantes.
@@ -49,16 +81,22 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 
 ### 1.2.1 Antecedentes y problemática
 
+|Pregunta| |
+| -------------- | ------------------------------------------------------------------------- |
+| **What (Qué): ¿Cuál es el problema?** | El problema aparece cuando se requiere que cada institución educativa necesita trazar un plan de simulacro ante cualquier sismo para que su personal y estudiantes esten preparados para reaccionar ante estos. Un ejemplo de que tan importante es esto seria las acciones que realizan instituciones nacionales como MINAM e INDECI: que serian realizar simulacros nacionales en todo el país. Sin embargo, en muchos colegios no se presentan una infraestructura eficiente o un personal calificado para realizar planes optimos de evacuación|
+| **When (Cuándo): ¿Cuándo sucede el problema?** | La problemática ocurre cuando las instituciones educativas, como los colegios, requieren planificar una ruta segura de evacuación ante una futuro acontecimiento de un sismo de una magnitud significante que pondría en riesgo a los estudiantes y al personal del colegio. Según el Instituto Geofísico del Perú (CENSIS, 2024), en el último mes, el cuál fue julio, se han registrado más de 70 sismo en todo el país, destacando el que ocurrió en el 542 km al Sur de Tacna, de magnitud 7,1 en la escala de Richter el día 18 de julio. |
+| **Where (dónde): ¿Dónde está el cliente cuando usa el servicio?** | El cliente se encontrará en la oficina de dirección del Colegio, donde a traves nuestra solución podrá monitorear el estado de la infraestructura del colegio y la ruta optima para la evacuación del personal y de los estudiantes |
+| **Why (por qué): ¿Cuál es la causa del problema?**|El problema ocurre debido a que el Perú se encuentra ubicado en una región sísmica muy activa llamada Cinturón de Fuego del Pacífico. Según Ayala (2022), “se trata de una larga cadena tectónica de 40 mil kilómetros, ubicada en el Océano Pacífico, que tiene forma de herradura y se caracteriza por tener una gran actividad sísmica y volcánica. En el Cinturón de Fuego del Pacífico ocurre el 90 por ciento de la actividad sísmica del planeta y concentra a la gran mayoría de volcanes activos del mundo (75 %), de ahí que el nombre de esta placa lleve la palabra fuego”. Por lo tanto, la probabilidad de que ocurra un sismo en territorio peruano es elevada, lo que afectaría la seguridad de los estudiantes y el personal de los colegios. |
+| **Who (quién): ¿Quiénes están involucrados?** | Estudiantes y personal educativo que desean contar con un sistema para la prevención de accidentes en un colegio y que cuente con una excelente gestión de riesgos. Mejorando la respuesta ante situaciones de emergencia. |
 
-| Question |                                                                     |
-| -------- | --------------------------------------------------------------------|
-| Who?     | Estudiantes y personal educativo que desean contar con un sistema para la prevención de accidentes en un colegio y que cuente con una excelente gestión de riesgos. Mejorando la respuesta ante situaciones de emergencia.|
-| What? | La reciente información del Ministerio de Educación destaca que, tras un terremoto de 7.5 grados, 13 colegios en las regiones de Amazonas, Loreto y Piura sufrieron daños en su infraestructura. Este hecho pone de relieve la vulnerabilidad de las escuelas en Perú frente a desastres naturales, incluyendo aquellas en Lima, que también pueden verse afectadas por sismos (Oficina de Prensa - MINEDU, 29 de noviembre de 2021). Ante esta problemática, desarrollaremos un gemelo digital para la prevención de accidentes en una escuela. Este gemelo digital, una réplica virtual del entorno físico escolar, permitirá la predicción en tiempo real de situaciones peligrosas, con el objetivo de identificar y mitigar los riesgos antes de que ocurran. |
-| Where? | El proyecto de digital twins se implementará en la escuela John F. Kennedy que se encuentra ubicada en La Perla, Callao. La infraestructura del edificio tiene más de 50 años de antigüedad y presenta algunas áreas que requieren mayor observación en caso de riesgos. El entorno local está en una zona urbana.|
-| When? | El cronograma del proyecto para desarrollar un gemelo digital para la prevención de accidentes en una escuela comenzará el 21 de agosto y concluirá el 23 de noviembre. Durante las dos primeras semanas se llevará a cabo la fase de planificación y análisis de requisitos. Del 4 de septiembre al 29 de octubre, se realizará la fase de diseño del sistema, que incluirá la creación del diseño técnico y el desarrollo e implementación, donde se desarrollará el gemelo digital. A continuación, entre el 30 octubre y el 12 de noviembre, se realizarán pruebas para asegurar el correcto funcionamiento del sistema. Finalmente, del 13 al 19 de noviembre, se implementará el sistema en la escuela seleccionada y se capacitará al personal para su uso efectivo. El 23 de noviembre, se evaluará el impacto del gemelo digital en la prevención de accidentes, concluyendo así el proyecto y entregando los resultados finales.|
-| Why? | La problemática ocurre cuando las instituciones educativas, como los colegios, requieren planificar una ruta segura de evacuación ante una futuro acontecimiento de un sismo de una magnitud significante que pondría en riesgo a los estudiantes y al personal del colegio. Según el Instituto Geofísico del Perú (CENSIS, 2024), en el último mes, el cuál fue julio, se han registrado más de 70 sismo en todo el país, destacando el que ocurrió en el 542 km al Sur de Tacna, de magnitud 7,1 en la escala de Richter el día 18 de julio. |
-| How? | Según un reporte en la página web del World Bank Group(5 de noviembre del 2021), menciona lo siguiente: “Perú fue uno de los primeros países en utilizar el Préstamo para Políticas de Desarrollo con Opción de Retiro Diferido para Catástrofes (Cat DDO, por sus siglas en inglés) y ha logrado avances sustanciales en el avance de la agenda de gestión del riesgo de desastres (GRD)” Lo cual se concluye para poder aportar a una mejora de la seguridad de la población frente a un sismo, los colegios solicitarán nuestros servicios para poder realizar un monitoreo de ruta de evacuación gracias al gemelo digital diseñado. |
-| How much? |                                                       |
+<br>
+
+|Pregunta| |
+| -------------- | ------------------------------------------------------------------------- |
+| How (cómo):¿En qué condiciones los clientes usan nuestro producto? | En cuestión para conseguir trazar una ruta o plan de evacuación ante algun sismo que se presenta en horarios de clases |
+| ¿Qué llevó a la persona a llegar a nuestro servicio? | **PENDIENTE** |
+| How much (cuánto) ¿Cuánta es la demanda de la problemática? | **PENDIENTE** |
+
 
 ### 1.2.2 Lean UX Process. 
 
