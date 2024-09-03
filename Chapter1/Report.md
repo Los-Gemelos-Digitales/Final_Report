@@ -1,7 +1,32 @@
-
+<img src="/Chapter1/images/upc_logo.png" width="800" aling="center"/>
 <h1 align="center"> Universidad Peruana de Ciencias Aplicadas
-  (UPC)</h1>
-
+  (UPC)<br>
+Ingeniería de Software – Grupo 1
+</h1>
+<br>
+<h2 align="center">
+  Trabajo Final del Curso – TB1<br><br>
+  Startup:
+  <br><br>
+  Producto:
+  <br><br>
+  <br>
+  <br>
+  Integrantes:
+  <br>
+  <br>
+  Florentino Josue, Carrasco Hernández – u202020727<br>
+  Mendoza Barco, Saúl Enrique –<br>
+  Navarro Chacon, Juan Jose - <br>
+  Patazca Calderón, Santos Alexis - u202021C269<br>
+  Sánchez Ramírez, Diego Antonio - u202021367<br>
+  <br>
+  <br>
+  <br>
+  
+  Septiembre, 2024
+  
+</h2>
   
 
 
@@ -55,22 +80,22 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 |Soy un estudiante de la carrera de Ing. De Software en la Universidad de Ciencias Aplicadas (UPC). Estoy familiarizado con los lenguajes de programación C + + y HTML5, CSS y JS. Estoy en vías de aprender otros lenguajes para ser un ingeniero flexible a cualquier necesidad o problema que se presente.| <img src="/Chapter1/images/student_diego.png" width="1250"/>|
 |||
 
-| Florentino Josue Carrasco Hernández – u202020727 |  |
+| Florentino Josue, Carrasco Hernández – u202020727 |  |
 |----------|----------|
 |Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Responsable, proactivo, comunicativo, tolerante, empático y orientado a resultados. Tengo conocimientos en desarrollo web HTML, CSS, JavaScript.| <img src="/Chapter1/images/student_josue.png" width="1000"/>|
 |||
 
-| Santos Alexis Patazca Calderón  –  |  |
+| Patazca Calderón, Santos Alexis - u202021C269 |  |
 |----------|----------|
 |Estudiante  de la carrera de Ingeniería de Software. Me considero una persona proactiva con pensamiento estratégico, con habilidades en el ámbito de la programación y un gran espíritu investigador. Para este proyecto puedo aportar parte de mi conocimiento adquirido en el curso. Además, de las habilidades blandas tales como el trabajo en equipo, comunicación, entre otras.| <img src="/Chapter1/images/student_alexis.png" width="1600"/>|
 |||
 
-| Juan Jose Navarro Chacon   –  |  |
+| Navarro Chacon, Juan Jose -   |  |
 |----------|----------|
 |Soy estudiante de la carrera Ingeniería de Software, actualmente estoy cursando el 8vo ciclo. Me considero una persona divertida, empática, responsable, creativa, honesta y sobre todo organizada en los planes que deseo realizar. Para el trabajo que vamos a realizar puedo aportar con el desarrollo del sistema, ya que tengo conocimientos ciertos lenguajes, además de ser responsable.| <img src="/Chapter1/images/student_jose.png" width="1600"/>|
 |||
 
-| Saúl Enrique Mendoza Barco  –  |  |
+| Mendoza Barco, Saúl Enrique –  |  |
 |----------|----------|
 |Soy estudiante de Ingeniería de Software de la UPC, valoro enormemente la colaboración en equipo como un pilar fundamental en el éxito de cualquier proyecto. Mi enfoque en el trabajo en equipo se basa en la comunicación abierta y la capacidad de escuchar activamente las ideas y perspectivas de mis compañeros. Reconozco que la diversidad de opiniones y habilidades en un equipo es clave para encontrar soluciones creativas y efectivas a los desafíos que enfrentamos en el desarrollo de software.| <img src="/Chapter1/images/student_saul.png" width="2000"/>|
 |||
@@ -87,15 +112,15 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 | **When (Cuándo): ¿Cuándo sucede el problema?** | La problemática ocurre cuando las instituciones educativas, como los colegios, requieren planificar una ruta segura de evacuación ante una futuro acontecimiento de un sismo de una magnitud significante que pondría en riesgo a los estudiantes y al personal del colegio. Según el Instituto Geofísico del Perú (CENSIS, 2024), en el último mes, el cuál fue julio, se han registrado más de 70 sismo en todo el país, destacando el que ocurrió en el 542 km al Sur de Tacna, de magnitud 7,1 en la escala de Richter el día 18 de julio. |
 | **Where (dónde): ¿Dónde está el cliente cuando usa el servicio?** | El cliente se encontrará en la oficina de dirección del Colegio, donde a traves nuestra solución podrá monitorear el estado de la infraestructura del colegio y la ruta optima para la evacuación del personal y de los estudiantes |
 | **Why (por qué): ¿Cuál es la causa del problema?**|El problema ocurre debido a que el Perú se encuentra ubicado en una región sísmica muy activa llamada Cinturón de Fuego del Pacífico. Según Ayala (2022), “se trata de una larga cadena tectónica de 40 mil kilómetros, ubicada en el Océano Pacífico, que tiene forma de herradura y se caracteriza por tener una gran actividad sísmica y volcánica. En el Cinturón de Fuego del Pacífico ocurre el 90 por ciento de la actividad sísmica del planeta y concentra a la gran mayoría de volcanes activos del mundo (75 %), de ahí que el nombre de esta placa lleve la palabra fuego”. Por lo tanto, la probabilidad de que ocurra un sismo en territorio peruano es elevada, lo que afectaría la seguridad de los estudiantes y el personal de los colegios. |
-| **Who (quién): ¿Quiénes están involucrados?** | Estudiantes y personal educativo que desean contar con un sistema para la prevención de accidentes en un colegio y que cuente con una excelente gestión de riesgos. Mejorando la respuesta ante situaciones de emergencia. |
+| **Who (quién): ¿Quiénes están involucrados?** | Estudiantes, personal educativo y administrativo que desean contar con un sistema para la prevención de accidentes en un colegio y que cuente con una excelente gestión de riesgos. Mejorando la respuesta ante situaciones de emergencia. |
 
 <br>
 
 |Pregunta| |
 | -------------- | ------------------------------------------------------------------------- |
 | How (cómo):¿En qué condiciones los clientes usan nuestro producto? | En cuestión para conseguir trazar una ruta o plan de evacuación ante algun sismo que se presenta en horarios de clases |
-| ¿Qué llevó a la persona a llegar a nuestro servicio? | **PENDIENTE** |
-| How much (cuánto) ¿Cuánta es la demanda de la problemática? | **PENDIENTE** |
+| ¿Qué llevó a la persona a llegar a nuestro servicio? | Segun el nuevo reglamento promulgado por la Minedu (29 de febrero del 2021), dicta que los colegios, tanto publicos como privados deben contador con una infraestructura que este acorde a los parámetros seguridad, funcionalidad, habitalidad y accesibilidad establecidas en la normativa vigente. Esto incluye, servicios complementarios que puedan garantizar la seguridad y bienestar de los estudiantes, por esta razón nuestro servicio será prioritario para asegurar estos aspectos. |
+| How much (cuánto) ¿Cuánta es la demanda de la problemática? | Según una nota de prensa de la MINEDU : "En los últimos 15 años, la oferta de colegios privados creció en un 39% a nivel nacional, al pasar de 10,400 en 2006 a 13,500 en 2020 (MINEDU, 3 de Marzo del 2021). Este dato refleja la clara demanda que existe en la seguridad de los estudiantes en los colegios privados o publicos. |
 
 
 ### 1.2.2 Lean UX Process. 
@@ -109,6 +134,8 @@ La solución que proponemos es la implementación de un gemelo digital en la esc
 
 #### 1.2.2.2 Lean UX Assumptions 
 
+
+
 #### 1.2.2.3 Lean UX Hypothesis Statements.
   
 #### 1.2.2.4 Lean UX  Canvas.
@@ -117,3 +144,13 @@ La solución que proponemos es la implementación de un gemelo digital en la esc
 ### Segmentos objetivo
 
 >>>>>>> Stashed changes
+
+
+
+
+
+
+Referencias Bibliográficas
+
+
+https://www.gob.pe/institucion/minedu/informes-publicaciones/1724857-reglamento-de-instituciones-educativas-privadas-de-educacion-basica
