@@ -152,5 +152,6 @@ La solución que proponemos es la implementación de un gemelo digital en la esc
 
 Referencias Bibliográficas
 
+https://www.gob.pe/institucion/minedu/noticias/344770-colegios-privados-tendran-hasta-cinco-anos-para-adecuarse-a-las-condiciones-del-nuevo-reglamento
 
 https://www.gob.pe/institucion/minedu/informes-publicaciones/1724857-reglamento-de-instituciones-educativas-privadas-de-educacion-basica
