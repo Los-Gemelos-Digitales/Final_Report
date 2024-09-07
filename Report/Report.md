@@ -294,17 +294,21 @@ Periódica: La tarea se realiza en intervalos establecidos, como durante simulac
 ## 2.3.3. Empathy Mapping.
 
 ### Personal administrativo
-
-# Imagen de Personal
-
-### Persona
-
+<br>
+<img src="/Report/images/Empathy_map_admin.png"/>
+<br>
+### Profesores
+<br>
+<img src="/Report/images/Empathy_map_teacher.png"/>
+<br>
 ## 2.3.4. As-is Scenario Mapping.
 
 En esta sección se adjuntan los As-Is Scenarios trabajados por el equipo en la herramienta Miro. Donde se detallaron las filas Steps, Doing, Thinking y Feeling para cada segmento objetivo antes de la existencia de la solución propuesta.
 
-
-
+<img src="/Report/images/asis_mapping_admin.png"/>
+<br>
+<img src="/Report/images/asis_mapping_teacher.png"/>
+<br>
 ### 2.3.5 Ubiquitous Language
 
 1. **Accessibility (Accesibilidad)**: Diseño y configuración de sistemas que permiten su uso por todas las personas, independientemente de sus capacidades.
