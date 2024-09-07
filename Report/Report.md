@@ -16,7 +16,7 @@ Ingeniería de Software – Grupo 1
   <br>
   <br>
   Florentino Josue, Carrasco Hernández – u202020727<br>
-  Mendoza Barco, Saúl Enrique –<br>
+  Mendoza Barco, Saúl Enrique – u20211c677<br>
   Navarro Chacon, Juan Jose - <br>
   Patazca Calderón, Santos Alexis - u202021C269<br>
   Sánchez Ramírez, Diego Antonio - u202021367<br>
