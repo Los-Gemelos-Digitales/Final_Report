@@ -262,6 +262,16 @@ El profesor Castillo, de 54 años de edad, residente del distrito de La Perla, C
 
 ## 2.3.1 User Personas
 
+**Personal Administrativo**
+<br>
+<img src="/Report/images/userpersona_admin.png"/>
+<br>
+
+**Profesor**
+<br>
+<img src="/Report/images/userpersona_teacher.png"/>
+<br>
+
 ## 2.3.2. User Task Matrix. 
 La matriz de responsabilidades de los segmentos objetivos, es el siguiente:
 
