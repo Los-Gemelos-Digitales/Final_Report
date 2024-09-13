@@ -118,7 +118,8 @@ Para desarrollar las User Stories (US) más relevantes para el sistema de gemelo
 		<tr>
 			<td>US014</td>
 			<td>Evaluación de condiciones antes de iniciar clases</td>
-			<td>Como profesor,<br>Quiero recibir una evaluación de las condiciones estructurales y de seguridad antes de comenzar el día,<br>Para asegurar que no existen riesgos antes de que ingresen los estudiantes.</td>
+			<td>Como profesor,<br>Quiero recibir una evaluación de las condiciones estructurales y de seguridad antes de comenzar el día,<br>Para asegurar que no existen riesgos antes de que ingresen los estudiantes.
+      <td>--- Scenario: <br>Given que el sistema realiza evaluaciones matutinas,<br>When el profesor abre su panel,<br>Then el sistema muestra un resumen del estado de seguridad del aula y otras áreas críticas.</td>
 			<td>EP003</td>
 		</tr>
 	</tbody>
