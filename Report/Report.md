@@ -262,6 +262,8 @@ El profesor Castillo, de 54 años de edad, residente del distrito de La Perla, C
 
 ## 2.3.1 User Personas
 
+Se realizan las fichas de user persona para cada segmento objetivo (Personal administrativo y Profesor), donde se consolidan los datos obtenidos a travéz de las entrevistas con los usuarios y el análisis de competidores. Estos artefactos se utilizan para la posterior ceación del As-Is Scenario map, To-Be Scenario map, Task Matrix y Empathy Mapping.
+
 **Personal Administrativo**
 <br>
 <img src="/Report/images/userpersona_admin.png"/>
@@ -302,6 +304,8 @@ Continúa: La tarea se ejecuta de manera ininterrumpida y debe estar disponible 
 Periódica: La tarea se realiza en intervalos establecidos, como durante simulacros o revisiones regulares.
 
 ## 2.3.3. Empathy Mapping.
+
+En esta sección se utilizaron los User Personas previamente creados para que el equipo de desarrollo obtenga una visión más profunda de cada segmento. Esto se realizó a través de las preguntas: ¿Con quién estamos empatizando? ¿Qué necesita hacer? ¿Qué está diciendo? ¿Qué está viendo? ¿Qué está haciendo? ¿Qué está escuchando? ¿Cómo se siente y qué piensa? Identificar Pains y Gains en base a las preguntas ¿Qué le preocupa? Y ¿Qué puede ayudar a resolver sus problemas? ¿Qué puede convencerlo de que somos la alternativa correcta? ¿Qué dice?
 
 ### Personal administrativo
 <br>
