@@ -1070,20 +1070,18 @@ Teniendo en cuenta que nuestros usuarios utilizarán la aplicación para monitor
 
 #### Logo de TwinGuard Education:
 
+<img src="assets/images/twinguard_logo.png" width=1200px/>
 
 
 #### Paleta de colores:
 
-
+<img src="assets/images/twinguard_colors.png" width=1200px/>
 
 #### Tipografía:
 
-Se eligió Montserrat por su alta legibilidad, facilidad de escalado y fácil lectura en dispositivos electrónicos.
+Se eligió Work Sans por su correcto espaciado y su fácil lectura en dispositivos electrónicos.
 
-
-
-De la misma manera, se eligió Work Sans por su correcto espaciado y su fácil lectura en dispositivos electrónicos.
-
+<img src="assets/images/twinguard_typography_2.png" width=1200px/>
 
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
@@ -1093,11 +1091,36 @@ De la misma manera, se eligió Work Sans por su correcto espaciado y su fácil l
 
 #### Web Style Guidelines:
 
+#### Dimensiones
+
+<img src="assets/images/twinguard_web_dimensions.png" width=1200px/>
+<p style="text-align: center;">1440x1024</p>
+
+#### Tipografía
+
+Se eligió Montserrat por su alta legibilidad, facilidad de escalado y fácil lectura en dispositivos electrónicos.
+
+<img src="assets/images/twinguard_typography.png" width=1200px/>
+
+También utilizamos la tipografía Poppins, su estilo minimalista y contemporáneo es perfecto para interfaces de usuario (UI), ayudando a que los elementos se vean modernos y fáciles de leer en diferentes dispositivos.
+
+<img src="assets/images/twinguard_web_typography.png" width=1200px/>
+
+
 
 
 #### Mobile Style Guidelines:
 
+#### Dimensiones
 
+<img src="assets/images/twinguard_mobile_dimensions.png" width=1200px/>
+<p style="text-align: center;">390x844</p>
+
+#### Tipografía
+
+Se sigue manteniendo la tipografía Sans Work para los menus y formularios
+
+<img src="assets/images/twinguard_typography_2.png" width=1200px/>
 
 ## 6.2. Information Architecture
 
@@ -1144,11 +1167,11 @@ Nuestro enfoque en sistemas de búsqueda está diseñado para proporcionar a los
 
 - **Filtro por nivel de alerta:**
 
-  
+<img src="assets/images/twinguard_mobile_filter_1.png" width=1200px/>  
 
 - **Filtro por ubicación y fecha:**
 
-
+<img src="assets/images/twinguard_mobile_filter_2.png" width=1200px/>  
 
 ### 6.2.4. SEO Tags and Meta Tags
 
@@ -1173,3 +1196,17 @@ Para optimizar la visibilidad y el posicionamiento en los motores de búsqueda, 
    - **App Keywords (Palabras Clave de la App):** Seguridad escolar, monitoreo en tiempo real, simulacros escolares, mantenimiento predictivo, alertas tempranas.
    - **App Subtitle (Subtítulo de la App):** “Monitoreo y seguridad en infraestructuras escolares”.
    - **App Description (Descripción de la App):** “TwinGuard es una plataforma avanzada que garantiza la seguridad escolar mediante el monitoreo en tiempo real, simulacros de evacuación, y alertas automáticas. Con tecnología de gemelos digitales, TwinGuard ayuda a prevenir emergencias, gestionando el mantenimiento predictivo y proporcionando rutas de evacuación seguras para proteger a estudiantes y personal. Recibe notificaciones en tiempo real sobre riesgos estructurales y condiciones peligrosas.”
+
+#### Aplicación Web:
+En la aplicación web, la navegación debe estar orientada a la productividad y facilidad de uso, ya que los usuarios estarán manejando datos y herramientas más complejas. 
+
+- **Panel central**: El contenido detallado debe desplegarse en el panel central, con menús secundarios o breadcrumbs que guíen a los usuarios en su exploración de las funcionalidades internas. 
+
+- **Flujo natural**: La navegación debe seguir un flujo lógico: los usuarios primero visualizan un resumen (dashboard) y, desde allí, pueden profundizar en las áreas que les interesen a través de enlaces bien definidos y botones de acción prominentes. 
+
+#### Aplicación Móvil: 
+Para la aplicación móvil, el diseño debe optimizarse para una pantalla más pequeña, con enfoque en gestos simples y navegación accesible. 
+
+- **Navegación inferior**: Se debe implementar una barra de navegación inferior (con botones como Inicio, Monitoreo, Alertas, y Más) que esté siempre visible y fácil de acceder con el pulgar. 
+
+- **Notificaciones y alertas**: Las notificaciones deben estar claramente integradas y permitir que los usuarios accedan a información clave desde la pantalla principal con un solo toque.
