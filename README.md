@@ -1312,7 +1312,7 @@ Task Flow:
 
 <img src="assets\images\mobile-wireflow2.png"/>
 
-Wireflow 3:
+**Wireflow 3:**
 
 Revisar los drills.
 Como usuario quiero revisar toda la información de drills.
@@ -1325,7 +1325,7 @@ Task Flow:
 
 <img src="assets\images\mobile-wireflow3.png"/>
 
-Wireflow 4:
+**Wireflow 4:**
 
 Visualizar el summary of alerts.
 Como usuario quiero ver toda la información de summary of alerts.
@@ -1344,7 +1344,7 @@ Task Flow:
 
 <img src="assets\images\mobile-wireflow4.png"/>
 
-Wireflow 5:
+**Wireflow 5:**
 
 Visualizar maintenance recommendations.
 Como usuario quiero ver los detalles de maintenance recommendations.
@@ -1363,7 +1363,7 @@ Task Flow:
 
 <img src="assets\images\mobile-wireflow5.png"/>
 
-Wireflow 6:
+**Wireflow 6:**
 
 Visualizar un monitoreo en tiempo real.
 Como usuario quiero monitorear en tiempo real la infraestructura para saber sobre las áreas de riesgo y tener una evaluación continua. 
@@ -1382,7 +1382,7 @@ Task Flow:
 
 <img src="assets\images\mobile-wireflow6.png"/>
 
-Wireflow 7:
+**Wireflow 7:**
 
 Visualizar y/o cambiar mis datos y mi configuración.
 Como usuario ver mi información personal y realizar ajustes.
@@ -1399,7 +1399,7 @@ Task Flow:
 
 <img src="assets\images\mobile-wireflow7.png"/>
 
-Wireflow 8:
+**Wireflow 8:**
 
 Cambiar mi contraseña y/o email.
 Como usuario actualizar mi contraseña y/o email.
