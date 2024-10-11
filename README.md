@@ -1173,3 +1173,45 @@ Para optimizar la visibilidad y el posicionamiento en los motores de búsqueda, 
    - **App Keywords (Palabras Clave de la App):** Seguridad escolar, monitoreo en tiempo real, simulacros escolares, mantenimiento predictivo, alertas tempranas.
    - **App Subtitle (Subtítulo de la App):** “Monitoreo y seguridad en infraestructuras escolares”.
    - **App Description (Descripción de la App):** “TwinGuard es una plataforma avanzada que garantiza la seguridad escolar mediante el monitoreo en tiempo real, simulacros de evacuación, y alertas automáticas. Con tecnología de gemelos digitales, TwinGuard ayuda a prevenir emergencias, gestionando el mantenimiento predictivo y proporcionando rutas de evacuación seguras para proteger a estudiantes y personal. Recibe notificaciones en tiempo real sobre riesgos estructurales y condiciones peligrosas.”
+
+## 6.3. Landing Page UI Design
+
+### 6.3.1. Landing Page Wireframe
+
+#### Inicio
+<img src="assets/images/landing-page-wireframe-1.jpg" width=1200px/>
+
+#### Nosotros
+<img src="assets/images/landing-page-wireframe-2.jpg" width=1200px/>
+
+#### Servicios
+<img src="assets/images/landing-page-wireframe-3.jpg" width=1200px/>
+
+#### Testimonios
+<img src="assets/images/landing-page-wireframe-4.jpg" width=1200px/>
+
+#### Promociones
+<img src="assets/images/landing-page-wireframe-5.jpg" width=1200px/>
+
+#### Contacto
+<img src="assets/images/landing-page-wireframe-6.jpg" width=1200px/>
+
+### 6.3.1. Landing Page Mock-up
+
+#### Inicio
+<img src="assets/images/landing-page-mock-up-1.jpg" width=1200px/>
+
+#### Nosotros
+<img src="assets/images/landing-page-mock-up-2.jpg" width=1200px/>
+
+#### Servicios
+<img src="assets/images/landing-page-mock-up-3.jpg" width=1200px/>
+
+#### Testimonios
+<img src="assets/images/landing-page-mock-up-4.jpg" width=1200px/>
+
+#### Promociones
+<img src="assets/images/landing-page-mock-up-5.jpg" width=1200px/>
+
+#### Contacto
+<img src="assets/images/landing-page-mock-up-6.jpg" width=1200px/>
