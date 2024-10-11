@@ -1051,6 +1051,213 @@ Monitoring Context
 
 <img src="assets/images/C4_Deployment.png" width=1200px/>
 
+# Capítulo V: Tactical-Level Software Design. 
+
+## 5.1. Bounded Context: Alarms
+### 5.1.1. Domain Layer.
+
+Esta capa contiene la lógica de negocio y los conceptos fundamentales del dominio, que representan las reglas y comportamientos centrales.
+
+**Entities:**
+Las entidades en el contexto de "Alarms" son aquellos objetos con identidad única que evolucionan con el tiempo.
+
+* Alarma: Representa una alarma activada por algún evento crítico. Contiene atributos como tipo de emergencia, ubicación, estado, etc.
+* Emergencia: Entidad que representa el evento crítico detectado (fuga de gas, terremoto, incendio).
+
+**Value Objects:**
+Son objetos que no tienen identidad propia y se caracterizan por su valor.
+
+- Ubicación: Un objeto de valor que representa el lugar donde ocurre la emergencia (por ejemplo, edificio, aula).
+- TipoEmergencia: Un valor que define el tipo de emergencia (incendio, sismo, fuga de gas).
+
+**Aggregates:**
+Agrupaciones de entidades y objetos de valor que se gestionan en conjunto.
+
+- AlarmaAggregate: Agrupa las entidades Alarma y Emergencia para manejar las reglas de negocio de cómo y cuándo se activan las alarmas.
+
+**Repositories:**
+Interfaces que abstraen la persistencia de las entidades.
+
+- AlarmaRepository: Interfaz para gestionar la persistencia de las alarmas en la base de datos o en sistemas externos.
+- EmergenciaRepository: Interfaz para acceder a las emergencias registradas.
+
+**Domain Services:**
+- Servicios que encapsulan lógica de negocio que no encaja bien en una sola entidad.
+
+- AlarmActivationService: Servicio que contiene la lógica para decidir cuándo una alarma debe activarse, basada en la información recibida de sensores o usuarios.
+
+### 5.1.2. Interface Layer. 
+
+La capa de interfaz se ocupa de las interacciones entre el sistema y los actores externos, ya sean otros sistemas o usuarios.
+
+**API Endpoints:**
+
+POST /alarms/activate: Endpoint para activar una alarma.
+GET /alarms/status: Endpoint para consultar el estado de las alarmas activadas.
+GET /alarms/history: Endpoint para obtener el historial de alarmas.
+DTOs (Data Transfer Objects):
+Estructuras ligeras para transferir datos entre la capa de interfaz y la capa de aplicación.
+
+* AlarmaDTO: Contiene los datos necesarios para transferir información de una alarma activada (tipo, ubicación, estado).
+* EmergenciaDTO: Información sobre la emergencia que disparó la alarma.
+
+**View Models:**
+Modelos diseñados para ser consumidos por la UI.
+
+* AlarmaViewModel: Modelo que muestra el estado de una alarma en la interfaz de usuario.
+* Controllers: Los controladores reciben las solicitudes HTTP y gestionan la interacción con la capa de aplicación.
+* AlarmaController: Gestiona las solicitudes HTTP relacionadas con la activación, consulta y actualización de alarmas.
+
+### 5.1.3. Application Layer. 
+
+Aquí se encuentra la coordinación de la lógica de aplicación, incluyendo la orquestación de comandos, consultas y eventos.
+
+**Application Services:**
+Servicios que encapsulan la lógica de aplicación, coordinando interacciones entre los dominios y las interfaces.
+
+* AlarmaApplicationService: Servicio que maneja los casos de uso relacionados con las alarmas, como activar una alarma y consultar su estado.
+
+**Commands/Queries:**
+Comandos y consultas que encapsulan las solicitudes hacia el sistema.
+
+**Commands:**
+
+* ActivateAlarmCommand: Comando que contiene los datos necesarios para activar una alarma.
+* AcknowledgeAlarmCommand: Comando para que un actor (coordinador o profesor) confirme que ha recibido una notificación de alarma.
+
+**Queries:**
+
+* GetAlarmStatusQuery: Consulta para obtener el estado actual de las alarmas activadas.
+* GetAlarmHistoryQuery: Consulta para obtener el historial de alarmas.
+
+**Command Handlers:**
+Clases que manejan la ejecución de los comandos.
+
+* ActivateAlarmCommandHandler: Gestiona la ejecución de la activación de una alarma.
+
+**Event Handlers:**
+Clases que manejan eventos que ocurren dentro del sistema.
+
+* AlarmActivatedEventHandler: Responde a los eventos de alarma activada, notificando a los actores correspondientes o actualizando el estado de las alarmas.
+
+### 5.1.4. Infrastructure Layer. 
+
+Esta capa se encarga de implementar detalles técnicos como la persistencia de datos, integración con servicios externos, y otros mecanismos de infraestructura.
+
+**Persistence Mechanisms:**
+Métodos para gestionar la persistencia de las entidades.
+* AlarmaRepositoryImpl: Implementación del repositorio de alarmas, que persiste los datos en una base de datos SQL o NoSQL.
+* EmergenciaRepositoryImpl: Implementación del repositorio de emergencias.
+
+**External Service Integrations:**
+Integración con servicios externos como sensores de emergencia, notificaciones, etc.
+* SensorServiceClient: Cliente para conectarse a los sensores de detección de emergencias (incendios, terremotos, gas, etc.) para recibir datos en tiempo real.
+
+**Factories:**
+Clases que se encargan de la creación de objetos complejos.
+* AlarmaFactory: Crea instancias de la entidad Alarma según las reglas de negocio establecidas.
+
+**API Clients:**
+Clientes para interactuar con APIs externas, como el servicio de notificaciones o el sistema de monitoreo.
+* NotificationServiceClient: Cliente que se conecta con el servicio de notificaciones para alertar a los usuarios del sistema sobre emergencias.
+* MonitoringServiceClient: Cliente que recibe información del Bounded Context Monitoring sobre las condiciones críticas que podrían activar una alarma.
+
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams. 
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams. 
+### 5.1.7.1. Bounded Context Domain Layer Class Diagrams. 
+### 5.1.7.2. Bounded Context Database Design Diagram.
+
+## 5.2. Bounded Context: Monitoring 
+### 5.2.1. Domain Layer.
+
+Esta capa tiene la lógica de negocio que especifica el dominio del monitoreo. Se centra en el control de los sensores, la recolección de los datos en tiempo real y saber el estado de las estructuras.
+
+**Entities**
+* Estructuras: Representa un componente de la infraestructura del colegio que está siendo monitoreado (p. ej., edificio principal, aulas, pasillos).
+* Sensor:Entidad que representa un sensor físico asociado a una estructura. Monitorea variables como vibraciones, temperatura o desplazamientos.
+
+**Value Objects:**
+* UbicaciónSensor: donde se encontrará exactamente el sensor en una estructura específica.
+
+**Aggregates**
+* MonitoreoAggregate: Define las reglas de cómo los sensores deben monitorear una estructura y cuándo generar alertas de acuerdo a las políticas establecidas.
+
+**Repositories**
+* EstructuraRepository: Interfaz para la gestión de las estructuras monitoreadas.
+* SensorRepository: Interfaz para gestionar los datos de los sensores instalados en cada estructura.
+
+**Domain Services**
+* MonitoreoService: Servicio que contiene la lógica para coordinar la recolección de datos de los sensores.
+
+### 5.2.2. Interface Layer. 
+
+La capa de interfaz se ocupa de las interacciones entre el sistema y los actores externos. Aquí se manejan las APIs que permiten a los usuarios y otros sistemas consultar y gestionar el monitoreo.
+
+**API Endpoints**
+* POST /monitoring/start:
+Inicia el monitoreo de una estructura específica.
+* GET /monitoring/structures:
+Obtiene la lista de estructuras y su estado actual.
+* GET /monitoring/report/{estructuraId}:
+Obtiene el reporte más reciente de una estructura.
+* GET /monitoring/sensors:
+Consulta el estado de los sensores instalados.
+
+**DTOs (Data Transfer Objects)**
+* EstructuraDTO: Contiene los datos de la estructura (ID, Nombre, Estado, etc.).
+* SensorDTO: Información básica del sensor (ID, Tipo, Estado, Ubicación).
+
+**View Models:**
+* EstructuraViewModel: Modelo para visualizar el estado de una estructura en la interfaz de usuario.
+
+**Controllers**
+* MonitoreoController: Gestiona las solicitudes HTTP relacionadas con el monitoreo de estructuras, sensores.
+
+### 5.2.3. Application Layer
+
+Esta capa contiene la lógica de la aplicación, como se coordinará los casos de usos.
+
+**Application Services**
+* MonitoreoService: Servicio que coordina el inicio de monitoreos.
+
+**Commands/Queries**
+**Commands**
+* StartMonitoringCommand: Inicia el monitoreo de una estructura específica.
+* StopMonitoringCommand: Detiene el monitoreo de una estructura.
+
+**Queries**
+GetStructureStatusQuery: Realiza la consulta del estado actual de todas las estructuras.
+
+**Command Handlers**
+* StartMonitoringCommandHandler: Maneja la ejecución del comando para iniciar el monitoreo de una estructura.
+
+**Event Handlers**
+* MonitoringStartedEventHandler: Responde a la activación del monitoreo, preparando los sensores y configuraciones necesarias.
+
+### 5.2.4. Infrastructure Layer.
+
+Implementa detalles técnicos, persistencia de datos.
+**Persistence Mechanisms**
+* EstructuraRepositoryImpl: Es la mplementación del repositorio para almacenar datos de las estructuras.
+* SensorRepositoryImpl: Implementación del repositorio de sensores que se van a requerir para las estructuras. 
+
+**External Service Integrations**
+* NotificationServiceClient: Cliente para enviar notificaciones en caso de detección de riesgos.
+
+**Factories:**
+Clases que se encargan de la creación de objetos complejos.
+* AlarmaFactory: Crea instancias de la entidad Alarma según las reglas de negocio establecidas.
+
+**API Clients**
+* SensorServiceClient: Interactúa con los sensores para recolectar datos de monitoreo en tiempo real.
+
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams. 
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams. 
+### 5.2.7.1. Bounded Context Domain Layer Class Diagrams. 
+### 5.2.7.2. Bounded Context Database Design Diagram. 
+
 # Capítulo VI: Solution UX Design
 
 ## 6.1. Style Guidelines
