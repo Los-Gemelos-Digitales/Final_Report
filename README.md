@@ -1173,3 +1173,193 @@ Para optimizar la visibilidad y el posicionamiento en los motores de búsqueda, 
    - **App Keywords (Palabras Clave de la App):** Seguridad escolar, monitoreo en tiempo real, simulacros escolares, mantenimiento predictivo, alertas tempranas.
    - **App Subtitle (Subtítulo de la App):** “Monitoreo y seguridad en infraestructuras escolares”.
    - **App Description (Descripción de la App):** “TwinGuard es una plataforma avanzada que garantiza la seguridad escolar mediante el monitoreo en tiempo real, simulacros de evacuación, y alertas automáticas. Con tecnología de gemelos digitales, TwinGuard ayuda a prevenir emergencias, gestionando el mantenimiento predictivo y proporcionando rutas de evacuación seguras para proteger a estudiantes y personal. Recibe notificaciones en tiempo real sobre riesgos estructurales y condiciones peligrosas.”
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management.
+
+### 7.1.1. Software Development Environment Configuration.
+
+Para asegurar un flujo de trabajo eficiente y colaborativo en el desarrollo del proyecto, se han seleccionado herramientas clave en cada etapa del ciclo de desarrollo de software, de acuerdo a sus capacidades y facilidad de integración:
+
+**Proyect Management:**
+
+**GitHub:** Utilizado para el control de versiones y la colaboración en el código. Permite a los desarrolladores realizar un seguimiento de los cambios, fusionar contribuciones y gestionar las distintas versiones de forma estructurada y segura.
+
+**Trello:** Empleado para la organización de tareas, planificación y monitoreo del progreso mediante tableros, listas y tarjetas, facilitando la asignación y priorización de tareas.
+
+**Discord y WhatsApp:** Herramientas de comunicación directa que permiten una comunicación ágil en tiempo real para la coordinación del equipo, consultas rápidas y resolución de problemas inmediatos.
+
+**Product UX/UI Design**
+
+**Figma:** Utilizado para la creación de prototipos de alta fidelidad y diseño de la interfaz de usuario, permitiendo una experiencia visual interactiva que facilita la validación de ideas y flujos.
+
+**Miro:** Herramienta de colaboración visual utilizada para realizar lluvia de ideas, mapear experiencias de usuario (como empathy maps) y planificar en conjunto la arquitectura de diseño.
+
+**Visual Paradigm:** Herramienta para modelado visual que permite la creación de diagramas UML, facilitando la comunicación y visualización de la estructura y flujo del sistema.
+
+**Software Development:**
+
+**Visual Studio Code:** un entorno de desarrollo integrado (IDE) ligero y flexible, empleado para la codificación en el marco Angular, que facilita el trabajo con herramientas de desarrollo avanzadas, extensiones, y depuración en tiempo real.
+
+**Angular Framework:** se utiliza como el marco principal de desarrollo para crear una aplicación web robusta y modular, con componentes reutilizables que facilitan el mantenimiento y escalabilidad del proyecto.
+
+**Software Deployment:**
+
+La implementación del sistema en un entorno de producción es fundamental para asegurar su accesibilidad y funcionalidad en tiempo real. Herramientas específicas para la implementación (por ejemplo, Firebase o AWS) se seleccionarán de acuerdo a los requerimientos de escalabilidad y seguridad.
+
+**Software Documentation:**
+
+**GitHub:** se emplea tanto para alojar el código como para documentar el desarrollo del proyecto. A través de la creación de repositorios de documentación y archivos README, el equipo ha registrado las decisiones de diseño, configuraciones del entorno, procedimientos de instalación y guías de uso, proporcionando una referencia exhaustiva y accesible.
+
+### 7.1.2. Source Code Management.
+
+Implementación de Gitflow según Vincent Driessen
+
+**Rama principal (Main):** La rama main se mantiene siempre lista para producción y se utiliza para los despliegues.
+
+**Rama de desarrollo (Develop):** Refleja los últimos cambios de desarrollo y sirve como "rama de integración" para generar compilaciones automáticas.
+
+**Rama de lanzamiento (Release):** Facilita la preparación de una nueva versión para producción, permitiendo realizar ajustes finales y correcciones menores.
+
+**Rama de funcionalidad (Feature):** Destinada al desarrollo de nuevas funcionalidades. Parte de develop y se fusiona en ella cuando la característica está completa.
+
+**Rama de corrección urgente (Hotfix):** Se crea desde main para resolver errores críticos en producción de inmediato, permitiendo que el desarrollo en develop continúe sin interrupciones. Una vez solucionado el problema, se fusiona en develop y main.
+
+**Commits Convencionales:** Se sigue la estructura de "Conventional Commits 2.0.0":
+	(type) [optional scope]: (description), con los siguientes tipos:
+
+fix: Para corregir errores.
+
+feat: Para introducir nuevas características.
+
+BREAKING CHANGE: Indica un cambio importante en la API.
+
+add: Para agregar archivos o carpetas.
+
+test: Para añadir nuevos tests.
+
+[optional scope]: Usado en ramas de release, hotfix y main para especificar la versión.
+
+**Repositorios:**
+
+**- Landing Page:** https://github.com/Los-Gemelos-Digitales/LandingPage 
+
+**- Informe del proyecto:** https://github.com/Los-Gemelos-Digitales/Final_Report
+
+**- Digital Twin Ingest Function:** https://github.com/Los-Gemelos-Digitales/digitaltwiningestfunction 
+
+**- Web - Frontend:** https://github.com/Los-Gemelos-Digitales/frontend-digitaltwining 
+
+### 7.1.3. Source Code Style Guide & Conventions. 
+
+**HTML Conventions:**
+
+- Utilizar nombres en minúsculas para elementos y atributos, asegurando una estructura de código limpia y consistente.
+
+- Cerrar todos los elementos correctamente para evitar errores de renderización y mejorar la legibilidad del HTML.
+
+- Incluir siempre atributos alt, width, y height en las etiquetas de imagen (<img>) para mejorar la accesibilidad y optimizar el tiempo de carga.
+
+**CSS Conventions:**
+
+- Usar nombres de clases e IDs que sean concisos y significativos, reflejando su propósito en la interfaz para facilitar el mantenimiento y la colaboración.
+
+- Ordenar las propiedades en orden alfabético para facilitar su búsqueda y visualización, y utilizar propiedades en formato shorthand cuando sea posible para minimizar la cantidad de código.
+
+- Aplicar una estructura modular para los estilos CSS, organizando el código en secciones bien definidas, como layout, typography, y components, para mejorar la mantenibilidad.
+
+**Lenguaje y Estilo General:**
+
+- Todos los elementos, variables y comentarios en el código se documentarán en inglés, siguiendo convenciones de codificación establecidas.
+
+- En archivos de pruebas, el equipo sigue los lineamientos de Gherkin para especificaciones legibles y detalladas en .feature, asegurando que las pruebas de comportamiento se mantengan claras y precisas para todos los miembros del equipo y stakeholders.
+
+- En TypeScript y otros lenguajes de programación, se utilizarán convenciones de estilo reconocidas, como las recomendadas en la “Google TypeScript Style Guide”, para mantener coherencia y claridad en el código fuente.
+
+### 7.1.4. Software Deployment Configuration. 
+
+
+
+## 7.2. Solution Implementation. 
+
+### 7.2.1. Sprint 1 
+
+#### 7.2.1.1. Sprint Planning 1.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>31 - 10 - 2024</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>5:00 pm</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión vía Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Florentino Josue Carrasco Hernández, Saúl Enrique Mendoza Barco, Juan Jose Navarro Chacon,  Santos Alexis Patazca Calderón, Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Sprint 0 Review Summary</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Sprint 0 Retrospective Summary</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal </td>
+    <td>Our focus is on designing and building the primary functions of the digital twin for the selected school during this 1st sprint, which spans 14 days. We believe this will enable the school's staff, including teachers and administrators, to monitor and evaluate structural risks based on real-time data from the school's infrastructure. This will be confirmed when the staff is able to access and review the data on risk assessments through the digital twin platform.</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>32</td>
+  </tr>
+</table>
+
+#### 7.2.1.2. Sprint Backlog 1.
+
+#### 7.2.1.3. Development Evidence for Sprint Review.
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+
+#### 7.2.1.5. Execution Evidence for Sprint Review. 
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint. 
+
+## 7.3. Validation Interviews. 
+
+### 7.3.1. Diseño de Entrevistas. 
+
+### 7.3.2. Registro de Entrevistas. 
+
+### 7.3.3. Evaluaciones según heurísticas. 
+
+## 7.4. Video About-the-Product.
