@@ -1342,9 +1342,207 @@ test: Para añadir nuevos tests.
 
 #### 7.2.1.2. Sprint Backlog 1.
 
+Este primer sprint tiene como objetivo construir las funciones básicas del gemelo digital para la escuela seleccionada, permitiendo al personal monitorear y evaluar riesgos estructurales en tiempo real. Al finalizar el sprint, validaremos que el personal pueda acceder y revisar evaluaciones de riesgos en la plataforma.
+Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los visitantes nuestra misión, visión y el impacto de nuestra solución en la seguridad educativa. A continuación, se incluye una captura del tablero en Trello.
+
+<img src="assets/images/trello.png" width=1200px/>
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In Process / To Review / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Monitoreo en tiempo real</td>
+    <td>1</td>
+    <td>Desarrollar la arquitectura de recolección de datos</td>
+    <td>Crear un sistema backend que procese, almacene y analice los datos en tiempo real.</td>
+    <td>5</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Implementar panel de monitoreo en el frontend</td>
+    <td>Desarrollar una interfaz para visualizar los datos en tiempo real, destacando posibles anomalías o emergencias.</td>
+    <td>4</td>
+    <td>Saúl Enrique Mendoza Barco</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US03</td>
+    <td rowspan="4">Alertas en tiempo real para profesores</td>
+    <td>1</td>
+    <td>Desarrollar sistema de notificaciones</td>
+    <td>Implementar un sistema que envíe alertas instantáneas a los dispositivos móviles de los profesores.</td>
+    <td>3</td>
+    <td>Santos Alexis Patazca Calderón</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Configurar la interfaz de alertas en la aplicación móvil/web</td>
+    <td>Desarrollar el diseño y funcionalidad para recibir, visualizar y confirmar la recepción de alertas.</td>
+    <td>4</td>
+    <td>Santos Alexis Patazca Calderón</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Implementar el seguimiento de alertas</td>
+    <td>Crear un sistema que registre el envío y recepción de alertas, así como las respuestas o acciones tomadas.</td>
+    <td>3</td>
+    <td>Santos Alexis Patazca Calderón</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Integrar un sistema de mensajería de emergencia</td>
+    <td>Utilizar SMS, notificaciones push o mensajes por altavoz para asegurar que los profesores reciban las alertas.</td>
+    <td>3</td>
+    <td>Santos Alexis Patazca Calderón</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US04</td>
+    <td rowspan="3">Visualización de áreas de riesgo</td>
+    <td>1</td>
+    <td>Diseñar el modelo digital del edificio</td>
+    <td>Crear una representación digital en 3D del colegio que incluya todos los accesos, salidas, y rutas de evacuación.</td>
+    <td>4</td>
+    <td>Saúl Enrique Mendoza Barco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Visualización gráfica de áreas de riesgo</td>
+    <td>Integrar un sistema que resalte áreas peligrosas en el modelo 3D o en mapas interactivos.</td>
+    <td>4</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Implementar indicadores visuales dinámico</td>
+    <td>Mostrar visualizaciones que cambien en tiempo real según el riesgo (p. ej., zonas que se vuelven rojas en caso de incendio).</td>
+    <td>3</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Integración con sistemas de alerta temprana nacionales</td>
+    <td>1</td>
+    <td>Programar el módulo que se conectará a la API del sistema de alerta temprana</td>
+    <td>Asegurarse de manejar adecuadamente las respuestas y posibles errores de la API.</td>
+    <td>4</td>
+    <td>Florentino Josue Carrasco Hernández</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Implementar una función de escalamiento</td>
+    <td>Desarrollar un sistema que permita escalar alertas a diferentes niveles de responsabilidad según la gravedad del incidente.</td>
+    <td>3</td>
+    <td>Florentino Josue Carrasco Hernández</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Visualizar información de la startup</td>
+    <td>1</td>
+    <td>Visualizar la información de la startup</td>
+    <td>En la landing page de la startup, visualizar en una sección la información de la startup</td>
+    <td>1</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Ver funcionalidades que va a realizar el gemelo digital</td>
+    <td>1</td>
+    <td>Ver funcionalidades que va a realizar el gemelo digital</td>
+    <td>En la landing page de la startup, visualizar en una sección los objetivos del gemelo digital</td>
+    <td>2</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Visualizar y revisar quiénes son los integrantes de la startup</td>
+    <td>1</td>
+    <td>Visualizar y revisar quiénes son los integrantes de la startup</td>
+    <td>En la landing page de la startup, visualizar una sección los integrantes quienes conforman la startup</td>
+    <td>1</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 #### 7.2.1.3. Development Evidence for Sprint Review.
 
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Commited on (Date)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Commited on (Date)</td>
+  </tr>
+  <tr>
+    <td>Gherkin</td>
+    <td>Main</td>
+    <td>1e57e9a0005d94dd07f60392d0061381f77e9264</td>
+    <td>Create US01, US03, US04, US07</td>
+    <td>-</td>
+    <td>02-11-2024</td>
+  </tr>
+   <tr>
+    <td>Gherkin</td>
+    <td>Main</td>
+    <td>1d56b5564ba24e88eed8171f954ea9c6a058b417</td>
+    <td>Create US16, US17, US18</td>
+    <td>-</td>
+    <td>02-11-2024</td>
+  </tr>
+</table>
 
 #### 7.2.1.5. Execution Evidence for Sprint Review. 
 
