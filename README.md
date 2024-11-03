@@ -1334,7 +1334,16 @@ test: Para añadir nuevos tests.
   </tr>
   <tr>
     <td>Sprint 1 Goal </td>
-    <td>Our focus is on designing and building the primary functions of the digital twin for the selected school during this 1st sprint, which spans 14 days. We believe this will enable the school's staff, including teachers and administrators, to monitor and evaluate structural risks based on real-time data from the school's infrastructure. This will be confirmed when the staff is able to access and review the data on risk assessments through the digital twin platform.</td>
+    <td>"Our focus is on designing and building the primary functions 
+    of the digital twin for the selected school during this 1st sprint, 
+    which spans 14 days. We believe this will enable the school's staff, 
+    including teachers and administrators, to monitor and evaluate structural 
+    risks based on real-time data from the school's infrastructure. This will 
+    be confirmed when the staff is able to access and review the data on risk 
+    assessments through the digital twin platform."</br>
+    </br>
+    "Our primary focus in this sprint is to share and make our startup visible. We aim to showcase to visitors what we are going to achieve and how it will impact educational safety. This will be confirmed when we have shared our vision, mission and information related with the principal features with the visitors."
+    </td>
   </tr>
   <tr>
     <td>Sprint 1 Velocity</td>
@@ -1373,57 +1382,71 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Status (To-do / In Process / To Review / Done)</td>
   </tr>
   <tr>
-    <td rowspan="2">US01</td>
-    <td rowspan="2">Monitoreo en tiempo real</td>
-    <td>1</td>
-    <td>Desarrollar la arquitectura de recolección de datos</td>
-    <td>Crear un sistema backend que procese, almacene y analice los datos en tiempo real.</td>
+    <td rowspan="5">US01</td>
+    <td rowspan="5">Monitoreo en tiempo real</td>
+    // Fila #
+    <td>Task01 </td>
+    <td>Desarrollar la arquitectura de entidades del servicio Digital Twin</td>
+    <td>Desarrollar el grafo de relaciones de las entidades que interactúan en el servicio Digital Twin.</td>
     <td>5</td>
-    <td>Juan Jose Navarro Chacon</td>
-    <td>To-Do</td>
+    <td>Diego Sanchez y Saúl Mendoza </td>
+    <td>Done</td>
   </tr>
+  // Fila #
   <tr>
-    <td>2</td>
-    <td>Implementar panel de monitoreo en el frontend</td>
-    <td>Desarrollar una interfaz para visualizar los datos en tiempo real, destacando posibles anomalías o emergencias.</td>
+    <td>Task02</td>
+    <td>Diseñar modelos JSONs de cada entidad</td>
+    <td>Realizar para cada modelo que estará en el colegio, un modelo JSON donde indicará sus relaciones y atributos.</td>
+    <td>4</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  // Fila #
+  <tr>
+    <td>Task03</td>
+    <td>Preparar una instancia de Azure Digital Twins</td>
+    <td>En Azure Portal, crear un recurso educativo de un instancia de Azure Digital Twins, junto con otra instancia de almacenamiento<td>
+    <td>4</td>
+    <td>Josué Florentino y Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  // Fila #
+  <tr>
+    <td>Task04</td>
+    <td> Realizar modelado 3D de aulas del colegio</td>
+    <td>Se realiza modelado 3D, de una aula del colegio para su utilización en desarrollo de entorno 3D de Azure.</td>
     <td>4</td>
     <td>Saúl Enrique Mendoza Barco</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
+  // Fila #
   <tr>
-    <td rowspan="4">US03</td>
-    <td rowspan="4">Alertas en tiempo real para profesores</td>
-    <td>1</td>
-    <td>Desarrollar sistema de notificaciones</td>
-    <td>Implementar un sistema que envíe alertas instantáneas a los dispositivos móviles de los profesores.</td>
-    <td>3</td>
-    <td>Santos Alexis Patazca Calderón</td>
-    <td>To-Do</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Configurar la interfaz de alertas en la aplicación móvil/web</td>
-    <td>Desarrollar el diseño y funcionalidad para recibir, visualizar y confirmar la recepción de alertas.</td>
+    <td>Task05</td>
+    <td>Realizar modelado 3D de oficina administrativa del colegio</td>
+    <td>Se realiza en blender, el modelado 3D de la oficina adminstrativa del colegio, para incluir en el plano general del colegio.</td>
     <td>4</td>
-    <td>Santos Alexis Patazca Calderón</td>
-    <td>In Process</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Implementar el seguimiento de alertas</td>
-    <td>Crear un sistema que registre el envío y recepción de alertas, así como las respuestas o acciones tomadas.</td>
-    <td>3</td>
-    <td>Santos Alexis Patazca Calderón</td>
+    <td>Saúl Enrique Mendoza Barco y Diego Sánchez</td>
     <td>To-Do</td>
   </tr>
   <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Alertas en tiempo real para profesores</td>
+    <td>Task01</td>
+    <td> Desarrollar condicionales del servicio</td>
+    <td>Desarrollar en el digital twin , una serie de comportamientos o funciones que permitan indicar si la estructura tiene ciertos parámetros como, por ejemplo, si esta en mal estado o buen estado.</td>
+    <td>5</td>
+    <td>Saúl Mendoza y Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task02</td>
+    <td>Visualización gráfica de áreas de riesgo</td>
+    <td>Integrar un sistema que resalte áreas peligrosas en el modelo 3D o en mapas interactivos.</td>
     <td>4</td>
-    <td>Integrar un sistema de mensajería de emergencia</td>
-    <td>Utilizar SMS, notificaciones push o mensajes por altavoz para asegurar que los profesores reciban las alertas.</td>
-    <td>3</td>
-    <td>Santos Alexis Patazca Calderón</td>
-    <td>To-Do</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
   </tr>
+  
   <tr>
     <td rowspan="3">US04</td>
     <td rowspan="3">Visualización de áreas de riesgo</td>
@@ -1512,12 +1535,60 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Commited on (Date)</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>LosGemelosDigitales-Landing-Page</td>
+    <td>main</td>
+    <td>77b430867ff5af402a409df1451c25ce35c1bebc</td>
+    <td>commint landing page</td>
+    <td>-</td>
+    <td>Oct 28, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Front-End</td>
+    <td>main</td>
+    <td>2ee957b3dc6c01ab55dfd80d9da5d127283fc399</td>
+    <td>feat:create project</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Front-End</td>
+    <td>main</td>
+    <td>ace6396c867c5eb4523b641e8db68c8cbd236546</td>
+    <td>feat: update monitoring</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Front-End</td>
+    <td>main</td>
+    <td>15116a0e1ec55b6439d433e8a6160fb7c9311756</td>
+    <td>feat:create reports and planning</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Server-Client</td>
+    <td>master</td>
+    <td>6bbe0ff4ddeb979636d5fc1c186f3fa380a36f0e</td>
+    <td>Agregar .gitignore y .gitattributes.<td>
+    <td>-</td>
+    <td>Nov 1, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Server-Client</td>
+    <td>master</td>
+    <td>c0f5bd3b68145b8fed7e1a47b5d257b4427ddfb6</td>
+    <td>Agregar archivos de proyecto.</td>
+    <td>-</td>
+    <td>Nov 1, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Server-Client</td>
+    <td>master</td>
+    <td>67384140ac9e7ea74a7ceb1d77d82ef0be6310bf</td>
+    <td>feat: Add Json Models.</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
   </tr>
 </table>
 
@@ -1651,3 +1722,10 @@ La aplicación web se encuentra actualmente en desarrollo.
 ### 7.3.3. Evaluaciones según heurísticas. 
 
 ## 7.4. Video About-the-Product.
+
+En esta sección, se muestra el video promocional de nuestra startup:
+
+<img src="assets/images/about-the-product.png" width=800px/>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
