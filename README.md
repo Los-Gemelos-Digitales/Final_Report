@@ -1463,3 +1463,244 @@ Para la aplicación móvil, el diseño debe optimizarse para una pantalla más p
 
 - **Notificaciones y alertas**: Las notificaciones deben estar claramente integradas y permitir que los usuarios accedan a información clave desde la pantalla principal con un solo toque.
 
+## 6.4. Applications UX/UI Design. 
+En esta sección, presentamos y explicamos la propuesta visual y de interacción para las aplicaciones que forman parte integral de la experiencia de usuario con nuestros productos digitales. Nuestro enfoque en el diseño de UX/UI para las aplicaciones se centra en crear interfaces intuitivas y atractivas que mejoren la usabilidad y la satisfacción de ambos segmentos objetivos. Cada aspecto del diseño se ha considerado cuidadosamente para garantizar una experiencia coherente y eficaz para nuestros usuarios. A continuación, detallamos nuestra propuesta para las aplicaciones, destacando tanto los aspectos visuales como de interacción.
+
+### 6.4.1. Applications Wireframes. 
+
+**Web Application**
+
+**Log in y Sign up:**
+
+<img src="assets\images\web-wireframe1.png"/>
+<img src="assets\images\web-wireframe2.png"/>
+
+**Monitoring:**
+
+<img src="assets\images\web-wireframe8.png"/>
+<img src="assets\images\web-wireframe9.png"/>
+
+**Notifications:**
+
+<img src="assets\images\web-wireframe7.png"/>
+
+**Reports:**
+
+<img src="assets\images\web-wireframe10.png"/>
+<img src="assets\images\web-wireframe11.png"/>
+
+**Planning:**
+
+<img src="assets\images\web-wireframe12.png"/>
+<img src="assets\images\web-wireframe13.png"/>
+
+**Mobile Application**
+
+**Log in y Sign up:**
+
+<img src="assets\images\mobile-wireframe1.png"/>
+<img src="assets\images\mobile-wireframe2.png"/>
+
+**Home:**
+
+<img src="assets\images\mobile-wireframe3.png"/>
+
+**Home - Reports:**
+
+<img src="assets\images\mobile-wireframe4.png"/>
+<img src="assets\images\mobile-wireframe5.png"/>
+
+**Home - Summary of Alerts:**
+
+<img src="assets\images\mobile-wireframe6.png"/>
+
+**Home - Drills:**
+
+<img src="assets\images\mobile-wireframe7.png"/>
+
+**Home - Maintenance Recommendations:**
+
+<img src="assets\images\mobile-wireframe8.png"/>
+<img src="assets\images\mobile-wireframe9.png"/>
+
+**Monitoring:**
+
+<img src="assets\images\mobile-wireframe10.png"/>
+<img src="assets\images\mobile-wireframe11.png"/>
+<img src="assets\images\mobile-wireframe12.png"/>
+
+**Alerts:**
+
+<img src="assets\images\mobile-wireframe13.png"/>
+
+**More:**
+
+<img src="assets\images\mobile-wireframe14.png"/>
+
+**More - Profile:**
+
+<img src="assets\images\mobile-wireframe15.png"/>
+
+**More - Settings:**
+
+<img src="assets\images\mobile-wireframe16.png"/>
+
+**More - Security:**
+
+<img src="assets\images\mobile-wireframe17.png"/>
+<img src="assets\images\mobile-wireframe18.png"/>
+<img src="assets\images\mobile-wireframe19.png"/>
+
+**More - Log out:**
+
+<img src="assets\images\mobile-wireframe20.png"/>
+
+### 6.4.2. Applications Wireflow Diagrams. 
+
+**Web Application Wireflow Diagrams**
+
+<img src="assets\images\web-wireflow1.png"/>
+<img src="assets\images\web-wireflow2.png"/>
+<img src="assets\images\web-wireflow3.png"/>
+<img src="assets\images\web-wireflow4.png"/>
+<img src="assets\images\web-wireflow5.png"/>
+
+**Mobile Application Wireflow Diagrams**
+
+**Wireflow 1:**
+
+User goal:
+
+Registrarse en la aplicación. 
+Como usuario quiero registrarme en la aplicación.
+
+Task Flow:
+
+- El usuario se encuentra en el Log in 
+
+- El usuario se dirige a Sign Up 
+
+- El usuario rellena los formularios 
+
+- El usuario crea su cuenta y es redirigido al Log in
+
+<img src="assets\images\mobile-wireflow1.png"/>
+
+**Wireflow 2:**
+
+Revisar los reports.
+Como usuario quiero revisar todos los reports.
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a reports
+
+- El usuario visualiza todos los reportes 
+
+<img src="assets\images\mobile-wireflow2.png"/>
+
+**Wireflow 3:**
+
+Revisar los drills.
+Como usuario quiero revisar toda la información de drills.
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a Drills
+
+<img src="assets\images\mobile-wireflow3.png"/>
+
+**Wireflow 4:**
+
+Visualizar el summary of alerts.
+Como usuario quiero ver toda la información de summary of alerts.
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a Summary of alerts
+
+- El usuario ve la información de summary of alerts
+
+- El usuario da clic al botón de go to alerts
+
+- El usuario visualiza todas las alertas
+
+<img src="assets\images\mobile-wireflow4.png"/>
+
+**Wireflow 5:**
+
+Visualizar maintenance recommendations.
+Como usuario quiero ver los detalles de maintenance recommendations.
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a maintenance recommendations
+
+- El usuario ve la lista de recomendaciones
+
+- El usuario da clic al botón de view details
+
+- El usuario logra ver toda la información requerida
+
+<img src="assets\images\mobile-wireflow5.png"/>
+
+**Wireflow 6:**
+
+Visualizar un monitoreo en tiempo real.
+Como usuario quiero monitorear en tiempo real la infraestructura para saber sobre las áreas de riesgo y tener una evaluación continua. 
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a monitoring
+
+- El usuario puede ver el monitoreo en tiempo real
+
+- El usuario puede ver las áreas de riesgo
+
+- El usuario puede recibir una evaluación continua
+
+<img src="assets\images\mobile-wireflow6.png"/>
+
+**Wireflow 7:**
+
+Visualizar y/o cambiar mis datos y mi configuración.
+Como usuario ver mi información personal y realizar ajustes.
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a more
+
+- El usuario presiona perfil para ver o cambiar sus datos
+
+- El usuario presiona configuración para cambiar sus ajustes según lo vea conveniente 
+
+<img src="assets\images\mobile-wireflow7.png"/>
+
+**Wireflow 8:**
+
+Cambiar mi contraseña y/o email.
+Como usuario actualizar mi contraseña y/o email.
+
+Task Flow:
+
+- El usuario se encuentra en el home 
+
+- El usuario se dirige a more
+
+- El usuario presiona la opción de seguridad
+
+- El usuario actualiza su contraseña y/o email
+
+<img src="assets\images\mobile-wireflow8.png"/>
