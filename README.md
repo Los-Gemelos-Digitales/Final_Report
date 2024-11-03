@@ -1406,6 +1406,7 @@ Para optimizar la visibilidad y el posicionamiento en los motores de búsqueda, 
    - **App Description (Descripción de la App):** “TwinGuard es una plataforma avanzada que garantiza la seguridad escolar mediante el monitoreo en tiempo real, simulacros de evacuación, y alertas automáticas. Con tecnología de gemelos digitales, TwinGuard ayuda a prevenir emergencias, gestionando el mantenimiento predictivo y proporcionando rutas de evacuación seguras para proteger a estudiantes y personal. Recibe notificaciones en tiempo real sobre riesgos estructurales y condiciones peligrosas.”
 
 
+
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
@@ -1704,3 +1705,559 @@ Task Flow:
 - El usuario actualiza su contraseña y/o email
 
 <img src="assets\images\mobile-wireflow8.png"/>
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management.
+
+### 7.1.1. Software Development Environment Configuration.
+
+Para asegurar un flujo de trabajo eficiente y colaborativo en el desarrollo del proyecto, se han seleccionado herramientas clave en cada etapa del ciclo de desarrollo de software, de acuerdo a sus capacidades y facilidad de integración:
+
+**Proyect Management:**
+
+**GitHub:** Utilizado para el control de versiones y la colaboración en el código. Permite a los desarrolladores realizar un seguimiento de los cambios, fusionar contribuciones y gestionar las distintas versiones de forma estructurada y segura.
+
+**Trello:** Empleado para la organización de tareas, planificación y monitoreo del progreso mediante tableros, listas y tarjetas, facilitando la asignación y priorización de tareas.
+
+**Discord y WhatsApp:** Herramientas de comunicación directa que permiten una comunicación ágil en tiempo real para la coordinación del equipo, consultas rápidas y resolución de problemas inmediatos.
+
+**Product UX/UI Design**
+
+**Figma:** Utilizado para la creación de prototipos de alta fidelidad y diseño de la interfaz de usuario, permitiendo una experiencia visual interactiva que facilita la validación de ideas y flujos.
+
+**Miro:** Herramienta de colaboración visual utilizada para realizar lluvia de ideas, mapear experiencias de usuario (como empathy maps) y planificar en conjunto la arquitectura de diseño.
+
+**Visual Paradigm:** Herramienta para modelado visual que permite la creación de diagramas UML, facilitando la comunicación y visualización de la estructura y flujo del sistema.
+
+**Software Development:**
+
+**Visual Studio Code:** un entorno de desarrollo integrado (IDE) ligero y flexible, empleado para la codificación en el marco Angular, que facilita el trabajo con herramientas de desarrollo avanzadas, extensiones, y depuración en tiempo real.
+
+**Angular Framework:** se utiliza como el marco principal de desarrollo para crear una aplicación web robusta y modular, con componentes reutilizables que facilitan el mantenimiento y escalabilidad del proyecto.
+
+**Software Deployment:**
+
+La implementación del sistema en un entorno de producción es fundamental para asegurar su accesibilidad y funcionalidad en tiempo real. Herramientas específicas para la implementación (por ejemplo, Firebase o AWS) se seleccionarán de acuerdo a los requerimientos de escalabilidad y seguridad.
+
+**Software Documentation:**
+
+**GitHub:** se emplea tanto para alojar el código como para documentar el desarrollo del proyecto. A través de la creación de repositorios de documentación y archivos README, el equipo ha registrado las decisiones de diseño, configuraciones del entorno, procedimientos de instalación y guías de uso, proporcionando una referencia exhaustiva y accesible.
+
+### 7.1.2. Source Code Management.
+
+Implementación de Gitflow según Vincent Driessen
+
+**Rama principal (Main):** La rama main se mantiene siempre lista para producción y se utiliza para los despliegues.
+
+**Rama de desarrollo (Develop):** Refleja los últimos cambios de desarrollo y sirve como "rama de integración" para generar compilaciones automáticas.
+
+**Rama de lanzamiento (Release):** Facilita la preparación de una nueva versión para producción, permitiendo realizar ajustes finales y correcciones menores.
+
+**Rama de funcionalidad (Feature):** Destinada al desarrollo de nuevas funcionalidades. Parte de develop y se fusiona en ella cuando la característica está completa.
+
+**Rama de corrección urgente (Hotfix):** Se crea desde main para resolver errores críticos en producción de inmediato, permitiendo que el desarrollo en develop continúe sin interrupciones. Una vez solucionado el problema, se fusiona en develop y main.
+
+**Commits Convencionales:** Se sigue la estructura de "Conventional Commits 2.0.0":
+	(type) [optional scope]: (description), con los siguientes tipos:
+
+fix: Para corregir errores.
+
+feat: Para introducir nuevas características.
+
+BREAKING CHANGE: Indica un cambio importante en la API.
+
+add: Para agregar archivos o carpetas.
+
+test: Para añadir nuevos tests.
+
+[optional scope]: Usado en ramas de release, hotfix y main para especificar la versión.
+
+**Repositorios:**
+
+**- Landing Page:** https://github.com/Los-Gemelos-Digitales/LandingPage 
+
+**- Informe del proyecto:** https://github.com/Los-Gemelos-Digitales/Final_Report
+
+**- Digital Twin Ingest Function:** https://github.com/Los-Gemelos-Digitales/digitaltwiningestfunction 
+
+**- Web - Frontend:** https://github.com/Los-Gemelos-Digitales/frontend-digitaltwining 
+
+### 7.1.3. Source Code Style Guide & Conventions. 
+
+**HTML Conventions:**
+
+- Utilizar nombres en minúsculas para elementos y atributos, asegurando una estructura de código limpia y consistente.
+
+- Cerrar todos los elementos correctamente para evitar errores de renderización y mejorar la legibilidad del HTML.
+
+- Incluir siempre atributos alt, width, y height en las etiquetas de imagen (<img>) para mejorar la accesibilidad y optimizar el tiempo de carga.
+
+**CSS Conventions:**
+
+- Usar nombres de clases e IDs que sean concisos y significativos, reflejando su propósito en la interfaz para facilitar el mantenimiento y la colaboración.
+
+- Ordenar las propiedades en orden alfabético para facilitar su búsqueda y visualización, y utilizar propiedades en formato shorthand cuando sea posible para minimizar la cantidad de código.
+
+- Aplicar una estructura modular para los estilos CSS, organizando el código en secciones bien definidas, como layout, typography, y components, para mejorar la mantenibilidad.
+
+**Lenguaje y Estilo General:**
+
+- Todos los elementos, variables y comentarios en el código se documentarán en inglés, siguiendo convenciones de codificación establecidas.
+
+- En archivos de pruebas, el equipo sigue los lineamientos de Gherkin para especificaciones legibles y detalladas en .feature, asegurando que las pruebas de comportamiento se mantengan claras y precisas para todos los miembros del equipo y stakeholders.
+
+- En TypeScript y otros lenguajes de programación, se utilizarán convenciones de estilo reconocidas, como las recomendadas en la “Google TypeScript Style Guide”, para mantener coherencia y claridad en el código fuente.
+
+### 7.1.4. Software Deployment Configuration. 
+
+**- Landing Page:** https://github.com/Los-Gemelos-Digitales/LandingPage 
+
+**-Informe del proyecto:** https://github.com/Los-Gemelos-Digitales/Final_Report 
+
+**-Digital Twin Ingest Function:** https://github.com/Los-Gemelos-Digitales/digitaltwiningestfunction 
+
+**-Web - Frontend:** https://github.com/Los-Gemelos-Digitales/frontend-digitaltwining 
+
+## 7.2. Solution Implementation. 
+
+### 7.2.1. Sprint 1 
+
+#### 7.2.1.1. Sprint Planning 1.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>31 - 10 - 2024</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>5:00 pm</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión vía Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Florentino Josue Carrasco Hernández, Saúl Enrique Mendoza Barco, Juan Jose Navarro Chacon,  Santos Alexis Patazca Calderón, Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Sprint 0 Review Summary</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Sprint 0 Retrospective Summary</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal </td>
+    <td>"Our focus is on designing and building the primary functions 
+    of the digital twin for the selected school during this 1st sprint, 
+    which spans 14 days. We believe this will enable the school's staff, 
+    including teachers and administrators, to monitor and evaluate structural 
+    risks based on real-time data from the school's infrastructure. This will 
+    be confirmed when the staff is able to access and review the data on risk 
+    assessments through the digital twin platform."</br>
+    </br>
+    "Our primary focus in this sprint is to share and make our startup visible. We aim to showcase to visitors what we are going to achieve and how it will impact educational safety. This will be confirmed when we have shared our vision, mission and information related with the principal features with the visitors."
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>32</td>
+  </tr>
+</table>
+
+#### 7.2.1.2. Sprint Backlog 1.
+
+Este primer sprint tiene como objetivo construir las funciones básicas del gemelo digital para la escuela seleccionada, permitiendo al personal monitorear y evaluar riesgos estructurales en tiempo real. Al finalizar el sprint, validaremos que el personal pueda acceder y revisar evaluaciones de riesgos en la plataforma.
+Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los visitantes nuestra misión, visión y el impacto de nuestra solución en la seguridad educativa. A continuación, se incluye una captura del tablero en Trello.
+
+<img src="assets/images/trello.png" width=1200px/>
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In Process / To Review / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US01</td>
+    <td rowspan="5">Monitoreo en tiempo real</td>
+    // Fila #
+    <td>Task01 </td>
+    <td>Desarrollar la arquitectura de entidades del servicio Digital Twin</td>
+    <td>Desarrollar el grafo de relaciones de las entidades que interactúan en el servicio Digital Twin.</td>
+    <td>5</td>
+    <td>Diego Sanchez y Saúl Mendoza </td>
+    <td>Done</td>
+  </tr>
+  // Fila #
+  <tr>
+    <td>Task02</td>
+    <td>Diseñar modelos JSONs de cada entidad</td>
+    <td>Realizar para cada modelo que estará en el colegio, un modelo JSON donde indicará sus relaciones y atributos.</td>
+    <td>4</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  // Fila #
+  <tr>
+    <td>Task03</td>
+    <td>Preparar una instancia de Azure Digital Twins</td>
+    <td>En Azure Portal, crear un recurso educativo de un instancia de Azure Digital Twins, junto con otra instancia de almacenamiento<td>
+    <td>4</td>
+    <td>Josué Florentino y Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  // Fila #
+  <tr>
+    <td>Task04</td>
+    <td> Realizar modelado 3D de aulas del colegio</td>
+    <td>Se realiza modelado 3D, de una aula del colegio para su utilización en desarrollo de entorno 3D de Azure.</td>
+    <td>4</td>
+    <td>Saúl Enrique Mendoza Barco</td>
+    <td>Done</td>
+  </tr>
+  // Fila #
+  <tr>
+    <td>Task05</td>
+    <td>Realizar modelado 3D de oficina administrativa del colegio</td>
+    <td>Se realiza en blender, el modelado 3D de la oficina adminstrativa del colegio, para incluir en el plano general del colegio.</td>
+    <td>4</td>
+    <td>Saúl Enrique Mendoza Barco y Diego Sánchez</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Alertas en tiempo real para profesores</td>
+    <td>Task01</td>
+    <td> Desarrollar condicionales del servicio</td>
+    <td>Desarrollar en el digital twin , una serie de comportamientos o funciones que permitan indicar si la estructura tiene ciertos parámetros como, por ejemplo, si esta en mal estado o buen estado.</td>
+    <td>5</td>
+    <td>Saúl Mendoza y Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task02</td>
+    <td>Visualización gráfica de áreas de riesgo</td>
+    <td>Integrar un sistema que resalte áreas peligrosas en el modelo 3D o en mapas interactivos.</td>
+    <td>4</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="3">US04</td>
+    <td rowspan="3">Visualización de áreas de riesgo</td>
+    <td>1</td>
+    <td>Diseñar el modelo digital del edificio</td>
+    <td>Crear una representación digital en 3D del colegio que incluya todos los accesos, salidas, y rutas de evacuación.</td>
+    <td>4</td>
+    <td>Saúl Enrique Mendoza Barco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Visualización gráfica de áreas de riesgo</td>
+    <td>Integrar un sistema que resalte áreas peligrosas en el modelo 3D o en mapas interactivos.</td>
+    <td>4</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Implementar indicadores visuales dinámico</td>
+    <td>Mostrar visualizaciones que cambien en tiempo real según el riesgo (p. ej., zonas que se vuelven rojas en caso de incendio).</td>
+    <td>3</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Integración con sistemas de alerta temprana nacionales</td>
+    <td>1</td>
+    <td>Programar el módulo que se conectará a la API del sistema de alerta temprana</td>
+    <td>Asegurarse de manejar adecuadamente las respuestas y posibles errores de la API.</td>
+    <td>4</td>
+    <td>Florentino Josue Carrasco Hernández</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Implementar una función de escalamiento</td>
+    <td>Desarrollar un sistema que permita escalar alertas a diferentes niveles de responsabilidad según la gravedad del incidente.</td>
+    <td>3</td>
+    <td>Florentino Josue Carrasco Hernández</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Visualizar información de la startup</td>
+    <td>1</td>
+    <td>Visualizar la información de la startup</td>
+    <td>En la landing page de la startup, visualizar en una sección la información de la startup</td>
+    <td>1</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Ver funcionalidades que va a realizar el gemelo digital</td>
+    <td>1</td>
+    <td>Ver funcionalidades que va a realizar el gemelo digital</td>
+    <td>En la landing page de la startup, visualizar en una sección los objetivos del gemelo digital</td>
+    <td>2</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Visualizar y revisar quiénes son los integrantes de la startup</td>
+    <td>1</td>
+    <td>Visualizar y revisar quiénes son los integrantes de la startup</td>
+    <td>En la landing page de la startup, visualizar una sección los integrantes quienes conforman la startup</td>
+    <td>1</td>
+    <td>Juan Jose Navarro Chacon</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 7.2.1.3. Development Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Commited on (Date)</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Landing-Page</td>
+    <td>main</td>
+    <td>77b430867ff5af402a409df1451c25ce35c1bebc</td>
+    <td>commint landing page</td>
+    <td>-</td>
+    <td>Oct 28, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Front-End</td>
+    <td>main</td>
+    <td>2ee957b3dc6c01ab55dfd80d9da5d127283fc399</td>
+    <td>feat:create project</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Front-End</td>
+    <td>main</td>
+    <td>ace6396c867c5eb4523b641e8db68c8cbd236546</td>
+    <td>feat: update monitoring</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Front-End</td>
+    <td>main</td>
+    <td>15116a0e1ec55b6439d433e8a6160fb7c9311756</td>
+    <td>feat:create reports and planning</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Server-Client</td>
+    <td>master</td>
+    <td>6bbe0ff4ddeb979636d5fc1c186f3fa380a36f0e</td>
+    <td>Agregar .gitignore y .gitattributes.<td>
+    <td>-</td>
+    <td>Nov 1, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Server-Client</td>
+    <td>master</td>
+    <td>c0f5bd3b68145b8fed7e1a47b5d257b4427ddfb6</td>
+    <td>Agregar archivos de proyecto.</td>
+    <td>-</td>
+    <td>Nov 1, 2024</td>
+  </tr>
+  <tr>
+    <td>LosGemelosDigitales-Server-Client</td>
+    <td>master</td>
+    <td>67384140ac9e7ea74a7ceb1d77d82ef0be6310bf</td>
+    <td>feat: Add Json Models.</td>
+    <td>-</td>
+    <td>Nov 2, 2024</td>
+  </tr>
+</table>
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Commited on (Date)</td>
+  </tr>
+  <tr>
+    <td>Gherkin</td>
+    <td>Main</td>
+    <td>1e57e9a0005d94dd07f60392d0061381f77e9264</td>
+    <td>Create US01, US03, US04, US07</td>
+    <td>-</td>
+    <td>02-11-2024</td>
+  </tr>
+   <tr>
+    <td>Gherkin</td>
+    <td>Main</td>
+    <td>1d56b5564ba24e88eed8171f954ea9c6a058b417</td>
+    <td>Create US16, US17, US18</td>
+    <td>-</td>
+    <td>02-11-2024</td>
+  </tr>
+</table>
+
+#### 7.2.1.5. Execution Evidence for Sprint Review. 
+
+- **Landing Page:** Durante el Sprint 1, se desarrolló la Landing Page de la startup, orientada a presentar de forma clara la visión, misión y los objetivos del proyecto. Se implementaron secciones informativas que destacan el propósito de la plataforma y las ventajas que brindará a los usuarios en términos de seguridad educativa. Esta página inicial permite a los visitantes conocer las características clave del gemelo digital y su impacto potencial en la gestión de riesgos. 
+
+<img src="assets/images/pagina-de-aterrizaje.png" width=1200px/>
+
+- **Modelo Digital:** En esta fase, se desarrolló el modelo digital inicial de la infraestructura escolar (salón de clases), configurando la integración de datos básicos y la representación visual de áreas de riesgo en el mapa. Este modelo permite a los administradores monitorear el estado estructural en tiempo real. 
+
+<img src="assets/images/model1.png" width=1200px/>
+
+<img src="assets/images/graph.png" width=1200px/>
+
+- **Aplicación Web:** Se comenzó el desarrollo de la aplicación web que incluye las funcionalidades principales para los usuarios, especialmente en el área de administración y monitoreo de alertas. Durante este sprint, se enfocaron esfuerzos en el diseño de la interfaz de usuario para garantizar una experiencia amigable y funcional, además de implementar la estructura de navegación para las futuras secciones de monitoreo y alertas.
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+**Landing Page:**
+
+La landing page del proyecto está desplegada de manera pública, asegurando así un acceso fácil y constante a la información esencial de la startup. Esta página se aloja en el repositorio principal del proyecto y se configura para actualizarse automáticamente con cada cambio que se realiza en la rama principal (main).
+
+<img src="assets/images/pagina-de-aterrizaje.png" width=1200px/>
+
+**URL de acceso:** https://landing-page-alpha-gilt.vercel.app/#promociones-section 
+
+**Digital Twin:**
+
+En esta primera etapa del proyecto, el modelo del Digital Twin ya ha sido configurado con el Twin Graph, lo que permite una representación estructurada de las relaciones y características del entorno físico en un formato digital. Este avance sienta las bases para la futura visualización de datos y la evaluación de riesgos en tiempo real.
+
+<img src="assets/images/digitaltwin.png" width=1200px/>
+
+**Aplicación Web:**
+
+La aplicación web se encuentra actualmente en desarrollo. 
+
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint. 
+
+## 7.3. Validation Interviews. 
+
+### 7.3.1. Diseño de Entrevistas. 
+
+**1. Introducción**
+
+**Objetivo:** Explicar el propósito de la sesión, presentar el proyecto y establecer el contexto para los entrevistados.
+
+**Preguntas:**
+
+- ¿Conoces el concepto de "digital twin"? ¿Qué entiendes por este término?
+- ¿Cuáles son tus expectativas con respecto a una plataforma de monitoreo en tiempo real para seguridad escolar?
+- ¿Qué esperas de la experiencia de usuario en una landing page de este tipo?
+
+**2. Validación de la Landing Page**
+
+**Objetivo:** Evaluar la claridad, relevancia y atractivo de la landing page.
+
+**Preguntas:**
+
+- ¿Qué impresión te da la landing page en términos de diseño y contenido?
+- ¿La información sobre la misión y visión de nuestra startup es clara y fácil de entender?
+- ¿Qué tan fácil te resulta identificar las funcionalidades y beneficios del Digital Twin?
+- ¿Consideras que la landing page proporciona la información suficiente sobre el equipo y la solución?
+- ¿Hay algo en la página que consideres confuso o poco claro?
+
+**3. Validación de la Aplicación Web (Digital Twin)**
+
+**Objetivo:** Obtener retroalimentación sobre el diseño y funcionalidad de la aplicación web, enfocándose en el monitoreo y visualización en tiempo real.
+
+**User Flows Evaluados:**
+
+- **Monitoreo en Tiempo Real:** desde el acceso hasta la visualización de datos estructurales.
+- **Alertas y Notificaciones:** flujo de recepción y revisión de alertas en tiempo real.
+- **Visualización de Áreas de Riesgo:** cómo navegan y consultan los mapas de riesgo.
+
+**Preguntas:**
+- ¿Es fácil para ti acceder a los datos de monitoreo en tiempo real?
+- ¿La interfaz de la aplicación te permite identificar fácilmente alertas de emergencia?
+- ¿Qué tan útil encuentras la visualización de áreas de riesgo en el mapa? ¿Es clara la información mostrada?
+- ¿Hay funcionalidades adicionales que considerarías valiosas para el monitoreo en tiempo real?
+
+**4. Retroalimentación Final**
+
+**Objetivo:** Recopilar comentarios generales y aspectos a mejorar.
+
+**Preguntas:**
+
+- ¿Qué es lo que más valoras de la landing page y las aplicaciones?
+- ¿Consideras que el sistema es intuitivo y cumple con su propósito?
+- ¿Qué cambios recomendarías para mejorar tu experiencia?
+- ¿Recomendarías esta solución a otras escuelas o colegas? - ¿Por qué?
+- ¿Tienes alguna otra sugerencia que no hayamos discutido?
+
+
+### 7.3.2. Registro de Entrevistas. 
+
+### 7.3.3. Evaluaciones según heurísticas. 
+
+## 7.4. Video About-the-Product.
+
+En esta sección, se muestra el video promocional de nuestra startup:
+
+<img src="assets/images/about-the-product.png" width=800px/>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
