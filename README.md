@@ -1279,7 +1279,13 @@ test: Para añadir nuevos tests.
 
 ### 7.1.4. Software Deployment Configuration. 
 
+**- Landing Page:** https://github.com/Los-Gemelos-Digitales/LandingPage 
 
+**-Informe del proyecto:** https://github.com/Los-Gemelos-Digitales/Final_Report 
+
+**-Digital Twin Ingest Function:** https://github.com/Los-Gemelos-Digitales/digitaltwiningestfunction 
+
+**-Web - Frontend:** https://github.com/Los-Gemelos-Digitales/frontend-digitaltwining 
 
 ## 7.2. Solution Implementation. 
 
@@ -1546,15 +1552,99 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
 
 #### 7.2.1.5. Execution Evidence for Sprint Review. 
 
+- **Landing Page:** Durante el Sprint 1, se desarrolló la Landing Page de la startup, orientada a presentar de forma clara la visión, misión y los objetivos del proyecto. Se implementaron secciones informativas que destacan el propósito de la plataforma y las ventajas que brindará a los usuarios en términos de seguridad educativa. Esta página inicial permite a los visitantes conocer las características clave del gemelo digital y su impacto potencial en la gestión de riesgos. 
+
+<img src="assets/images/pagina-de-aterrizaje.png" width=1200px/>
+
+- **Modelo Digital:** En esta fase, se desarrolló el modelo digital inicial de la infraestructura escolar (salón de clases), configurando la integración de datos básicos y la representación visual de áreas de riesgo en el mapa. Este modelo permite a los administradores monitorear el estado estructural en tiempo real. 
+
+<img src="assets/images/model1.png" width=1200px/>
+
+<img src="assets/images/graph.png" width=1200px/>
+
+- **Aplicación Web:** Se comenzó el desarrollo de la aplicación web que incluye las funcionalidades principales para los usuarios, especialmente en el área de administración y monitoreo de alertas. Durante este sprint, se enfocaron esfuerzos en el diseño de la interfaz de usuario para garantizar una experiencia amigable y funcional, además de implementar la estructura de navegación para las futuras secciones de monitoreo y alertas.
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
+
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+**Landing Page:**
+
+La landing page del proyecto está desplegada de manera pública, asegurando así un acceso fácil y constante a la información esencial de la startup. Esta página se aloja en el repositorio principal del proyecto y se configura para actualizarse automáticamente con cada cambio que se realiza en la rama principal (main).
+
+<img src="assets/images/pagina-de-aterrizaje.png" width=1200px/>
+
+**URL de acceso:** https://landing-page-alpha-gilt.vercel.app/#promociones-section 
+
+**Digital Twin:**
+
+En esta primera etapa del proyecto, el modelo del Digital Twin ya ha sido configurado con el Twin Graph, lo que permite una representación estructurada de las relaciones y características del entorno físico en un formato digital. Este avance sienta las bases para la futura visualización de datos y la evaluación de riesgos en tiempo real.
+
+<img src="assets/images/digitaltwin.png" width=1200px/>
+
+**Aplicación Web:**
+
+La aplicación web se encuentra actualmente en desarrollo. 
+
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
 
 ## 7.3. Validation Interviews. 
 
 ### 7.3.1. Diseño de Entrevistas. 
+
+**1. Introducción**
+
+**Objetivo:** Explicar el propósito de la sesión, presentar el proyecto y establecer el contexto para los entrevistados.
+
+**Preguntas:**
+
+- ¿Conoces el concepto de "digital twin"? ¿Qué entiendes por este término?
+- ¿Cuáles son tus expectativas con respecto a una plataforma de monitoreo en tiempo real para seguridad escolar?
+- ¿Qué esperas de la experiencia de usuario en una landing page de este tipo?
+
+**2. Validación de la Landing Page**
+
+**Objetivo:** Evaluar la claridad, relevancia y atractivo de la landing page.
+
+**Preguntas:**
+
+- ¿Qué impresión te da la landing page en términos de diseño y contenido?
+- ¿La información sobre la misión y visión de nuestra startup es clara y fácil de entender?
+- ¿Qué tan fácil te resulta identificar las funcionalidades y beneficios del Digital Twin?
+- ¿Consideras que la landing page proporciona la información suficiente sobre el equipo y la solución?
+- ¿Hay algo en la página que consideres confuso o poco claro?
+
+**3. Validación de la Aplicación Web (Digital Twin)**
+
+**Objetivo:** Obtener retroalimentación sobre el diseño y funcionalidad de la aplicación web, enfocándose en el monitoreo y visualización en tiempo real.
+
+**User Flows Evaluados:**
+
+- **Monitoreo en Tiempo Real:** desde el acceso hasta la visualización de datos estructurales.
+- **Alertas y Notificaciones:** flujo de recepción y revisión de alertas en tiempo real.
+- **Visualización de Áreas de Riesgo:** cómo navegan y consultan los mapas de riesgo.
+
+**Preguntas:**
+- ¿Es fácil para ti acceder a los datos de monitoreo en tiempo real?
+- ¿La interfaz de la aplicación te permite identificar fácilmente alertas de emergencia?
+- ¿Qué tan útil encuentras la visualización de áreas de riesgo en el mapa? ¿Es clara la información mostrada?
+- ¿Hay funcionalidades adicionales que considerarías valiosas para el monitoreo en tiempo real?
+
+**4. Retroalimentación Final**
+
+**Objetivo:** Recopilar comentarios generales y aspectos a mejorar.
+
+**Preguntas:**
+
+- ¿Qué es lo que más valoras de la landing page y las aplicaciones?
+- ¿Consideras que el sistema es intuitivo y cumple con su propósito?
+- ¿Qué cambios recomendarías para mejorar tu experiencia?
+- ¿Recomendarías esta solución a otras escuelas o colegas? - ¿Por qué?
+- ¿Tienes alguna otra sugerencia que no hayamos discutido?
+
 
 ### 7.3.2. Registro de Entrevistas. 
 
