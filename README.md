@@ -5,7 +5,7 @@ Ingeniería de Software – Grupo 1
 </h1>
 <br>
 <h2 align="center">
-  Trabajo Final del Curso – TB1<br><br>
+  Trabajo Final del Curso – TB2<br><br>
   Startup:
   <br><br>
   Producto:
@@ -33,7 +33,7 @@ Ingeniería de Software – Grupo 1
 | Versión | Fecha | Autor | Descripción de modificación |
 | ----------- | ---------- | --------------- | ---------------------------------------------|
 | TB1         |            | Sánchez Ramírez, Diego Antonio | Se realiza el análisis y la recopilación de datos para profundizar en la problematica elegida. |
-
+| TB2         |            | Sánchez Ramírez, Diego Antonio | Se realiza el prototipo del servicio, cliente-servidor y la aplicación web, ademas de presentar un landing page para presentar información relevante de la startup |
 ---
 
 # ABET – EAC - Student Outcome 3
@@ -2261,3 +2261,18 @@ En esta sección, se muestra el video promocional de nuestra startup:
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+Conclusiones
+
+Al aplicar LEAN UX, Needfinding, C4 Models y Domain-Driven Design (DDD) en el desarrollo del proyecto Digital Twin para la evaluación de accidentes en un colegio, logramos crear un sistema que es funcional y centrado en el usuario. La validación rápida y el enfoque iterativo de LEAN UX permitieron ajustar el diseño para responder a las necesidades reales del colegio, mientras que Needfinding nos ayudó a identificar necesidades críticas y problemas latentes que guiaron las prioridades del proyecto. El uso de C4 Models nos dio claridad en la arquitectura del sistema, asegurando que fuera escalable y mantenible, y DDD nos permitió desarrollar un modelo de dominio alineado con las necesidades del negocio, segmentando el sistema en módulos bien definidos. Como resultado, el producto final es robusto, eficaz en situaciones de emergencia y bien adaptado al contexto escolar.
+
+Links
+
+Digital Twin Service (Avance): https://explorer.digitaltwins.azure.net/3DScenes/?sceneId=02b334662cf94e3997b45e84f6ba9d2a&selectedLayerIds=scene-layer-dropdown-unlayered-behaviors&mode=Viewer&adtUrl=https%3A%2F%2Flosgemelosdigitales-instance.api.wcus.digitaltwins.azure.net&adtResourceId=%2Fsubscriptions%2Fd9135312-3329-4906-b2b8-5e8dc577276c%2FresourceGroups%2FWS82-Arquitectura-Software-Emergentes%2Fproviders%2FMicrosoft.DigitalTwins%2FdigitalTwinsInstances%2FLosGemelosDigitales-instance&storageUrl=https%3A%2F%2Flosgemelosdigitales.blob.core.windows.net%2Flosgemelosdigitales-container&tid=0e0cb060-09ad-49f5-a005-68b9b49aa1f6
+
+Landing-Page: https://landing-page-alpha-gilt.vercel.app/
+
+Repositorio (GitHub): https://github.com/Los-Gemelos-Digitales
+
+Exposiciones:
+About-the-Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021367_upc_edu_pe/EbWE5rrgKAhNiBHDhgOjXtYBTuaZ-mGJQQSCwZZjv8JLow?e=W0PHLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
