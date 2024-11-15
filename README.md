@@ -1255,9 +1255,222 @@ Clases que se encargan de la creación de objetos complejos.
 
 
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="assets/images/526.png" width=1200px/>
+
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams. 
 ### 5.2.7.1. Bounded Context Domain Layer Class Diagrams. 
 ### 5.2.7.2. Bounded Context Database Design Diagram. 
+
+<img src="assets/images/5272.png" width=1200px/>
+
+## 5.3. Bounded Context: Evacuation Report
+### 5.3.1. Domain Layer
+
+Esta capa gestiona la lógica de negocio central del contexto de evacuación, estructurando clases que representan las reglas y el flujo de los reportes de evacuación.
+
+Entities
+
+- Evacuation Report: Representa un reporte generado tras un evento de evacuación. Atributos incluyen fecha, tipo de evacuación, ubicación, y número de evacuados.
+
+Value Objects
+
+- Evacuation Location: Define el lugar específico de la evacuación (edificio, piso, aula).
+- Evacuation Type: Especifica el tipo de evacuación (simulacro o real).
+
+Aggregates
+
+- EvacuationAggregate: Agrupa Evacuation Report, Evacuation Location, y Evacuation Type para aplicar reglas de negocio y garantizar consistencia en la creación y actualización del reporte.
+
+Repositories
+- Evacuation Report Repository: Interfaz que maneja la persistencia de los reportes de evacuación en el sistema.
+
+Domain Services
+- Evacuation Service: Servicio que coordina el proceso de evacuación y gestiona el flujo de información entre los agregados y el repositorio.
+
+### 5.3.2. Interface Layer. 
+
+La capa de interfaz facilita la interacción entre los usuarios o sistemas externos y el contexto de Evacuation Report.
+
+API Endpoints
+
+- POST /evacuations/report: Crea un nuevo reporte de evacuación.
+- GET /evacuations/report/{id}: Obtiene los detalles de un reporte de evacuación específico.
+- GET /evacuations/history: Recupera el historial de reportes de evacuación.
+- PUT /evacuations/report/{id}/finalize: Finaliza un reporte de evacuación existente.
+
+DTOs (Data Transfer Objects)
+- EvacuationReportDTO: Contiene los datos para transferir información de un reporte de evacuación, como fecha, tipo, y ubicación.
+- EvacuatedPersonDTO: Datos de una persona evacuada, incluyendo nombre y ubicación dentro de la estructura.
+
+View Models
+- EvacuationReportViewModel: Modelo de vista que muestra la información del reporte de evacuación a la interfaz de usuario.
+
+Controllers
+- EvacuationReportController: Gestiona las solicitudes HTTP para crear, obtener, y analizar reportes de evacuación.
+
+### 5.3.3. Application Layer. 
+
+Esta capa coordina la lógica de aplicación en el contexto de Evacuation Report, incluyendo la orquestación de comandos, consultas y eventos que manejan los procesos del negocio.
+
+Application Services
+- EvacuationReportApplicationService: Servicio que maneja los casos de uso relacionados con los reportes de evacuación, como crear, finalizar y consultar reportes.
+
+Commands/Queries
+
+Comandos y consultas que encapsulan las solicitudes hacia el sistema.
+
+- Commands:
+  - CreateEvacuationReportCommand: Comando que contiene los datos necesarios para generar un nuevo reporte de evacuación.
+  - FinalizeEvacuationReportCommand: Comando para finalizar el estado de un reporte específico tras la evacuación.
+
+- Queries:
+  - GetEvacuationReportQuery: Consulta para obtener los detalles de un reporte específico.
+  - GetEvacuationHistoryQuery: Consulta para obtener el historial de todos los reportes de evacuación.
+
+Command Handlers
+
+Clases que gestionan la ejecución de comandos específicos.
+- CreateEvacuationReportCommandHandler: Ejecuta la creación de un nuevo reporte de evacuación en respuesta al comando.
+- FinalizeEvacuationReportCommandHandler: Gestiona la finalización de un reporte de evacuación al recibir el comando correspondiente.
+
+Event Handlers
+
+Clases que gestionan eventos dentro del sistema.
+- EvacuationReportCreatedEventHandler: Responde a la creación de un nuevo reporte de evacuacion, notificando a los actores relevantes o sistemas externos.
+- EvacuationFinalizedEventHandler: Gestiona la notificación de finalización del reporte y actualiza estados o historial de evacuación.
+
+### 5.3.4. Infrastructure Layer.
+
+Esta capa gestiona los detalles técnicos de integración y persistencia para el contexto de Evacuation Report, incluyendo la implementación de repositorios, servicios externos y otras infraestructuras necesarias.
+
+Persistence Mechanisms
+
+Implementaciones para gestionar la persistencia de las entidades del contexto.
+
+- EvacuationReportRepositoryImpl: Implementación del repositorio de reportes de evacuación, almacenando datos en una base de datos SQL o NoSQL para gestionar la creación y consulta de reportes.
+
+External Service Integrations
+
+Integración con sistemas externos relevantes para el contexto.
+- MessagingServiceClient: Cliente para enviar notificaciones de evacuación a los usuarios o sistemas externos en tiempo real.
+- LocationServiceClient: Cliente que se conecta a un servicio de geolocalización para validar y obtener detalles de las ubicaciones en los reportes de evacuación.
+
+Factories
+
+Clases para la creación de objetos complejos del dominio.
+- EvacuationReportFactory: Crea instancias de Evacuation Report con configuraciones predefinidas, aplicando las reglas de negocio necesarias.
+
+API Clients
+
+Clientes que interactúan con APIs externas para servicios auxiliares.
+- NotificationServiceClient: Cliente que se conecta al servicio de notificaciones para informar a los usuarios y autoridades sobre la creación y finalización de un reporte de evacuación.
+- MonitoringServiceClient: Cliente que integra información del Bounded Context Monitoring para detectar situaciones críticas que podrían requerir un reporte de evacuación.
+
+### 5.3.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="assets/images/535.png" width=1200px/>
+
+### 5.3.6. Bounded Context Software Architecture Code Level Diagrams. 
+#### 5.3.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+<img src="assets/images/5361.png" width=1200px/>
+
+#### 5.3.6.2. Bounded Context Database Design Diagram.
+
+<img src="assets/images/5362.png" width=1200px/>
+
+## 5.4. Bounded Context: Records
+### 5.4.1. Domain Layer
+
+Esta capa contiene la lógica de negocio y los conceptos fundamentales del dominio 
+de Records. Donde se mostrará todo el historial de informes.
+
+Entities:
+
+Record: Representa un evento registrado en el sistema. En el diagrama, tiene 
+atributos como description y dateGenerated para almacenar detalles del evento y la 
+fecha en que ocurrió.
+
+Value Objects:
+
+Route: Representa información de una ruta, con atributos distance, beginPoint, y endPoint. Esto puede ser útil para almacenar información sobre rutas de evacuación u otras rutas relevantes dentro de la escuela.
+
+Aggregates:
+
+Result: Es la raíz del agregado que encapsula los Records. Este agregado tiene atributos como description y totalTime, lo cual indica que se utiliza para representar una colección de registros relacionados, con algún propósito de resumen o análisis.
+
+Repositories:
+
+RecordRepository: Define las operaciones básicas para la persistencia de registros, como create, listAll, modifyById, y deleteById. Esto permite crear, listar, modificar y eliminar registros.
+
+RouteRepository: Similar al anterior, pero para rutas. Tiene métodos como create, listAll, modifyById, y deleteById, lo cual sugiere que las rutas también se almacenan de forma persistente en la base de datos.
+
+Services:
+
+RecordService: Este servicio expone funcionalidades de aplicación para interactuar con los registros.
+
+showActualRecords(datetime date): Posiblemente retorna los registros activos hasta la fecha especificada.
+deleteRecord(int id): Permite eliminar un registro específico.
+
+### 5.4.2. Interface Layer. 
+
+API Endpoints:
+
+- POST /records: Endpoint para crear un nuevo registro.
+- GET /records/{id}: Endpoint para obtener los detalles de un registro.
+- PUT /records/{id}: Endpoint para actualizar un registro existente.
+
+DTOs (Data Transfer Objects):
+- RecordDTO: Estructura que contiene los datos necesarios para transferir información de un registro.
+- RouteDTO: Estructura que contiene los datos de la ruta o trayecto de un registro.
+
+View Models:
+- RecordViewModel: Modelo que representa la información de un registro para ser consumido por la interfaz de usuario.
+
+Controllers:
+- RecordController: Controlador que maneja las solicitudes HTTP relacionadas con los registros.
+
+### 5.4.3. Application Layer. 
+
+Aquí se podrían definir servicios de aplicación y comandos/consultas, aunque no se 
+ven explícitos en el diagrama. Basado en el diagrama, algunas ideas para esta capa 
+podrían incluir:
+
+Application Services:
+
+- RecordApplicationService: Servicio de aplicación para coordinar la lógica de gestión de registros y rutas, orquestando los repositorios y el servicio RecordService.
+
+Commands/Queries:
+
+Commands:
+- CreateRecordCommand: Inicia un nuevo registro con los datos de Report, description, y actualDate.
+- DeleteRecordCommand: Elimina un registro según su id.
+
+Queries:
+- GetAllRecordsQuery: Consulta que devuelve todos los registros.
+- GetRouteDetailsQuery: Obtiene detalles de una ruta según su id.
+
+Command Handlers:
+- CreateRecordCommandHandler: Maneja la ejecución del comando de creación de un registro.
+- UpdateRecordCommandHandler: Maneja la ejecución del comando de actualización de un registro.
+
+Event Handlers:
+- RecordCreatedEventHandler: Responde a los eventos de creación de un nuevo registro.
+- RecordUpdatedEventHandler: Responde a los eventos de actualización de un registro.
+
+### 5.4.4. Infrastructure Layer.
+
+Persistence Mechanisms:
+- RecordRepositoryImpl: Implementación del repositorio de registros, para gestionar la persistencia de los objetos Record.
+- RouteRepositoryImpl: Implementación del repositorio de rutas, para gestionar la persistencia de los objetos Route.
+
+Factories:
+- RecordFactory: Crea instancias de la entidad Record según las reglas de negocio establecidas.
+
+### 5.4.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="assets/images/546.png" width=1200px />
 
 # Capítulo VI: Solution UX Design
 
@@ -1879,7 +2092,7 @@ test: Para añadir nuevos tests.
   </tr>
   <tr>
     <td>Sprint 1 Velocity</td>
-    <td>-</td>
+    <td>27</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
@@ -1937,7 +2150,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
   <tr>
     <td>Task03</td>
     <td>Preparar una instancia de Azure Digital Twins</td>
-    <td>En Azure Portal, crear un recurso educativo de un instancia de Azure Digital Twins, junto con otra instancia de almacenamiento<td>
+    <td>En Azure Portal, crear un recurso educativo de un instancia de Azure Digital Twins, junto con otra instancia de almacenamiento</td>
     <td>4</td>
     <td>Josué Florentino y Diego Sánchez</td>
     <td>Done</td>
@@ -2102,7 +2315,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>LosGemelosDigitales-Server-Client</td>
     <td>master</td>
     <td>6bbe0ff4ddeb979636d5fc1c186f3fa380a36f0e</td>
-    <td>Agregar .gitignore y .gitattributes.<td>
+    <td>Agregar .gitignore y .gitattributes.</td>
     <td>-</td>
     <td>Nov 1, 2024</td>
   </tr>
@@ -2193,6 +2406,16 @@ La aplicación web se encuentra actualmente en desarrollo.
 
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
+
+### 7.2.2. Sprint 2
+#### 7.2.2.1 Sprint Planning 2.
+#### 7.2.2.2. Sprint Backlog 2.
+#### 7.2.2.3. Development Evidence for Sprint Review.
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
 
 ## 7.3. Validation Interviews. 
 
