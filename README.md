@@ -2564,8 +2564,103 @@ La aplicación web se encuentra actualmente en desarrollo.
     <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
     <td>Done</td>
   </tr>
+  <tr>
+    <td rowspan="3">US07</td>
+    <td rowspan="3">Integración con sistemas de alerta temprana nacionales</td>
+    <td>Task01</td>
+    <td>Implementar la interzas para las alertas</td>
+    <td>Se realiza la configuración para poder implementar las alertas.</td>
+    <td>5</td>
+    <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Task02</td>
+    <td>Investigación de la API para las alertas</td>
+    <td>Investigar cómo funciona la API del sistema de alerta o qué método de integración es necesario.</td>
+    <td>4</td>
+    <td>Josue Carrasco, Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Task03</td>
+    <td>Desarrollar de la integración con la API de alerta</td>
+    <td>Programar la integración con el sistema de alerta, configurar los endpoints y recibir las notificaciones.</td>
+    <td>5</td>
+    <td>Josue Carrasco, Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="6">US09</td>
+    <td rowspan="6">Evaluación de las rutas de evacuación</td>
+    <td>Task01</td>
+    <td>Realizar Modelado 3D de las rutas de evacuación</td>
+    <td>Realizar Modelado 3D de las rutas de evacuación de la institución.</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task02</td>
+    <td>Documentar las rutas de evacuación</td>
+    <td>Documentar las rutas de evacuación en GitHub.</td>
+    <td>2</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task03</td>
+    <td>Crear comportamientos de las rutas</td>
+    <td>Desarrollar simulaciones que definan cómo las rutas de evacuación reaccionan ante diferentes situaciones de emergencia..</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task04</td>
+    <td>Establecer y corregir comportamientos a través de pruebas del gemelo digital</td>
+    <td>Realizar pruebas del gemelo digital para validar el funcionamiento de las rutas y ajustar su comportamiento en base a los resultados.</td>
+    <td>5</td>
+    <td>Diego Sanchez y Saúl Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task05</td>
+    <td>Realizar documentación de los nuevos comportamientos de las rutas</td>
+    <td>Registrar de manera detallada las características y ajustes realizados a las rutas tras las pruebas.</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task06</td>
+    <td>Crear o actualizar contenido o elementos del grafo del gemelo digital</td>
+    <td>Incorporar o modificar nodos, conexiones o propiedades en el modelo del gemelo digital que representen rutas de evacuación actualizadas o nuevas.</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US10</td>
+    <td rowspan="1">Entrenamiento interactivo para profesores y personal</td>
+    <td>Task01</td>
+    <td>Diseñar la interfaz de usuario para los entrenamientos</td>
+    <td>Crear una interfaz  fácil de usar para los profesores y personal. Esto incluye la visualización de los ejercicios interactivos.</td>
+    <td>4</td>
+    <td>Josue Carrasco y Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US11</td>
+    <td rowspan="1">Registro de participación en simulacros</td>
+    <td>Task01</td>
+    <td>Desarrollar una interfaz de visualización de participación</td>
+    <td>Hacer posible la visualización de la participación de cada usuario en los simulacros.</td>
+    <td>4</td>
+    <td>Josue Carrasco y Santos Patazca</td>
+    <td>-</td>
+  </tr>
   
-  falta
 </table>
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
