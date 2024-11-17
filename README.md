@@ -2129,7 +2129,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
   <tr>
     <td rowspan="5">US01</td>
     <td rowspan="5">Monitoreo en tiempo real</td>
-    // Fila #
+    
     <td>Task01 </td>
     <td>Desarrollar la arquitectura de entidades del servicio Digital Twin</td>
     <td>Desarrollar el grafo de relaciones de las entidades que interactúan en el servicio Digital Twin.</td>
@@ -2137,7 +2137,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Diego Sanchez y Saúl Mendoza </td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task02</td>
     <td>Diseñar modelos JSONs de cada entidad</td>
@@ -2146,7 +2146,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Diego Sánchez</td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task03</td>
     <td>Preparar una instancia de Azure Digital Twins</td>
@@ -2155,7 +2155,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Josué Florentino y Diego Sánchez</td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task04</td>
     <td> Realizar modelado 3D de aulas del colegio</td>
@@ -2164,7 +2164,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Saúl Enrique Mendoza Barco</td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task05</td>
     <td>Realizar modelado 3D de oficina administrativa del colegio</td>
@@ -2409,7 +2409,165 @@ La aplicación web se encuentra actualmente en desarrollo.
 
 ### 7.2.2. Sprint 2
 #### 7.2.2.1 Sprint Planning 2.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión vía Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Florentino Josue Carrasco Hernández, Saúl Enrique Mendoza Barco, Juan Jose Navarro Chacon,  Santos Alexis Patazca Calderón, Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Review Summary</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Retrospective Summary</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal </td>
+    <td>""</br>
+    </br>
+    ""
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Velocity</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>-</td>
+  </tr>
+</table>
+
 #### 7.2.2.2. Sprint Backlog 2.
+
+//intro
+//foto del trello
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In Process / To Review / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US01</td>
+    <td rowspan="5">Crear el programa de evaluación de riesgo con Digital Twin</td>
+    <td>Task05 </td>
+    <td>Realizar modelado 3D de oficina administrativa del colegio</td>
+    <td>Se realiza en blender, el modelado 3D de la oficina adminstrativa del colegio, para incluir en el plano general del colegio.</td>
+    <td>6</td>
+    <td>Diego Sanchez y Saúl Mendoza </td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task06</td>
+    <td>Documentación de comportaciones/sensores del gemelo digital</td>
+    <td>Documentación de comportaciones/sensores del gemelo digital.</td>
+    <td>4</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task07</td>
+    <td>Realizar modelado 3D de los baños públicos</td>
+    <td>Realizar en blender el modelado 3D de los baños públicos del colegio</td>
+    <td>4</td>
+    <td>Saúl Mendoza</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task08</td>
+    <td>Documentación del modelo </td>
+    <td>Documentación del modelo 3D de baño público.</td>
+    <td>2</td>
+    <td>Saúl Enrique Mendoza Barco</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task09</td>
+    <td>Documentación del modelo</td>
+    <td>Documentación del modelo 3D de la sala administrativa.</td>
+    <td>2</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US03</td>
+    <td rowspan="1">Alertas en tiempo real para profesores</td>
+    <td>Task02</td>
+    <td> Configurar la interfaz de alertas en la aplicación web</td>
+    <td>Desarrollar el diseño y funcionalidad para recibir, visualizar y confirmar la recepción de alertas.</td>
+    <td>5</td>
+    <td>Josue Carrasco y Santos Patazca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US04</td>
+    <td rowspan="2">Visualización de áreas de riesgo</td>
+    <td>Task02</td>
+    <td>Configuración de la interfaz de reports en la aplicación web</td>
+    <td>Diseñar y configurar para la table de reports.</td>
+    <td>5</td>
+    <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task03</td>
+    <td>Realizar la configuración para la interfaz de monitoring en la aplicación web</td>
+    <td>Desarrollo de la interfaz del monitoring y realizar la configuración respectiva.</td>
+    <td>4</td>
+    <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
+    <td>Done</td>
+  </tr>
+  
+  falta
+</table>
+
 #### 7.2.2.3. Development Evidence for Sprint Review.
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.2.5. Execution Evidence for Sprint Review.
