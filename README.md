@@ -2420,11 +2420,11 @@ La aplicación web se encuentra actualmente en desarrollo.
   </tr>
   <tr>
     <td>Date</td>
-    <td>-</td>
+    <td>20-11-2024</td>
   </tr>
   <tr>
     <td>Time</td>
-    <td>-</td>
+    <td>5:00 pm</td>
   </tr>
   <tr>
     <td>Location</td>
@@ -2440,29 +2440,36 @@ La aplicación web se encuentra actualmente en desarrollo.
   </tr>
   <tr>
     <td>Sprint 1 Review Summary</td>
-    <td>-</td>
+    <td>Se pudo hacer mas, se logró parcialmente la conexión de instancia cc#. Sin embargo, falto un poco de experiencia para poder tener un buen rendimiento en el desarrollo del cliente/servidor</td>
   </tr>
   <tr>
     <td>Sprint 1 Retrospective Summary</td>
-    <td>-</td>
+    <td>Se evidenció una falta de fuentes confiables al momento de realizar las investigaciones previas para el desarrollo, documentación y despliegue de los productos. Por esta razón, se detallará mejor la documentación del siguiente Sprint</td>
   </tr>
   <tr>
     <td colspan="2">Sprint Goal & User Stories</td>
-  </tr>
+  </tr> 12
   <tr>
-    <td>Sprint 1 Goal </td>
-    <td>""</br>
+    <td>Sprint 2 Goal </td>
+    <td>Nuestro enfoque
+se centra en ofrecer las características principales de la solución a través de un sistema integrado de gemelos digitales, destacando un proceso de trabajo colaborativo y proporcionando información clave para fomentar la confianza de los usuarios. Incluirá funciones avanzadas de monitoreo en tiempo real y gestión de emergencias en la plataforma web, alertas predictivas y análisis de infraestructura en la aplicación móvil. Los datos del entorno escolar se recopilarán mediante sensores instalados en puntos estratégicos, con una frecuencia de actualización de 1 minuto, para su envío a nodos de borde que consolidarán la información cada 2 minutos. Además, el sistema garantizará una administración segura del acceso y la identidad de los dispositivos conectados desde el nodo de borde hasta la nube, con intervalos de sincronización de 3 minutos. El prototipo físico del gemelo digital incorporará capacidades avanzadas de simulación para evaluar riesgos en tiempo real.</br>
+</br>
+Creemos
+que esta solución transformará la experiencia de las instituciones educativas al brindar herramientas para gestionar su infraestructura de manera eficiente, mejorar la respuesta ante emergencias y garantizar la seguridad de estudiantes y personal. También facilitará la toma de decisiones mediante análisis predictivos y acceso intuitivo a datos procesados, optimizando las operaciones desde una perspectiva tecnológica y social.
+</br>
+Esto será confirmado
+al lograr un flujo de datos confiable de extremo a extremo entre los sensores, nodos de borde y la nube; ofrecer funcionalidades prácticas y robustas en las plataformas web y móviles para la gestión y simulación de emergencias; y validar la capacidad del gemelo digital para prevenir riesgos mediante pruebas en entornos reales y comentarios de los usuarios. La colaboración entre todos los actores será clave para cumplir con estos objetivos y garantizar un impacto significativo y sostenible en el entorno educativo.</br>
     </br>
     ""
     </td>
   </tr>
   <tr>
     <td>Sprint 2 Velocity</td>
-    <td>-</td>
+    <td>24</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>-</td>
+    <td>29</td>
   </tr>
 </table>
 
