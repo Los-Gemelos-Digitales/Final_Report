@@ -2465,11 +2465,11 @@ al lograr un flujo de datos confiable de extremo a extremo entre los sensores, n
   </tr>
   <tr>
     <td>Sprint 2 Velocity</td>
-    <td>24</td>
+    <td>30</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>29</td>
+    <td>41</td>
   </tr>
 </table>
 
