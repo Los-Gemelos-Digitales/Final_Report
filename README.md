@@ -2408,6 +2408,8 @@ La aplicación web se encuentra actualmente en desarrollo.
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
 
 ### 7.2.2. Sprint 2
+En esta sección, como equipo, documentamos y explicamos el progreso alcanzado durante el Sprint 2, tanto en términos del producto como del trabajo colaborativo. Incluimos secciones internas para Sprint Planning, Sprint Backlog, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, y Team Collaboration Insights during Sprint
+<img src="assets/images/Trello.jpg"/>
 #### 7.2.2.1 Sprint Planning 2.
 
 <table>
