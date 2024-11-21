@@ -2901,6 +2901,33 @@ Usamos la herramienta de selenium para testear:
 <img src="assets/images/AplicacionTesting.jpg">
 
 #### 7.2.2.5. Execution Evidence for Sprint Review.
+En esta sección, se proporciona un resumen de los logros alcanzados durante el Sprint 2. Se incluyen capturas de pantalla de las principales vistas implementadas, y se añade un enlace a un video que muestra y explica la visualización y navegación logradas durante este Sprint.
+
+**Aplicacion Web**
+
+- Inicio de sesión
+Pantalla de inicio de sesión con un fondo de color crema oscuro. En el centro, hay un formulario de inicio de sesión con los siguientes campos y elementos:
+
+<img src="assets/images/login.jpg">
+
+- Vista monitoring
+El home muestra un bottom que dirigi a la plataforma de azure portal donde se mostrara en 2d la estructura del colegio
+
+<img src="assets/images/moritoring.jpg">
+
+<img src="assets/images/estructura.jpg">
+
+- Vista report
+En esta vista se visualizara todo los reportes que se hayan identificado y adicionalmente tambien podemos registrar un reporte
+
+<img src="assets/images/report.jpg">
+
+- Vista planning
+En esta vista se visualizara todo los eventos registrados que hay durante el mes de curso
+
+<img src="assets/images/planning.jpg">
+
+
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
