@@ -2911,6 +2911,7 @@ Pantalla de inicio de sesión con un fondo de color crema oscuro. En el centro, 
 <img src="assets/images/login.jpg">
 
 - Vista monitoring
+
 El home muestra un bottom que dirigi a la plataforma de azure portal donde se mostrara en 2d la estructura del colegio
 
 <img src="assets/images/moritoring.jpg">
@@ -2918,11 +2919,13 @@ El home muestra un bottom que dirigi a la plataforma de azure portal donde se mo
 <img src="assets/images/estructura.jpg">
 
 - Vista report
+
 En esta vista se visualizara todo los reportes que se hayan identificado y adicionalmente tambien podemos registrar un reporte
 
 <img src="assets/images/report.jpg">
 
 - Vista planning
+
 En esta vista se visualizara todo los eventos registrados que hay durante el mes de curso
 
 <img src="assets/images/planning.jpg">
