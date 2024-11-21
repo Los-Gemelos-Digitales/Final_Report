@@ -2943,7 +2943,35 @@ En esta fase, se desarrolló el modelo digital final de la infraestructura escol
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
-En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros terminados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint.
+En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros terminados en la documentación de los Web Services para este Sprint. La sección incluye los detalles del endpoint del backend desplegado en Railway.
+
+- **Endpoint Documentado**: `/api/v1/users`
+  - **URL Pública**: [https://clever-vibrancy-production.up.railway.app/api/v1/users](https://clever-vibrancy-production.up.railway.app/api/v1/users)
+  - **Método**: GET
+  - **Descripción**: Devuelve un listado de todos los usuarios registrados en el sistema.
+  - **Respuesta Ejemplo**:
+    ```json
+    [
+      {
+        "id": 1,
+        "email": "user1@example.com",
+        "username": "user1",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "email": "user2@example.com",
+        "username": "user2",
+        "role": "teacher"
+      }
+    ]
+    ```
+  - **Parámetros de Respuesta**:
+    - **id**: Identificador único del usuario.
+    - **email**: Correo electrónico del usuario.
+    - **username**: Nombre de usuario.
+    - **role**: Rol del usuario en el sistema (e.g., "admin", "teacher").
+  - **Pruebas Realizadas**: Se realizaron pruebas para verificar la accesibilidad del endpoint y la estructura de la respuesta.
 
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
