@@ -2886,6 +2886,7 @@ En esta sección, como equipo, explicamos y presentamos los avances en implement
         </tr>
     </tbody>
 </table>
+
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
