@@ -2930,6 +2930,16 @@ En esta vista se visualizara todo los eventos registrados que hay durante el mes
 
 <img src="assets/images/planning.jpg">
 
+- Modelo digital
+
+En esta fase, se desarrolló el modelo digital final de la infraestructura escolar salón de clases y del colegio, configurando la integración de datos básicos y la representación visual de áreas de riesgo en el mapa. Este modelo permite a los administradores monitorear el estado estructural en tiempo real.
+
+<img src="assets/images/clases.jpg">
+
+<img src="assets/images/colegio2.jpg">
+
+<img src="assets/images/colegio3.jpg">
+
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
