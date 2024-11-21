@@ -2890,6 +2890,15 @@ En esta sección, como equipo, explicamos y presentamos los avances en implement
 </table>
 
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+En esta sección, el equipo presenta el conjunto de pruebas automatizadas realizadas durante el Sprint 2, incluyendo Unit Tests, Integration Tests y Acceptance Tests. Se detallan las clases y comportamientos asociados a cada test, y se incluyen ejemplos de los archivos .feature y Steps para los tests de BDD. También proporcionamos la ruta del repositorio y los commits relacionados con los avances en testing.
+
+Usamos la herramienta de selenium para testear:
+**Landing page**
+<img src="assets/images/LandingTesting.jpg">
+
+**Aplicacion Web**
+<img src="assets/images/AplicacionTesting.jpg">
+
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
