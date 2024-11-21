@@ -3004,6 +3004,15 @@ La aplicación web principal fue desplegada en Netlify, aprovechando su capacida
    - Se llevaron a cabo pruebas de las funcionalidades principales para asegurar la correcta implementación.
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
+En esta sección, se muestran los avances y la colaboración entre los miembros del equipo durante el Sprint 3. A continuación, se describen las implementaciones realizadas en los diferentes productos del sistema.
+
+- App web
+
+<img src="assets/images/front.jpg">
+
+- Backend
+
+<img src="assets/images/back.jpg">
 
 ## 7.3. Validation Interviews. 
 
