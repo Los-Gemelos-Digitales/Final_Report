@@ -2942,7 +2942,67 @@ En esta fase, se desarrolló el modelo digital final de la infraestructura escol
 
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros terminados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint.
+
+
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se presentan los detalles del despliegue del software realizado durante el Sprint 2, específicamente de la landing page y la aplicación web principal. A continuación, se describen los entornos de despliegue, así como los pasos seguidos para su implementación en Vercel y Netlify respectivamente.
+
+### **Despliegue de la Landing Page en Vercel**
+
+La landing page del proyecto fue desplegada utilizando Vercel. Vercel se seleccionó por su facilidad de uso y la integración eficiente con los repositorios de GitHub. Los pasos seguidos para el despliegue fueron los siguientes:
+
+1. **Configuración del Repositorio**:
+   - Asegurarse de que la landing page estuviera almacenada en un repositorio de GitHub, en la rama principal o en una rama específica preparada para producción.
+
+2. **Inicio de Sesión en Vercel**:
+   - Iniciar sesión en [Vercel](https://vercel.com/) con una cuenta existente o crear una nueva.
+
+3. **Importación del Proyecto**:
+   - Hacer clic en el botón "New Project" y conectar Vercel con GitHub.
+   - Seleccionar el repositorio correspondiente a la landing page.
+
+   <img src="assets/images/despliegue.jpg">
+
+4. **Configuración del Proyecto**:
+   - Configurar el proyecto en Vercel, eligiendo la rama desde la cual se desea realizar el despliegue (por ejemplo, `main`).
+   - Establecer configuraciones adicionales como variables de entorno (si aplican).
+
+5. **Despliegue Automático**:
+   - Vercel realiza automáticamente el despliegue al seleccionar el repositorio y la rama correcta.
+   - Luego de unos minutos, Vercel proporciona una URL donde la landing page está accesible públicamente.
+
+6. **Verificación y Pruebas**:
+   - Se verificó el funcionamiento de la landing page visitando la URL proporcionada y realizando pruebas para asegurar la correcta carga y navegación.
+
+### **Despliegue de la Aplicación Web en Netlify**
+
+La aplicación web principal fue desplegada en Netlify, aprovechando su capacidad para manejar aplicaciones modernas basadas en JAMstack. A continuación, se describen los pasos seguidos:
+
+1. **Configuración del Repositorio**:
+   - Confirmar que la aplicación web estuviera almacenada en un repositorio de GitHub (o GitLab/Bitbucket), en una rama lista para producción.
+
+2. **Inicio de Sesión en Netlify**:
+   - Iniciar sesión en [Netlify](https://netlify.com/) o crear una cuenta nueva si no se tenía una.
+
+3. **Vinculación del Repositorio**:
+   - Dentro de la página de Netlify, hacer clic en "New site from Git".
+   - Autorizar a Netlify para que acceda al repositorio en GitHub y seleccionar el repositorio donde está la aplicación web.
+
+4. **Configuración del Despliegue**:
+   - Seleccionar la rama que se desea desplegar (por ejemplo, `main`).
+   - Configurar las opciones de build, indicando los comandos de build (si es necesario) y la carpeta de salida (generalmente, `build` o `dist`).
+
+5. **Build y Despliegue**:
+   - Netlify comienza automáticamente la compilación y despliega el sitio una vez configurado.
+   - Después de completar el proceso, se proporciona una URL pública donde la aplicación web puede ser visitada.
+
+6. **Pruebas Post-despliegue**:
+   - Se realizó una verificación completa del sitio web utilizando la URL pública proporcionada por Netlify.
+   - Se llevaron a cabo pruebas de las funcionalidades principales para asegurar la correcta implementación.
+
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
 
 ## 7.3. Validation Interviews. 
