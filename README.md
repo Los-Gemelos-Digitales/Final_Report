@@ -2475,8 +2475,7 @@ al lograr un flujo de datos confiable de extremo a extremo entre los sensores, n
 
 #### 7.2.2.2. Sprint Backlog 2.
 
-//intro
-//foto del trello
+
 
 <table>
   <tr>
@@ -2671,6 +2670,222 @@ al lograr un flujo de datos confiable de extremo a extremo entre los sensores, n
 </table>
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
+En esta sección, como equipo, explicamos y presentamos los avances en implementación con relación a los productos de la solución según el alcance del Sprint 2. Incluimos una introducción que resume los principales avances y una tabla con los commits relacionados con la implementación.
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commit Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/data-logic</td>
+            <td>b1ec3c0dbe3eaf4e9403d5e4c70c93d61cbc9b96</td>
+            <td>update reports and add service and models of: reports and evacuation plan</td>
+            <td>-</td>
+            <td>Nov 12,2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/data-logic</td>
+            <td>6dd85be484a2c316fa34f28c4d37d513de98030e</td>
+            <td>update toolbar</td>
+            <td>-</td>
+            <td>Nov 12,2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>fde844c8f801fcf4de0d5b14a2a0da0e76d38472</td>
+            <td>update toolbar</td>
+            <td>-</td>
+            <td>Nov 12,2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>692aa762b116045b2e48ea827ef6027ff08fe0d5</td>
+            <td>update reports filters</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>a65fffc62f4779409ba23792a37e10459a35dbe0</td>
+            <td>update register</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>18c32e9c558590733903efb2eeac78047531de5f</td>
+            <td>add reports details component</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/notifications</td>
+            <td>fbe0e0196d847af1b9cd9cbcfcb991f994753ddb</td>
+            <td>feat: create notification</td>
+            <td>-</td>
+            <td>Nov 8, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/notifications</td>
+            <td>e83c170922f4f84099dda4827e514d3a15a12da1</td>
+            <td>update notifications</td>
+            <td>-</td>
+            <td>Nov 11, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/planning</td>
+            <td>16e101543426becb879945828abc26e5087e2424</td>
+            <td>Add evacuation plans functionality to planning component (API integration and event form)</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/planning</td>
+            <td>535bd63b5703579dbb52c304895045ab7a750dda</td>
+            <td>Update reports and add and delete reports</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/planning</td>
+            <td>1407582f9be1cc35955a272b17c23f9ec0bd23b6</td>
+            <td>add update table with new report</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/profile</td>
+            <td>60062f843c03cd72213a9fdff2f7890a6d1ed9fb</td>
+            <td>update log out</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/reports</td>
+            <td>fde844c8f801fcf4de0d5b14a2a0da0e76d38472</td>
+            <td>update reports filters</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/reports</td>
+            <td>a65fffc62f4779409ba23792a37e10459a35dbe0</td>
+            <td>update register</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/toolbar</td>
+            <td>54440083ff77cd66453303f8be0d2dcaf398eaac</td>
+            <td>update toolbar</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>Main</td>
+            <td>894a234567e0bffde38c95f5d5f99921a9099104</td>
+            <td>update register</td>
+            <td>-</td>
+            <td>Oct 27,2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>Main</td>
+            <td>4b450ca55a50edc3b486b2d3acb896fb2c37aa8e</td>
+            <td>update CORS</td>
+            <td>-</td>
+            <td>Nov 18, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>Main</td>
+            <td>b1d913439f511b4f500118c213391364afa6e61f</td>
+            <td>update back end</td>
+            <td>-</td>
+            <td>Nov 18, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>feature/planning</td>
+            <td>5c74226eaf8a19c042c8a413b26a48731093b995</td>
+            <td>add Evacuation Plans Controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+         <tr>
+            <td>Backend</td>
+            <td>feature/planning</td>
+            <td>2949d2cb028360c6ad21d030861b21146972e45c</td>
+            <td>add report controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+         <tr>
+            <td>Backend</td>
+            <td>feature/planning</td>
+            <td>a60ce24b4508c486e45c928a6138a26ba4928441</td>
+            <td>first commit</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+         <tr>
+            <td>Backend</td>
+            <td>feature/reports</td>
+            <td>2949d2cb028360c6ad21d030861b21146972e45c</td>
+            <td>add report controller </td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+          <tr>
+            <td>Backend</td>
+            <td>feature/user</td>
+            <td>2949d2cb028360c6ad21d030861b21146972e45c</td>
+            <td>add report controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>feature/user</td>
+            <td>db5d6b0ecaacc0700b0c33510562bf33e2b533d0</td>
+            <td>add user controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+          <tr>
+            <td>Backend</td>
+            <td>feature/user</td>
+            <td>84ed5d6c84bf95d6e88bfa61721b2e3fd177c4f1</td>
+            <td>update user</td>
+            <td>-</td>
+            <td>Nov 17, 2024</td>
+        </tr>
+    </tbody>
+</table>
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
