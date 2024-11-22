@@ -2189,10 +2189,16 @@ En esta primera etapa del proyecto, el modelo del Digital Twin ya ha sido config
 
 **Aplicación Web:**
 
-La aplicación web se encuentra actualmente en desarrollo. 
 
+<img src="assets/images/web_application_lobby.png" width=1200px/>
+
+<img src="assets/images/web_application_table.png" width=1200px/>
+
+<img src="assets/images/web_application_calendar.png" width=1200px/>
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
+
+<img src="assets/images/team_collaboration.png" width=1200px/>
 
 ## 7.3. Validation Interviews. 
 
