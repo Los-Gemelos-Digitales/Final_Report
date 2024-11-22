@@ -5,11 +5,11 @@ Ingeniería de Software – Grupo 1
 </h1>
 <br>
 <h2 align="center">
-  Trabajo Final del Curso – TB2<br><br>
+  Trabajo Final del Curso – TF<br><br>
   Startup:
   <br><br>
   Producto:
-  <br><br>
+  <br>TwinGuard<br>
   <br>
   <br>
   Integrantes:
@@ -138,9 +138,91 @@ La solución que proponemos es la implementación de un gemelo digital en la esc
 
 #### 1.2.2.2 Lean UX Assumptions
 
+1. User Outcome
+- El personal administrativo podrá monitorear en tiempo real el estado estructural del colegio, aumentando su capacidad de tomar decisiones informadas durante una emergencia.
+- El acceso a la aplicación facilitará la planificación y ejecución de simulacros de evacuación más efectivos.
+- La interfaz del sistema será fácil de usar, lo que permitirá a los administradores realizar análisis de riesgos sin necesidad de entrenamiento técnico extenso.
+- Los profesores tendrán acceso a una evaluación continua del estado de seguridad en sus aulas y áreas comunes
+- Los profesores podrán recibir alertas tempranas de situaciones peligrosas, lo que les permitirá guiar a los estudiantes a zonas seguras con mayor rapidez.
+- Los profesores podrán identificar las rutas de evacuación más seguras en tiempo real
+
+2. Business Outcome
+- Reducirá el riesgo de daños estructurales y pérdidas humanas durante un sismo.
+- Contribuirá a la reputación de la escuela como una institución segura, atrayendo más inscripciones.
+- El sistema permitirá optimizar los recursos destinados a mantenimiento, enfocándolos en las áreas más vulnerables identificadas por el gemelo digital.
+- El acceso de los profesores a información de seguridad en tiempo real mejorará la percepción de seguridad por parte de los padres y la comunidad, aumentando la confianza en la institución y potenciando su reputación como un lugar
+- Una mayor preparación ante emergencias puede reducir la ansiedad y el estrés entre el personal, mejorando la calidad de la enseñanza.
+- Los profesores podrán guiar a los estudiantes de manera más eficiente durante emergencias, reduciendo el caos y mejorando la seguridad general.
+
+3. Features
+- Monitoreo continuo de la integridad estructural de los edificios escolares.
+- Notificaciones inmediatas para el personal y profesores sobre cualquier anomalía detectada.
+- Visualización de rutas de evacuación recomendadas basadas en datos actuales, aunque no es una simulación, permite la optimización de rutas.
+- Herramientas para planificar, ejecutar y analizar simulacros de evacuación con base en datos históricos y condiciones actuales.
+- Un sistema de visualización que presenta en tiempo real las áreas de riesgo dentro del colegio, ayudando a identificar las rutas de evacuación más seguras.
+- Sistema de alertas que informa a los profesores y al personal administrativo sobre situaciones peligrosas a medida que ocurren
+
 #### 1.2.2.3 Lean UX Hypothesis Statements
-  
+
+
+### Objetivos y Creencias
+
+#### Creencias Fundamentales
+- **Reducción del tiempo de respuesta en emergencias:**  
+  Creemos que se logrará si el personal administrativo logra monitorear en tiempo real el estado estructural del colegio con la interfaz gráfica intuitiva.
+
+- **Mejora de la preparación y resiliencia institucional:**  
+  Creemos que se logrará si los profesores obtienen acceso a una evaluación continua del estado de seguridad en sus aulas y áreas comunes con la evaluación continua del entorno.
+
+- **Incremento en la eficiencia de la evacuación:**  
+  Creemos que se logrará si los profesores pueden identificar las rutas de evacuación más seguras en tiempo real con el mapa de riesgos.
+
+- **Reducción de riesgos y costos:**  
+  Creemos que se logrará si el personal administrativo tiene la capacidad de planificar y ejecutar simulacros de evacuación más efectivos con la planificación de simulacros.
+
+- **Mejora del entorno educativo:**  
+  Creemos que se logrará si los profesores pueden recibir alertas tempranas de situaciones peligrosas con las notificaciones en tiempo real.
+
+- **Optimización de recursos humanos y materiales:**  
+  Creemos que se logrará si el personal administrativo puede realizar análisis de riesgos sin necesidad de entrenamiento técnico extenso con la interfaz gráfica intuitiva.
+
+---
+
+#### 1. Usuarios
+
+- Creemos que los administradores de instituciones educativas utilizarán nuestra solución de gemelos digitales porque les permitirá mejorar la seguridad y eficiencia operativa en sus escuelas.
+- Creemos que los estudiantes y el personal docente valorarán nuestra solución porque mejorará su experiencia educativa al crear un entorno más seguro.
+- Creemos que los encargados de seguridad en las instituciones adoptarán nuestra tecnología porque les proporcionará herramientas avanzadas para gestionar emergencias de manera más efectiva.
+
+---
+
+#### Resultados que los Usuarios Desean
+
+- Creemos que los administradores invertirán en nuestra tecnología si les demostramos que puede reducir los riesgos ante desastres naturales y mejorar la respuesta en emergencias.
+- Creemos que los docentes se sentirán más cómodos y concentrados en su enseñanza si nuestra tecnología asegura un ambiente seguro y estable.
+- Creemos que los estudiantes preferirán instituciones que implementen nuestra tecnología porque sentirán que su seguridad está siendo priorizada.
+
+---
+
+#### Comportamientos de los Usuarios
+
+- Creemos que los administradores estarán dispuestos a adoptar nuestra solución si les demostramos un retorno de inversión claro en seguridad y eficiencia.
+- Creemos que el personal de seguridad utilizará el sistema de gemelos digitales de manera regular si les proporcionamos un entrenamiento adecuado y fácil de entender.
+- Creemos que los estudiantes y docentes seguirán las recomendaciones de seguridad proporcionadas por nuestro sistema si les mostramos cómo estas medidas pueden prevenir riesgos.
+
+---
+
+#### Resultados del Negocio
+
+- Creemos que la implementación exitosa de gemelos digitales en varias instituciones nos ayudará a aumentar nuestra reputación y atraer más clientes en el sector educativo.
+- Creemos que la mejora en seguridad y eficiencia operativa demostrada llevará a nuevas instituciones a adoptar nuestra tecnología.
+- Creemos que la adopción generalizada de nuestra tecnología por parte de las instituciones educativas resultará en un crecimiento sostenido para nuestra startup.
+
+
 #### 1.2.2.4 Lean UX  Canvas
+
+<img src="assets/images/lean_ux_canvas.png" width="1200"/>|
+
 
 ### Segmentos objetivo
 
@@ -1178,10 +1260,7 @@ Clientes para interactuar con APIs externas, como el servicio de notificaciones 
 * MonitoringServiceClient: Cliente que recibe información del Bounded Context Monitoring sobre las condiciones críticas que podrían activar una alarma.
 
 
-### 5.1.6. Bounded Context Software Architecture Component Level Diagrams. 
-### 5.1.7. Bounded Context Software Architecture Code Level Diagrams. 
-### 5.1.7.1. Bounded Context Domain Layer Class Diagrams. 
-### 5.1.7.2. Bounded Context Database Design Diagram.
+
 
 ## 5.2. Bounded Context: Monitoring 
 ### 5.2.1. Domain Layer.
@@ -1272,8 +1351,7 @@ Clases que se encargan de la creación de objetos complejos.
 
 <img src="assets/images/526.png" width=1200px/>
 
-### 5.2.7. Bounded Context Software Architecture Code Level Diagrams. 
-### 5.2.7.1. Bounded Context Domain Layer Class Diagrams. 
+
 ### 5.2.7.2. Bounded Context Database Design Diagram. 
 
 <img src="assets/images/5272.png" width=1200px/>
@@ -3118,7 +3196,91 @@ En esta sección, se muestran los avances y la colaboración entre los miembros 
 
 ### 7.3.2. Registro de Entrevistas. 
 
+Por motivos personales y legales por parte del colegio, no se evidenció un registro de las entrevistas, salvo si por medio de reuniones privadas con la administradora y el profesor de defensa civil del colegio para brindar un feedaback con respecto a las siguientes evalacuiones por heuristicas.
+
 ### 7.3.3. Evaluaciones según heurísticas. 
+
+# **Evaluación de Experiencia de Usuario según Heurísticas**
+
+## **Heurísticas de Usabilidad y Principios de Diseño**
+**Carrera:** Ingeniería de Software  
+**Curso:** Arquitecturas de Software Emergentes  
+**Auditor:** Los Gemelos Digitales 
+**Cliente(s):** Personal administrativo de instituciones educativas  
+
+---
+
+## **Sitio/App a Evaluar:**  
+**Nombre:** Plataforma TwinGuard
+
+---
+
+## **Tareas a Evaluar**
+
+1. Registro de un administrador nuevo.  
+2. Acceso al monitoreo en tiempo real.  
+3. Configuración de alertas y notificaciones.  
+4. Consulta de mapas de riesgos.  
+
+
+No están incluidas en esta versión de la evaluación:  
+1. Personalización de dashboards.  
+2. Integración con sistemas externos.  
+3. Análisis avanzado de datos históricos.  
+
+---
+
+## **Escala de Severidad**
+| **Nivel** | **Descripción**                                                                                     |
+|-----------|-----------------------------------------------------------------------------------------------------|
+| 1         | Problema superficial: no afecta significativamente la experiencia del usuario y es fácil de superar. |
+| 2         | Problema menor: ocurre ocasionalmente y requiere ajustes para no afectar el flujo general.           |
+| 3         | Problema mayor: afecta el uso frecuente, requiere solución prioritaria.                              |
+| 4         | Problema crítico: impide el uso de la plataforma y debe resolverse antes del lanzamiento.            |
+
+---
+
+## **Tabla Resumen**
+| **#** | **Problema**                                                     | **Escala de Severidad** | **Heurística Violada**                          |
+|-------|------------------------------------------------------------------|--------------------------|------------------------------------------------|
+| 1     | No se entiende cómo iniciar el monitoreo sin una explicación.    | 3                        | **Usabilidad**: Visibilidad del estado del sistema |
+| 2     | El mapa de riesgos no indica qué áreas son críticas claramente.  | 2                        | **Diseño Inclusivo**: Información perceptible  |
+| 3     | El botón de configuración de notificaciones no responde.         | 4                        | **Control del Usuario**: Flexibilidad y eficiencia |
+| 4     | No se muestran instrucciones claras al acceder a simulaciones.   | 3                        | **Arquitectura de la Información**: Is it usable?|
+| 5     | Iconos no estandarizados dificultan la navegación.               | 2                        | **Consistencia**: Diseño y estándares         |
+
+---
+
+## **Descripción de Problemas**
+
+### **Problema #1:**  
+**Descripción:** No se entiende cómo iniciar el monitoreo en tiempo real sin que alguien explique el flujo.  
+**Severidad:** 3  
+**Heurística Violada:** Visibilidad del estado del sistema.  
+
+**Observación:**  
+Los usuarios no logran identificar de inmediato los pasos para activar el monitoreo de áreas críticas, lo que genera frustración y dependencia de una capacitación externa.
+
+**Recomendación:**  
+Añadir indicadores visuales, como un tutorial inicial o un mensaje flotante que guíe al usuario para comenzar el monitoreo.
+
+---
+
+### **Problema #2:**  
+**Descripción:** El mapa de riesgos no indica claramente las áreas críticas ni su significado.  
+**Severidad:** 2  
+**Heurística Violada:** Información perceptible.  
+
+**Observación:**  
+El sistema muestra un mapa sin una leyenda o colores que destaquen la criticidad de las áreas, dificultando la interpretación por parte de los usuarios.
+
+**Recomendación:**  
+Incluir una leyenda con colores estándar para identificar las áreas de mayor a menor riesgo y mejorar la experiencia de navegación del usuario.
+
+---
+
+## **Conclusión**
+Esta evaluación busca optimizar la usabilidad y accesibilidad del sistema Digital Twin, asegurando que los usuarios puedan utilizarlo de manera eficiente, sin necesidad de un soporte constante, mejorando así la seguridad escolar.
 
 ## 7.4. Video About-the-Product.
 
@@ -3128,18 +3290,33 @@ En esta sección, se muestra el video promocional de nuestra startup:
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Conclusiones
+# Conclusiones
 
 Al aplicar LEAN UX, Needfinding, C4 Models y Domain-Driven Design (DDD) en el desarrollo del proyecto Digital Twin para la evaluación de accidentes en un colegio, logramos crear un sistema que es funcional y centrado en el usuario. La validación rápida y el enfoque iterativo de LEAN UX permitieron ajustar el diseño para responder a las necesidades reales del colegio, mientras que Needfinding nos ayudó a identificar necesidades críticas y problemas latentes que guiaron las prioridades del proyecto. El uso de C4 Models nos dio claridad en la arquitectura del sistema, asegurando que fuera escalable y mantenible, y DDD nos permitió desarrollar un modelo de dominio alineado con las necesidades del negocio, segmentando el sistema en módulos bien definidos. Como resultado, el producto final es robusto, eficaz en situaciones de emergencia y bien adaptado al contexto escolar.
 
-Links
+Por otro lado, durante el Sprints, es importante complementar el flujo de valores de trabajo con un Kanban Board, ya que nos ayudó bastante a segmentar por cada US las tareas por producto que deben de realizar. Esto incluye también la segmentación de ramas por feature o bounded context, los cuales estaban trabajando para tener una organización en el codigo que estamos trabajo. Como recomendación final, sería principalmente investigar a fondo como trabajar con una tecnología novedosa o emergente empezando desde lo basico que seria leer la documentación o revisar si hay tutoriales con respecto a su utilizcación en problématicas ambientales o sociales.
 
-Digital Twin Service (Avance): https://explorer.digitaltwins.azure.net/3DScenes/?sceneId=02b334662cf94e3997b45e84f6ba9d2a&selectedLayerIds=scene-layer-dropdown-unlayered-behaviors&mode=Viewer&adtUrl=https%3A%2F%2Flosgemelosdigitales-instance.api.wcus.digitaltwins.azure.net&adtResourceId=%2Fsubscriptions%2Fd9135312-3329-4906-b2b8-5e8dc577276c%2FresourceGroups%2FWS82-Arquitectura-Software-Emergentes%2Fproviders%2FMicrosoft.DigitalTwins%2FdigitalTwinsInstances%2FLosGemelosDigitales-instance&storageUrl=https%3A%2F%2Flosgemelosdigitales.blob.core.windows.net%2Flosgemelosdigitales-container&tid=0e0cb060-09ad-49f5-a005-68b9b49aa1f6
+# Referencias Bibliográficas
 
-Landing-Page: https://landing-page-alpha-gilt.vercel.app/
+Ministerio de Educación del Perú. (2021). Colegios privados tendrán hasta cinco años para adecuarse a las condiciones del nuevo reglamento. MINEDU. Recuperado de: https://www.gob.pe/institucion/minedu/noticias/344770-colegios-privados-tendran-hasta-cinco-anos-para-adecuarse-a-las-condiciones-del-nuevo-reglamento
 
-Repositorio (GitHub): https://github.com/Los-Gemelos-Digitales
+Ministerio de Educación del Perú. (2021). Reglamento de instituciones educativas  privadas de educación básica. MINEDU. Recuperado de: https://www.gob.pe/institucion/minedu/informes-publicaciones/1724857-reglamento-de-instituciones-educativas-privadas-de-educacion-basica
 
-Exposiciones:
-About-the-Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021367_upc_edu_pe/EbWE5rrgKAhNiBHDhgOjXtYBTuaZ-mGJQQSCwZZjv8JLow?e=W0PHLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Microsoft. (2024). Azure Digital Twins documentation. Microsoft Learn. Recuperado de: https://learn.microsoft.com/en-us/azure/digital-twins/
+
+# Anexos
+
+## Anexo A: Links de Productos
+
+Digital Twin Service (Avance): [Ver avance](https://explorer.digitaltwins.azure.net/3DScenes/?sceneId=02b334662cf94e3997b45e84f6ba9d2a&selectedLayerIds=scene-layer-dropdown-unlayered-behaviors&mode=Viewer&adtUrl=https%3A%2F%2Flosgemelosdigitales-instance.api.wcus.digitaltwins.azure.net&adtResourceId=%2Fsubscriptions%2Fd9135312-3329-4906-b2b8-5e8dc577276c%2FresourceGroups%2FWS82-Arquitectura-Software-Emergentes%2Fproviders%2FMicrosoft.DigitalTwins%2FdigitalTwinsInstances%2FLosGemelosDigitales-instance&storageUrl=https%3A%2F%2Flosgemelosdigitales.blob.core.windows.net%2Flosgemelosdigitales-container&tid=0e0cb060-09ad-49f5-a005-68b9b49aa1f6)
+
+Landing-Page Deploy: [Ver Despliegue](https://landing-page-alpha-gilt.vercel.app/)
+
+Repositorio (GitHub): [Ver Organización](https://github.com/Los-Gemelos-Digitales)
+
+## Anexo B: Presentaciones
+
+### TB2
+[Link de exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021367_upc_edu_pe/EbWE5rrgKAhNiBHDhgOjXtYBTuaZ-mGJQQSCwZZjv8JLow?e=W0PHLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+### About the product
+[Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f316_upc_edu_pe/EXHNvAyW02RPhrwe9Lcq0GUB4ROrj3AygaTI-9aZVvFlSg?e=FC7xwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
