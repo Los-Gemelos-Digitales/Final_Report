@@ -2416,10 +2416,15 @@ En esta primera etapa del proyecto, el modelo del Digital Twin ya ha sido config
 
 **Aplicación Web:**
 
-La aplicación web se encuentra actualmente en desarrollo. 
 
+<img src="assets/images/web_application_lobby.png" width=1200px/>
+
+<img src="assets/images/web_application_table.png" width=1200px/>
+
+<img src="assets/images/web_application_calendar.png" width=1200px/>
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
+
 
 ### 7.2.2. Sprint 2
 En esta sección, como equipo, documentamos y explicamos el progreso alcanzado durante el Sprint 2, tanto en términos del producto como del trabajo colaborativo. Incluimos secciones internas para Sprint Planning, Sprint Backlog, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, y Team Collaboration Insights during Sprint
