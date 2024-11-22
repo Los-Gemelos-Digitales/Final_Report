@@ -24,7 +24,7 @@ Ingeniería de Software – Grupo 1
   <br>
   <br>
   
-  Septiembre, 2024
+  Noviembre, 2024
   
 </h2>
   
@@ -32,8 +32,10 @@ Ingeniería de Software – Grupo 1
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | ----------- | ---------- | --------------- | ---------------------------------------------|
-| TB1         |            | Sánchez Ramírez, Diego Antonio | Se realiza el análisis y la recopilación de datos para profundizar en la problematica elegida. |
-| TB2         |            | Sánchez Ramírez, Diego Antonio | Se realiza el prototipo del servicio, cliente-servidor y la aplicación web, ademas de presentar un landing page para presentar información relevante de la startup |
+| TB1         | 06/09/2024 | Sánchez Ramírez, Diego Antonio | Se realiza el análisis y la recopilación de datos para profundizar en la problematica elegida. |
+| TP1         | 27/09/2024 | Sánchez Ramírez, Diego Antonio | Se realizaron los diseños de todas las aplicaciones de este proyecto. |
+| TB2         | 02/11/2024 | Sánchez Ramírez, Diego Antonio | Se realiza el prototipo del servicio, cliente-servidor y la aplicación web, ademas de presentar un landing page para presentar información relevante de la startup |
+| TF1         | 21/11/2024 | Sánchez Ramírez, Diego Antonio | Se finalizó el desarrollo de las aplicaciones y corrección de errores. |
 ---
 
 # ABET – EAC - Student Outcome 3
@@ -51,8 +53,8 @@ del <strong>ABET – EAC - Student Outcome 3</strong>.
 
 |Criterio específico|Acciones realizadas|Conclusiones|
 | -------------------- | --------------------------------- | ---------------------------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.|**TB1<br> Carrasco Hernández, Florentino Josué** - Utilicé sesiones de story mapping para visualizar y priorizar las necesidades del producto, facilitando workshops donde cada disciplina pueda aportar desde su especialización.<br>**Patazca Calderón, Santos Alexis** - En este primer entregable, se definieron todos los puntos necesarios, para eso realizamos entrevistas y también implementamos los diagramas.<br> **Sánchez Ramírez, Diego Antonio**- Realicé entrevistas para luego sintetizar en un needfinding, desarrollando un lenguaje para que los segmentos objetivos puedan comprender la solución brindada. <br> **Saúl Enrique Mendoza Barco** - Realicé investigación para el análisis de competidores, comparando fortalezas y debilidades para realizar un producto eficiente que satisfaga las expectativas del público objetivo.<br>**Navarro Chacon, Juan Jose** - Realicé el estudio de los Lean UX Problem Statements y Lean UX Assumptions, lo que dio un mayor conocimiento del funcionamiento de los user outcomes y de los business outcomes.<br>**TP**<br>**Navarro Chacon, Juan Jose** - Presenté el desarrollo del wireframe y mockup de la aplicación móvil, explicando su propósito y funcionalidad. Mostré las pantallas clave y recibí retroalimentación del público, lo que me permitió realizar ajustes para que las ideas fueran comprensibles para todos.<br>**TB2**<br>**Saúl Enrique Mendoza Barco** -  En el desarrollo del proyecto, comuniqué de manera objetiva los resultados y avances del modelado del digital twin de un salón de clases, explicando cómo este modelo simula situaciones de emergencia para facilitar la planificación de evacuaciones. También presenté la documentación de diversos aspectos del proyecto, asegurando que los detalles técnicos fueran accesibles y comprensibles para audiencias de distintas especialidades y niveles jerárquicos, promoviendo así una comunicación efectiva y alineada con los objetivos del equipo.<br>**Navarro Chacon, Juan Jose** - Presenté la landing page de la aplicación y expliqué cómo su diseño orienta al usuario hacia las funciones principales. Recibí retroalimentación y realicé ajustes para una mejor comprensión del diseño en todos los niveles de audiencia.<br>**Patazca Calderón, Santos Alexis** - Realice un avance el forntend de la pagina web de nuestro proyecto, para que el usuario pueda comprender la funcionalidad. También he ido desarrollando algunas mejoras en el documento, para seguir comprendiendo los objetivos de nuestro proyecto. <br>**Carrasco Hernández, Florentino Josué** - Realicé una presentación inicial para explicar la arquitectura de conexión de instancias en C# a los integrantes del equipo, que incluía desarrolladores de diversas especialidades .<br>**Sánchez Ramírez, Diego Antonio** -Realicé junto con mis compañeros el desarrollo y el despliegue de los servicios de Azure, que son Digital Twin instance y su almacenamiento. Además, profundizamos en equipo los conceptos que debemos de saber antes de utilizar el CLI e interfaces del 3D Studio y TwinGraph | **TB1:**<br> Se refleja un enfoque integral en la definición y desarrollo del producto, destacando la importancia de la colaboración multidisciplinaria, la comunicación efectiva, el análisis competitivo y el conocimiento profundo del usuario para lograr una solución eficiente y satisfactoria, adaptando el proyecto a las necesidades del segmento. **TB2:**<br> La comunicación oral efectiva y el entendimiento de la audiencia permiten exponer resultados técnicos de manera clara, facilitando el proceso de retroalimentación y ajuste continuo en el diseño y ejecución del proyecto.| 
-|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.|**TB1**<br>**Patazca Calderón, Santos Alexis** - Se desarrolló el empathy mapping que nos ayudó a comprender nuestros segmentos objetivos y también los diagramas C4.<br>**Carrasco Hernández, Florentino** - Identifiqué las user stories del proyecto e identifiqué las oportunidades y amenazas dentro del sector que podrían impactar el desarrollo y lanzamiento del software.<br>**Sánchez Ramírez, Diego Antonio** - Analicé las fases de cada segmento objetivo antes y durante el uso del sistema, evaluando sus pensamientos, sentimientos y preocupaciones.<br>**Saúl Enrique Mendoza Barco** - Identifiqué a los competidores potenciales, analizando sus estrategias para diferenciar nuestro producto y alcanzar al público objetivo.<br>**Navarro Chacon, Juan Jose** - Identifiqué los principales drivers a través de la búsqueda de user stories, priorizando los esenciales para el desarrollo del proyecto.<br><br>**TP**<br>**Navarro Chacon, Juan Jose** - Documenté el proceso de creación del wireframe y mockup, incluyendo un resumen del proyecto, la metodología y gráficos de los diseños, explicando su funcionalidad y reflexionando sobre la importancia de estos elementos para la claridad a distintos niveles.<br>**TB2**<br>**Saúl Enrique Mendoza Barco** - En el desarrollo del proyecto, documenté de forma escrita y objetiva los resultados y avances del modelado del digital twin de un salón de clases, detallando cómo este modelo permite simular situaciones de emergencia para mejorar la planificación de evacuaciones. La documentación fue estructurada para ser accesible a audiencias de diferentes especialidades y niveles jerárquicos, asegurando claridad en los aspectos técnicos y promoviendo una comprensión integral de los objetivos y beneficios del proyecto.<br>**Navarro Chacon, Juan Jose** - Documenté el desarrollo de la landing page, incluyendo su propósito, objetivos de diseño y capturas de pantalla explicativas. Describí cada sección y reflexioné sobre su importancia como primer punto de interacción con el usuario, asegurando claridad para todos los niveles y áreas involucradas. <br>**Patazca Calderón, Santos Alexis** - Realice algunas mejoras que logré identificar en el documento para poder cumplir con los objetivos establecidos. También desarollé una parte del frontend que servirá de apoyo para nuestro proyecto.<br>**Carrasco Hernández, Florentino Josué** - Se documento el programa para poder unir las instancias del gemelo digital hecho en C# para poder escribir aplicaciones cliente que interactúen con la instancia del servicio Azure Digital Twins.<br>**Sánchez Ramírez, Diego Antonio** - Se guardo la documentación relacionada al despliegue y utilización del recurso del gemelo digital para un prototipo de lo que vamos a realizar en un futuro.| **TB1:**<br> El desarrollo del proyecto se ha enriquecido con metodologías para entender los segmentos objetivos, definir user stories y analizar el contexto del sector, identificando necesidades y expectativas de los usuarios. **TB2:**<br> La documentación escrita organizada y objetiva facilita la claridad técnica para audiencias variadas, permitiendo un enfoque alineado a los objetivos del proyecto y proporcionando información valiosa para la implementación futura en entornos educativos. |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.|**TB1<br> Carrasco Hernández, Florentino Josué** - Utilicé sesiones de story mapping para visualizar y priorizar las necesidades del producto, facilitando workshops donde cada disciplina pueda aportar desde su especialización.<br>**Patazca Calderón, Santos Alexis** - En este primer entregable, se definieron todos los puntos necesarios, para eso realizamos entrevistas y también implementamos los diagramas.<br> **Sánchez Ramírez, Diego Antonio**- Realicé entrevistas para luego sintetizar en un needfinding, desarrollando un lenguaje para que los segmentos objetivos puedan comprender la solución brindada. <br> **Saúl Enrique Mendoza Barco** - Realicé investigación para el análisis de competidores, comparando fortalezas y debilidades para realizar un producto eficiente que satisfaga las expectativas del público objetivo.<br>**Navarro Chacon, Juan Jose** - Realicé el estudio de los Lean UX Problem Statements y Lean UX Assumptions, lo que dio un mayor conocimiento del funcionamiento de los user outcomes y de los business outcomes.<br>**TP**<br>**Navarro Chacon, Juan Jose** - Presenté el desarrollo del wireframe y mockup de la aplicación móvil, explicando su propósito y funcionalidad. Mostré las pantallas clave y recibí retroalimentación del público, lo que me permitió realizar ajustes para que las ideas fueran comprensibles para todos.<br> <br>**Saúl Enrique Mendoza Barco** - En el desarrollo del proyecto, comuniqué de manera clara y objetiva los resultados obtenidos al elaborar la guía de estilos, wireframes y mockups, asegurando que fueran comprensibles para públicos de diferentes especialidades y niveles jerárquicos, facilitando la integración del diseño con los objetivos del equipo.<br> <br>**Patazca Calderón, Santos Alexis** - En el avance del proyecto, presenté de manera objetiva los progresos en el desarrollo del front-end y las correcciones de los bounded contexts, explicando su impacto en el sistema a audiencias de distintas especialidades y niveles jerárquicos, promoviendo una comunicación efectiva en el equipo.<br> <br>**Carrasco Hernández, Florentino Josué** - Durante el proyecto, expuse los resultados obtenidos en la realización de los bounded contexts, comunicando de forma objetiva y accesible cómo estos contribuyen al diseño y funcionalidad del sistema, ajustándome a las necesidades de diversas audiencias.<br> <br>**Sánchez Ramírez, Diego Antonio** - En el desarrollo del proyecto, expliqué de manera clara y objetiva los resultados obtenidos al realizar los bounded contexts, wireframes y mockups, asegurando que estos fueran comprensibles para audiencias de diferentes especialidades y niveles jerárquicos, fomentando una comunicación alineada con los objetivos del equipo. <br> **TB2**<br>**Saúl Enrique Mendoza Barco** -  En el desarrollo del proyecto, comuniqué de manera objetiva los resultados y avances del modelado del digital twin de un salón de clases, explicando cómo este modelo simula situaciones de emergencia para facilitar la planificación de evacuaciones. También presenté la documentación de diversos aspectos del proyecto, asegurando que los detalles técnicos fueran accesibles y comprensibles para audiencias de distintas especialidades y niveles jerárquicos, promoviendo así una comunicación efectiva y alineada con los objetivos del equipo.<br>**Navarro Chacon, Juan Jose** - Presenté la landing page de la aplicación y expliqué cómo su diseño orienta al usuario hacia las funciones principales. Recibí retroalimentación y realicé ajustes para una mejor comprensión del diseño en todos los niveles de audiencia.<br>**Patazca Calderón, Santos Alexis** - Realice un avance el forntend de la pagina web de nuestro proyecto, para que el usuario pueda comprender la funcionalidad. También he ido desarrollando algunas mejoras en el documento, para seguir comprendiendo los objetivos de nuestro proyecto. <br>**Carrasco Hernández, Florentino Josué** - Realicé una presentación inicial para explicar la arquitectura de conexión de instancias en C# a los integrantes del equipo, que incluía desarrolladores de diversas especialidades .<br>**Sánchez Ramírez, Diego Antonio** -Realicé junto con mis compañeros el desarrollo y el despliegue de los servicios de Azure, que son Digital Twin instance y su almacenamiento. Además, profundizamos en equipo los conceptos que debemos de saber antes de utilizar el CLI e interfaces del 3D Studio y TwinGraph.<br>**TF**<br>**Saúl Enrique Mendoza Barco** - En el desarrollo del proyecto, contribuí al diseño y modelado del Digital Twin, enfocándome en simular escenarios de emergencia en un entorno de salón de clases. Este modelo facilitó la planificación de rutas de evacuación y la optimización de tiempos. Además, documenté los resultados técnicos y las implicancias del modelo, asegurándome de que fueran comprensibles tanto para los miembros del equipo como para audiencias externas, promoviendo la alineación y claridad en la comunicación.<br>**Navarro Chacón, Juan José** - Trabajé en la creación del frontend del proyecto, desarrollando la landing page de la aplicación. Diseñé una interfaz intuitiva que guía al usuario hacia las principales funcionalidades del sistema. También implementé mejoras basadas en la retroalimentación obtenida, garantizando que el diseño sea comprensible y atractivo para diferentes tipos de usuarios.<br>**Patazca Calderón, Santos Alexis** - Contribuí al desarrollo del frontend de la aplicación web del proyecto, enfocándome en diseñar una experiencia de usuario clara y funcional. Realicé mejoras continuas al diseño y a la estructura de las páginas, asegurándome de que se alinearan con los objetivos generales del proyecto y fueran accesibles para los usuarios finales.<br>**Carrasco Hernández, Florentino Josué** - Desarrollé e integré la arquitectura del frontend y backend de la aplicación, asegurando una conexión eficiente entre las interfaces de usuario y las funcionalidades principales. Realicé una presentación inicial para explicar esta arquitectura al equipo, facilitando la comprensión y colaboración entre desarrolladores de diversas especialidades.<br>**Sánchez Ramírez, Diego Antonio** - Participé en el diseño y despliegue de los servicios de Azure necesarios para implementar el Digital Twin, incluyendo la instancia de Digital Twin y su almacenamiento asociado. En colaboración con mis compañeros, exploramos y profundizamos en el uso del CLI, 3D Studio y TwinGraph, optimizando la integración y funcionalidad de estas herramientas en el proyecto. | **TB1:**<br> Se refleja un enfoque integral en la definición y desarrollo del producto, destacando la importancia de la colaboración multidisciplinaria, la comunicación efectiva, el análisis competitivo y el conocimiento profundo del usuario para lograr una solución eficiente y satisfactoria, adaptando el proyecto a las necesidades del segmento. **TP1:**<br> En el desarrollo del proyecto, se logró una comunicación oral efectiva al presentar de manera clara y objetiva los avances y resultados obtenidos en diversas áreas, como la elaboración de guías de estilos, wireframes, mockups, desarrollo del front-end y realización de bounded contexts. Cada contribución fue explicada de forma comprensible para audiencias de diferentes especialidades y niveles jerárquicos, lo que facilitó la integración de los componentes técnicos y promovió la alineación con los objetivos del equipo, asegurando un entendimiento común del progreso del proyecto. **TB2:**<br> La comunicación oral efectiva y el entendimiento de la audiencia permiten exponer resultados técnicos de manera clara, facilitando el proceso de retroalimentación y ajuste continuo en el diseño y ejecución del proyecto. **TF:**<br> El proyecto destacó por la colaboración efectiva del equipo, integrando habilidades en modelado Digital Twin, desarrollo de frontend y backend, y despliegue en Azure. Cada integrante aportó significativamente, logrando un sistema funcional y orientado a los objetivos. Este esfuerzo consolidó tanto los resultados técnicos como las competencias del equipo para futuros desafíos.| 
+|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.|**TB1**<br>**Patazca Calderón, Santos Alexis** - Se desarrolló el empathy mapping que nos ayudó a comprender nuestros segmentos objetivos y también los diagramas C4.<br>**Carrasco Hernández, Florentino** - Identifiqué las user stories del proyecto e identifiqué las oportunidades y amenazas dentro del sector que podrían impactar el desarrollo y lanzamiento del software.<br>**Sánchez Ramírez, Diego Antonio** - Analicé las fases de cada segmento objetivo antes y durante el uso del sistema, evaluando sus pensamientos, sentimientos y preocupaciones.<br>**Saúl Enrique Mendoza Barco** - Identifiqué a los competidores potenciales, analizando sus estrategias para diferenciar nuestro producto y alcanzar al público objetivo.<br>**Navarro Chacon, Juan Jose** - Identifiqué los principales drivers a través de la búsqueda de user stories, priorizando los esenciales para el desarrollo del proyecto.<br><br>**TP**<br>**Navarro Chacon, Juan Jose** - Documenté el proceso de creación del wireframe y mockup, incluyendo un resumen del proyecto, la metodología y gráficos de los diseños, explicando su funcionalidad y reflexionando sobre la importancia de estos elementos para la claridad a distintos niveles.<br> <br>**Saúl Enrique Mendoza Barco** - Documenté de manera clara y objetiva la guía de estilos, los wireframes y mockups, redactando los resultados y su relevancia en términos comprensibles para públicos de diferentes especialidades y niveles jerárquicos, asegurando una comunicación escrita efectiva para el equipo. <br> <br>**Patazca Calderón, Santos Alexis** - Redacté los avances del front-end y las correcciones de los bounded contexts, explicando su impacto en el sistema de manera objetiva y adecuada para audiencias de diversas especialidades y niveles jerárquicos, promoviendo una comunicación escrita alineada con los objetivos del proyecto.<br> <br>**Carrasco Hernández, Florentino Josué** - Elaboré documentación clara y objetiva sobre los bounded contexts realizados, explicando su propósito y contribución al sistema de manera comprensible para audiencias de distintas especialidades y niveles jerárquicos, facilitando la comprensión técnica.<br> <br>**Sánchez Ramírez, Diego Antonio** - Redacté de manera objetiva los resultados obtenidos en la realización de bounded contexts, wireframes y mockups, asegurando que la información escrita fuera clara y comprensible para públicos de diferentes especialidades y niveles jerárquicos, fortaleciendo la comunicación del equipo.<br>**TB2**<br>**Saúl Enrique Mendoza Barco** - En el desarrollo del proyecto, documenté de forma escrita y objetiva los resultados y avances del modelado del digital twin de un salón de clases, detallando cómo este modelo permite simular situaciones de emergencia para mejorar la planificación de evacuaciones. La documentación fue estructurada para ser accesible a audiencias de diferentes especialidades y niveles jerárquicos, asegurando claridad en los aspectos técnicos y promoviendo una comprensión integral de los objetivos y beneficios del proyecto.<br>**Navarro Chacon, Juan Jose** - Documenté el desarrollo de la landing page, incluyendo su propósito, objetivos de diseño y capturas de pantalla explicativas. Describí cada sección y reflexioné sobre su importancia como primer punto de interacción con el usuario, asegurando claridad para todos los niveles y áreas involucradas. <br>**Patazca Calderón, Santos Alexis** - Realice algunas mejoras que logré identificar en el documento para poder cumplir con los objetivos establecidos. También desarollé una parte del frontend que servirá de apoyo para nuestro proyecto.<br>**Carrasco Hernández, Florentino Josué** - Se documento el programa para poder unir las instancias del gemelo digital hecho en C# para poder escribir aplicaciones cliente que interactúen con la instancia del servicio Azure Digital Twins.<br>**Sánchez Ramírez, Diego Antonio** - Se guardo la documentación relacionada al despliegue y utilización del recurso del gemelo digital para un prototipo de lo que vamos a realizar en un futuro.<br>**TF**<br>**Saúl Enrique Mendoza Barco** -Contribuí al desarrollo y despliegue del Digital Twin, documentando las fases clave de su implementación y describiendo su utilidad para simular escenarios reales. Mi enfoque detallado permitió que audiencias técnicas y no técnicas entendieran la importancia de este modelo dentro del proyecto.<br>**Sánchez Ramírez, Diego Antonio** - Lideré la documentación del Digital Twin, explicando su desarrollo y aplicaciones para la planificación en situaciones de emergencia. Detallé los aspectos técnicos del modelo de manera que fuera accesible a audiencias de diferentes especialidades, contribuyendo a una comprensión integral del sistema.<br>**Navarro Chacón, Juan José** - Contribuí al diseño y documentación del frontend, enfocándome en crear una interfaz intuitiva y atractiva. Trabajé en los wireframes y mockups, comunicando la funcionalidad del sistema y asegurando claridad y cohesión en los objetivos del proyecto a todos los niveles.<br>**Carrasco Hernández, Florentino Josué** - Desarrollé e integré componentes tanto del frontend como del backend del sistema, asegurando una conexión eficiente entre las interfaces y las funcionalidades principales. Documenté y expliqué estas integraciones, facilitando que el equipo comprendiera el alcance y los detalles técnicos, promoviendo la colaboración entre áreas.<br>**Patazca Calderón, Santos Alexis** - Realicé mejoras en el frontend del sistema, enfocándome en desarrollar interfaces claras y funcionales para los usuarios finales. Además, documenté el trabajo técnico asegurando que las ideas fueran transmitidas de manera objetiva y comprensible, alineándose con los objetivos generales del proyecto.| **TB1:**<br> El desarrollo del proyecto se ha enriquecido con metodologías para entender los segmentos objetivos, definir user stories y analizar el contexto del sector, identificando necesidades y expectativas de los usuarios. <br> **TP1:** En el desarrollo del proyecto, se garantizó una comunicación escrita efectiva al documentar de manera clara y objetiva los resultados obtenidos en tareas como la elaboración de guías de estilos, wireframes, mockups, desarrollo del front-end y realización de bounded contexts. La información fue presentada en términos comprensibles para audiencias de distintas especialidades y niveles jerárquicos, lo que facilitó la comprensión técnica, promovió la alineación de los objetivos del equipo y aseguró una adecuada transmisión del progreso y los aportes del proyecto. **TB2:**<br> La documentación escrita organizada y objetiva facilita la claridad técnica para audiencias variadas, permitiendo un enfoque alineado a los objetivos del proyecto y proporcionando información valiosa para la implementación futura en entornos educativos. **TF:**<br>El equipo demostró una colaboración efectiva, integrando habilidades técnicas en el desarrollo del Digital Twin, frontend y backend. La documentación objetiva y clara permitió que los avances fueran comprensibles para audiencias diversas, logrando cumplir con los objetivos del proyecto y sentando una base sólida para futuros desafíos.|
 
 
 ---
@@ -101,6 +103,12 @@ Aspiramos a convertirnos en la startup insignia en la resolución de problemas s
 |||
 
 ## 1.2. Solution Profile
+
+### **¿Cómo la tecnología emergente ayuda a resolver el problema?**
+
+Esta tecnología emergente ayuda a resolver la problemática al proporcionar un modelo digital detallado de la infraestructura escolar, que permite visualizar y analizar el estado estructural en tiempo real. Esto ayuda a identificar riesgos potenciales como grietas o deterioros antes de que se conviertan en un peligro mayor. Además, la integración de sensores y sistemas de monitoreo permite detectar anomalías en tiempo real, generando alertas automáticas que informan al personal sobre la situación y las acciones a tomar.
+
+Por otro lado, los Digital Twins también permiten simular situaciones de emergencia, como terremotos, para evaluar la efectividad de los planes de evacuación y mejorar la preparación del personal y los estudiantes. De esta manera, se reduce el riesgo de accidentes y se optimiza la respuesta ante emergencias. En resumen, esta tecnología resuelve la problemática al combinar monitoreo proactivo, simulaciones predictivas y generación de alertas, lo que refuerza la seguridad y promueve una gestión más eficiente del riesgo.
 
 ### 1.2.1 Antecedentes y problemática
 
@@ -456,18 +464,24 @@ En esta sección se utilizaron los User Personas previamente creados para que el
 <br>
 <img src="/assets/images/Empathy_map_admin.png"/>
 <br>
+
 ### Profesores
 <br>
 <img src="/assets/images/Empathy_map_teacher.png"/>
 <br>
+
 ## 2.3.4. As-is Scenario Mapping.
 
 En esta sección se adjuntan los As-Is Scenarios trabajados por el equipo en la herramienta Miro. Donde se detallaron las filas Steps, Doing, Thinking y Feeling para cada segmento objetivo antes de la existencia de la solución propuesta.
 
-<img src="/Report/images/asis_mapping_admin.png"/>
+### Personal administrativo
+<img src="/assets/images/asis_mapping_admin.png"/>
 <br>
-<img src="/Report/images/asis_mapping_teacher.png"/>
+
+### Profesores
+<img src="/assets/images/asis_mapping_teacher.png"/>
 <br>
+
 ### 2.3.5 Ubiquitous Language
 
 1. **Accessibility (Accesibilidad)**: Diseño y configuración de sistemas que permiten su uso por todas las personas, independientemente de sus capacidades.
@@ -1255,9 +1269,222 @@ Clases que se encargan de la creación de objetos complejos.
 
 
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="assets/images/526.png" width=1200px/>
+
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams. 
 ### 5.2.7.1. Bounded Context Domain Layer Class Diagrams. 
 ### 5.2.7.2. Bounded Context Database Design Diagram. 
+
+<img src="assets/images/5272.png" width=1200px/>
+
+## 5.3. Bounded Context: Evacuation Report
+### 5.3.1. Domain Layer
+
+Esta capa gestiona la lógica de negocio central del contexto de evacuación, estructurando clases que representan las reglas y el flujo de los reportes de evacuación.
+
+Entities
+
+- Evacuation Report: Representa un reporte generado tras un evento de evacuación. Atributos incluyen fecha, tipo de evacuación, ubicación, y número de evacuados.
+
+Value Objects
+
+- Evacuation Location: Define el lugar específico de la evacuación (edificio, piso, aula).
+- Evacuation Type: Especifica el tipo de evacuación (simulacro o real).
+
+Aggregates
+
+- EvacuationAggregate: Agrupa Evacuation Report, Evacuation Location, y Evacuation Type para aplicar reglas de negocio y garantizar consistencia en la creación y actualización del reporte.
+
+Repositories
+- Evacuation Report Repository: Interfaz que maneja la persistencia de los reportes de evacuación en el sistema.
+
+Domain Services
+- Evacuation Service: Servicio que coordina el proceso de evacuación y gestiona el flujo de información entre los agregados y el repositorio.
+
+### 5.3.2. Interface Layer. 
+
+La capa de interfaz facilita la interacción entre los usuarios o sistemas externos y el contexto de Evacuation Report.
+
+API Endpoints
+
+- POST /evacuations/report: Crea un nuevo reporte de evacuación.
+- GET /evacuations/report/{id}: Obtiene los detalles de un reporte de evacuación específico.
+- GET /evacuations/history: Recupera el historial de reportes de evacuación.
+- PUT /evacuations/report/{id}/finalize: Finaliza un reporte de evacuación existente.
+
+DTOs (Data Transfer Objects)
+- EvacuationReportDTO: Contiene los datos para transferir información de un reporte de evacuación, como fecha, tipo, y ubicación.
+- EvacuatedPersonDTO: Datos de una persona evacuada, incluyendo nombre y ubicación dentro de la estructura.
+
+View Models
+- EvacuationReportViewModel: Modelo de vista que muestra la información del reporte de evacuación a la interfaz de usuario.
+
+Controllers
+- EvacuationReportController: Gestiona las solicitudes HTTP para crear, obtener, y analizar reportes de evacuación.
+
+### 5.3.3. Application Layer. 
+
+Esta capa coordina la lógica de aplicación en el contexto de Evacuation Report, incluyendo la orquestación de comandos, consultas y eventos que manejan los procesos del negocio.
+
+Application Services
+- EvacuationReportApplicationService: Servicio que maneja los casos de uso relacionados con los reportes de evacuación, como crear, finalizar y consultar reportes.
+
+Commands/Queries
+
+Comandos y consultas que encapsulan las solicitudes hacia el sistema.
+
+- Commands:
+  - CreateEvacuationReportCommand: Comando que contiene los datos necesarios para generar un nuevo reporte de evacuación.
+  - FinalizeEvacuationReportCommand: Comando para finalizar el estado de un reporte específico tras la evacuación.
+
+- Queries:
+  - GetEvacuationReportQuery: Consulta para obtener los detalles de un reporte específico.
+  - GetEvacuationHistoryQuery: Consulta para obtener el historial de todos los reportes de evacuación.
+
+Command Handlers
+
+Clases que gestionan la ejecución de comandos específicos.
+- CreateEvacuationReportCommandHandler: Ejecuta la creación de un nuevo reporte de evacuación en respuesta al comando.
+- FinalizeEvacuationReportCommandHandler: Gestiona la finalización de un reporte de evacuación al recibir el comando correspondiente.
+
+Event Handlers
+
+Clases que gestionan eventos dentro del sistema.
+- EvacuationReportCreatedEventHandler: Responde a la creación de un nuevo reporte de evacuacion, notificando a los actores relevantes o sistemas externos.
+- EvacuationFinalizedEventHandler: Gestiona la notificación de finalización del reporte y actualiza estados o historial de evacuación.
+
+### 5.3.4. Infrastructure Layer.
+
+Esta capa gestiona los detalles técnicos de integración y persistencia para el contexto de Evacuation Report, incluyendo la implementación de repositorios, servicios externos y otras infraestructuras necesarias.
+
+Persistence Mechanisms
+
+Implementaciones para gestionar la persistencia de las entidades del contexto.
+
+- EvacuationReportRepositoryImpl: Implementación del repositorio de reportes de evacuación, almacenando datos en una base de datos SQL o NoSQL para gestionar la creación y consulta de reportes.
+
+External Service Integrations
+
+Integración con sistemas externos relevantes para el contexto.
+- MessagingServiceClient: Cliente para enviar notificaciones de evacuación a los usuarios o sistemas externos en tiempo real.
+- LocationServiceClient: Cliente que se conecta a un servicio de geolocalización para validar y obtener detalles de las ubicaciones en los reportes de evacuación.
+
+Factories
+
+Clases para la creación de objetos complejos del dominio.
+- EvacuationReportFactory: Crea instancias de Evacuation Report con configuraciones predefinidas, aplicando las reglas de negocio necesarias.
+
+API Clients
+
+Clientes que interactúan con APIs externas para servicios auxiliares.
+- NotificationServiceClient: Cliente que se conecta al servicio de notificaciones para informar a los usuarios y autoridades sobre la creación y finalización de un reporte de evacuación.
+- MonitoringServiceClient: Cliente que integra información del Bounded Context Monitoring para detectar situaciones críticas que podrían requerir un reporte de evacuación.
+
+### 5.3.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="assets/images/535.png" width=1200px/>
+
+### 5.3.6. Bounded Context Software Architecture Code Level Diagrams. 
+#### 5.3.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+<img src="assets/images/5361.png" width=1200px/>
+
+#### 5.3.6.2. Bounded Context Database Design Diagram.
+
+<img src="assets/images/5362.png" width=1200px/>
+
+## 5.4. Bounded Context: Records
+### 5.4.1. Domain Layer
+
+Esta capa contiene la lógica de negocio y los conceptos fundamentales del dominio 
+de Records. Donde se mostrará todo el historial de informes.
+
+Entities:
+
+Record: Representa un evento registrado en el sistema. En el diagrama, tiene 
+atributos como description y dateGenerated para almacenar detalles del evento y la 
+fecha en que ocurrió.
+
+Value Objects:
+
+Route: Representa información de una ruta, con atributos distance, beginPoint, y endPoint. Esto puede ser útil para almacenar información sobre rutas de evacuación u otras rutas relevantes dentro de la escuela.
+
+Aggregates:
+
+Result: Es la raíz del agregado que encapsula los Records. Este agregado tiene atributos como description y totalTime, lo cual indica que se utiliza para representar una colección de registros relacionados, con algún propósito de resumen o análisis.
+
+Repositories:
+
+RecordRepository: Define las operaciones básicas para la persistencia de registros, como create, listAll, modifyById, y deleteById. Esto permite crear, listar, modificar y eliminar registros.
+
+RouteRepository: Similar al anterior, pero para rutas. Tiene métodos como create, listAll, modifyById, y deleteById, lo cual sugiere que las rutas también se almacenan de forma persistente en la base de datos.
+
+Services:
+
+RecordService: Este servicio expone funcionalidades de aplicación para interactuar con los registros.
+
+showActualRecords(datetime date): Posiblemente retorna los registros activos hasta la fecha especificada.
+deleteRecord(int id): Permite eliminar un registro específico.
+
+### 5.4.2. Interface Layer. 
+
+API Endpoints:
+
+- POST /records: Endpoint para crear un nuevo registro.
+- GET /records/{id}: Endpoint para obtener los detalles de un registro.
+- PUT /records/{id}: Endpoint para actualizar un registro existente.
+
+DTOs (Data Transfer Objects):
+- RecordDTO: Estructura que contiene los datos necesarios para transferir información de un registro.
+- RouteDTO: Estructura que contiene los datos de la ruta o trayecto de un registro.
+
+View Models:
+- RecordViewModel: Modelo que representa la información de un registro para ser consumido por la interfaz de usuario.
+
+Controllers:
+- RecordController: Controlador que maneja las solicitudes HTTP relacionadas con los registros.
+
+### 5.4.3. Application Layer. 
+
+Aquí se podrían definir servicios de aplicación y comandos/consultas, aunque no se 
+ven explícitos en el diagrama. Basado en el diagrama, algunas ideas para esta capa 
+podrían incluir:
+
+Application Services:
+
+- RecordApplicationService: Servicio de aplicación para coordinar la lógica de gestión de registros y rutas, orquestando los repositorios y el servicio RecordService.
+
+Commands/Queries:
+
+Commands:
+- CreateRecordCommand: Inicia un nuevo registro con los datos de Report, description, y actualDate.
+- DeleteRecordCommand: Elimina un registro según su id.
+
+Queries:
+- GetAllRecordsQuery: Consulta que devuelve todos los registros.
+- GetRouteDetailsQuery: Obtiene detalles de una ruta según su id.
+
+Command Handlers:
+- CreateRecordCommandHandler: Maneja la ejecución del comando de creación de un registro.
+- UpdateRecordCommandHandler: Maneja la ejecución del comando de actualización de un registro.
+
+Event Handlers:
+- RecordCreatedEventHandler: Responde a los eventos de creación de un nuevo registro.
+- RecordUpdatedEventHandler: Responde a los eventos de actualización de un registro.
+
+### 5.4.4. Infrastructure Layer.
+
+Persistence Mechanisms:
+- RecordRepositoryImpl: Implementación del repositorio de registros, para gestionar la persistencia de los objetos Record.
+- RouteRepositoryImpl: Implementación del repositorio de rutas, para gestionar la persistencia de los objetos Route.
+
+Factories:
+- RecordFactory: Crea instancias de la entidad Record según las reglas de negocio establecidas.
+
+### 5.4.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="assets/images/546.png" width=1200px />
 
 # Capítulo VI: Solution UX Design
 
@@ -1879,7 +2106,7 @@ test: Para añadir nuevos tests.
   </tr>
   <tr>
     <td>Sprint 1 Velocity</td>
-    <td>-</td>
+    <td>27</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
@@ -1916,15 +2143,15 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
   <tr>
     <td rowspan="5">US01</td>
     <td rowspan="5">Monitoreo en tiempo real</td>
-    // Fila #
     <td>Task01 </td>
     <td>Desarrollar la arquitectura de entidades del servicio Digital Twin</td>
     <td>Desarrollar el grafo de relaciones de las entidades que interactúan en el servicio Digital Twin.</td>
     <td>5</td>
     <td>Diego Sanchez y Saúl Mendoza </td>
     <td>Done</td>
+
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task02</td>
     <td>Diseñar modelos JSONs de cada entidad</td>
@@ -1933,16 +2160,16 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Diego Sánchez</td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task03</td>
     <td>Preparar una instancia de Azure Digital Twins</td>
-    <td>En Azure Portal, crear un recurso educativo de un instancia de Azure Digital Twins, junto con otra instancia de almacenamiento<td>
+    <td>En Azure Portal, crear un recurso educativo de un instancia de Azure Digital Twins, junto con otra instancia de almacenamiento</td>
     <td>4</td>
     <td>Josué Florentino y Diego Sánchez</td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task04</td>
     <td> Realizar modelado 3D de aulas del colegio</td>
@@ -1951,7 +2178,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>Saúl Enrique Mendoza Barco</td>
     <td>Done</td>
   </tr>
-  // Fila #
+  
   <tr>
     <td>Task05</td>
     <td>Realizar modelado 3D de oficina administrativa del colegio</td>
@@ -2102,7 +2329,7 @@ Además, nos enfocaremos en dar visibilidad a nuestra startup, mostrando a los v
     <td>LosGemelosDigitales-Server-Client</td>
     <td>master</td>
     <td>6bbe0ff4ddeb979636d5fc1c186f3fa380a36f0e</td>
-    <td>Agregar .gitignore y .gitattributes.<td>
+    <td>Agregar .gitignore y .gitattributes.</td>
     <td>-</td>
     <td>Nov 1, 2024</td>
   </tr>
@@ -2198,7 +2425,641 @@ En esta primera etapa del proyecto, el modelo del Digital Twin ya ha sido config
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
 
-<img src="assets/images/team_collaboration.png" width=1200px/>
+
+### 7.2.2. Sprint 2
+En esta sección, como equipo, documentamos y explicamos el progreso alcanzado durante el Sprint 2, tanto en términos del producto como del trabajo colaborativo. Incluimos secciones internas para Sprint Planning, Sprint Backlog, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, y Team Collaboration Insights during Sprint
+<img src="assets/images/Trello.jpg"/>
+#### 7.2.2.1 Sprint Planning 2.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>20-11-2024</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>5:00 pm</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión vía Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Florentino Josue Carrasco Hernández, Saúl Enrique Mendoza Barco, Juan Jose Navarro Chacon,  Santos Alexis Patazca Calderón, Diego Antonio Sánchez Ramírez</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Review Summary</td>
+    <td>Se pudo hacer mas, se logró parcialmente la conexión de instancia cc#. Sin embargo, falto un poco de experiencia para poder tener un buen rendimiento en el desarrollo del cliente/servidor</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Retrospective Summary</td>
+    <td>Se evidenció una falta de fuentes confiables al momento de realizar las investigaciones previas para el desarrollo, documentación y despliegue de los productos. Por esta razón, se detallará mejor la documentación del siguiente Sprint</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr> 12
+  <tr>
+    <td>Sprint 2 Goal </td>
+    <td>Nuestro enfoque
+se centra en ofrecer las características principales de la solución a través de un sistema integrado de gemelos digitales, destacando un proceso de trabajo colaborativo y proporcionando información clave para fomentar la confianza de los usuarios. Incluirá funciones avanzadas de monitoreo en tiempo real y gestión de emergencias en la plataforma web, alertas predictivas y análisis de infraestructura en la aplicación móvil. Los datos del entorno escolar se recopilarán mediante sensores instalados en puntos estratégicos, con una frecuencia de actualización de 1 minuto, para su envío a nodos de borde que consolidarán la información cada 2 minutos. Además, el sistema garantizará una administración segura del acceso y la identidad de los dispositivos conectados desde el nodo de borde hasta la nube, con intervalos de sincronización de 3 minutos. El prototipo físico del gemelo digital incorporará capacidades avanzadas de simulación para evaluar riesgos en tiempo real.</br>
+</br>
+Creemos
+que esta solución transformará la experiencia de las instituciones educativas al brindar herramientas para gestionar su infraestructura de manera eficiente, mejorar la respuesta ante emergencias y garantizar la seguridad de estudiantes y personal. También facilitará la toma de decisiones mediante análisis predictivos y acceso intuitivo a datos procesados, optimizando las operaciones desde una perspectiva tecnológica y social.
+</br>
+Esto será confirmado
+al lograr un flujo de datos confiable de extremo a extremo entre los sensores, nodos de borde y la nube; ofrecer funcionalidades prácticas y robustas en las plataformas web y móviles para la gestión y simulación de emergencias; y validar la capacidad del gemelo digital para prevenir riesgos mediante pruebas en entornos reales y comentarios de los usuarios. La colaboración entre todos los actores será clave para cumplir con estos objetivos y garantizar un impacto significativo y sostenible en el entorno educativo.</br>
+    </br>
+    ""
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Velocity</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>41</td>
+  </tr>
+</table>
+
+#### 7.2.2.2. Sprint Backlog 2.
+
+
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In Process / To Review / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US01</td>
+    <td rowspan="5">Crear el programa de evaluación de riesgo con Digital Twin</td>
+    <td>Task05 </td>
+    <td>Realizar modelado 3D de oficina administrativa del colegio</td>
+    <td>Se realiza en blender, el modelado 3D de la oficina adminstrativa del colegio, para incluir en el plano general del colegio.</td>
+    <td>6</td>
+    <td>Diego Sanchez y Saúl Mendoza </td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task06</td>
+    <td>Documentación de comportaciones/sensores del gemelo digital</td>
+    <td>Documentación de comportaciones/sensores del gemelo digital.</td>
+    <td>4</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task07</td>
+    <td>Realizar modelado 3D de los baños públicos</td>
+    <td>Realizar en blender el modelado 3D de los baños públicos del colegio</td>
+    <td>4</td>
+    <td>Saúl Mendoza</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task08</td>
+    <td>Documentación del modelo </td>
+    <td>Documentación del modelo 3D de baño público.</td>
+    <td>2</td>
+    <td>Saúl Enrique Mendoza Barco</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td>Task09</td>
+    <td>Documentación del modelo</td>
+    <td>Documentación del modelo 3D de la sala administrativa.</td>
+    <td>2</td>
+    <td>Diego Sánchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US03</td>
+    <td rowspan="1">Alertas en tiempo real para profesores</td>
+    <td>Task02</td>
+    <td> Configurar la interfaz de alertas en la aplicación web</td>
+    <td>Desarrollar el diseño y funcionalidad para recibir, visualizar y confirmar la recepción de alertas.</td>
+    <td>5</td>
+    <td>Josue Carrasco y Santos Patazca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US04</td>
+    <td rowspan="2">Visualización de áreas de riesgo</td>
+    <td>Task02</td>
+    <td>Configuración de la interfaz de reports en la aplicación web</td>
+    <td>Diseñar y configurar para la table de reports.</td>
+    <td>5</td>
+    <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task03</td>
+    <td>Realizar la configuración para la interfaz de monitoring en la aplicación web</td>
+    <td>Desarrollo de la interfaz del monitoring y realizar la configuración respectiva.</td>
+    <td>4</td>
+    <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US07</td>
+    <td rowspan="3">Integración con sistemas de alerta temprana nacionales</td>
+    <td>Task01</td>
+    <td>Implementar la interzas para las alertas</td>
+    <td>Se realiza la configuración para poder implementar las alertas.</td>
+    <td>5</td>
+    <td>Josue Carrasco, Santos Patazca y Juan Navarro</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Task02</td>
+    <td>Investigación de la API para las alertas</td>
+    <td>Investigar cómo funciona la API del sistema de alerta o qué método de integración es necesario.</td>
+    <td>4</td>
+    <td>Josue Carrasco, Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Task03</td>
+    <td>Desarrollar de la integración con la API de alerta</td>
+    <td>Programar la integración con el sistema de alerta, configurar los endpoints y recibir las notificaciones.</td>
+    <td>5</td>
+    <td>Josue Carrasco, Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="6">US09</td>
+    <td rowspan="6">Evaluación de las rutas de evacuación</td>
+    <td>Task01</td>
+    <td>Realizar Modelado 3D de las rutas de evacuación</td>
+    <td>Realizar Modelado 3D de las rutas de evacuación de la institución.</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task02</td>
+    <td>Documentar las rutas de evacuación</td>
+    <td>Documentar las rutas de evacuación en GitHub.</td>
+    <td>2</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task03</td>
+    <td>Crear comportamientos de las rutas</td>
+    <td>Desarrollar simulaciones que definan cómo las rutas de evacuación reaccionan ante diferentes situaciones de emergencia..</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task04</td>
+    <td>Establecer y corregir comportamientos a través de pruebas del gemelo digital</td>
+    <td>Realizar pruebas del gemelo digital para validar el funcionamiento de las rutas y ajustar su comportamiento en base a los resultados.</td>
+    <td>5</td>
+    <td>Diego Sanchez y Saúl Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task05</td>
+    <td>Realizar documentación de los nuevos comportamientos de las rutas</td>
+    <td>Registrar de manera detallada las características y ajustes realizados a las rutas tras las pruebas.</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Task06</td>
+    <td>Crear o actualizar contenido o elementos del grafo del gemelo digital</td>
+    <td>Incorporar o modificar nodos, conexiones o propiedades en el modelo del gemelo digital que representen rutas de evacuación actualizadas o nuevas.</td>
+    <td>4</td>
+    <td>Diego Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US10</td>
+    <td rowspan="1">Entrenamiento interactivo para profesores y personal</td>
+    <td>Task01</td>
+    <td>Diseñar la interfaz de usuario para los entrenamientos</td>
+    <td>Crear una interfaz  fácil de usar para los profesores y personal. Esto incluye la visualización de los ejercicios interactivos.</td>
+    <td>4</td>
+    <td>Josue Carrasco y Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US11</td>
+    <td rowspan="1">Registro de participación en simulacros</td>
+    <td>Task01</td>
+    <td>Desarrollar una interfaz de visualización de participación</td>
+    <td>Hacer posible la visualización de la participación de cada usuario en los simulacros.</td>
+    <td>4</td>
+    <td>Josue Carrasco y Santos Patazca</td>
+    <td>-</td>
+  </tr>
+  
+</table>
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+En esta sección, como equipo, explicamos y presentamos los avances en implementación con relación a los productos de la solución según el alcance del Sprint 2. Incluimos una introducción que resume los principales avances y una tabla con los commits relacionados con la implementación.
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commit Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/data-logic</td>
+            <td>b1ec3c0dbe3eaf4e9403d5e4c70c93d61cbc9b96</td>
+            <td>update reports and add service and models of: reports and evacuation plan</td>
+            <td>-</td>
+            <td>Nov 12,2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/data-logic</td>
+            <td>6dd85be484a2c316fa34f28c4d37d513de98030e</td>
+            <td>update toolbar</td>
+            <td>-</td>
+            <td>Nov 12,2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>fde844c8f801fcf4de0d5b14a2a0da0e76d38472</td>
+            <td>update toolbar</td>
+            <td>-</td>
+            <td>Nov 12,2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>692aa762b116045b2e48ea827ef6027ff08fe0d5</td>
+            <td>update reports filters</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>a65fffc62f4779409ba23792a37e10459a35dbe0</td>
+            <td>update register</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/monitoring</td>
+            <td>18c32e9c558590733903efb2eeac78047531de5f</td>
+            <td>add reports details component</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/notifications</td>
+            <td>fbe0e0196d847af1b9cd9cbcfcb991f994753ddb</td>
+            <td>feat: create notification</td>
+            <td>-</td>
+            <td>Nov 8, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/notifications</td>
+            <td>e83c170922f4f84099dda4827e514d3a15a12da1</td>
+            <td>update notifications</td>
+            <td>-</td>
+            <td>Nov 11, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/planning</td>
+            <td>16e101543426becb879945828abc26e5087e2424</td>
+            <td>Add evacuation plans functionality to planning component (API integration and event form)</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/planning</td>
+            <td>535bd63b5703579dbb52c304895045ab7a750dda</td>
+            <td>Update reports and add and delete reports</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/planning</td>
+            <td>1407582f9be1cc35955a272b17c23f9ec0bd23b6</td>
+            <td>add update table with new report</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/profile</td>
+            <td>60062f843c03cd72213a9fdff2f7890a6d1ed9fb</td>
+            <td>update log out</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/reports</td>
+            <td>fde844c8f801fcf4de0d5b14a2a0da0e76d38472</td>
+            <td>update reports filters</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/reports</td>
+            <td>a65fffc62f4779409ba23792a37e10459a35dbe0</td>
+            <td>update register</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Web-Application-Front</td>
+            <td>feature/toolbar</td>
+            <td>54440083ff77cd66453303f8be0d2dcaf398eaac</td>
+            <td>update toolbar</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>Main</td>
+            <td>894a234567e0bffde38c95f5d5f99921a9099104</td>
+            <td>update register</td>
+            <td>-</td>
+            <td>Oct 27,2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>Main</td>
+            <td>4b450ca55a50edc3b486b2d3acb896fb2c37aa8e</td>
+            <td>update CORS</td>
+            <td>-</td>
+            <td>Nov 18, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>Main</td>
+            <td>b1d913439f511b4f500118c213391364afa6e61f</td>
+            <td>update back end</td>
+            <td>-</td>
+            <td>Nov 18, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>feature/planning</td>
+            <td>5c74226eaf8a19c042c8a413b26a48731093b995</td>
+            <td>add Evacuation Plans Controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+         <tr>
+            <td>Backend</td>
+            <td>feature/planning</td>
+            <td>2949d2cb028360c6ad21d030861b21146972e45c</td>
+            <td>add report controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+         <tr>
+            <td>Backend</td>
+            <td>feature/planning</td>
+            <td>a60ce24b4508c486e45c928a6138a26ba4928441</td>
+            <td>first commit</td>
+            <td>-</td>
+            <td>Nov 15, 2024</td>
+        </tr>
+         <tr>
+            <td>Backend</td>
+            <td>feature/reports</td>
+            <td>2949d2cb028360c6ad21d030861b21146972e45c</td>
+            <td>add report controller </td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+          <tr>
+            <td>Backend</td>
+            <td>feature/user</td>
+            <td>2949d2cb028360c6ad21d030861b21146972e45c</td>
+            <td>add report controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+        <tr>
+            <td>Backend</td>
+            <td>feature/user</td>
+            <td>db5d6b0ecaacc0700b0c33510562bf33e2b533d0</td>
+            <td>add user controller</td>
+            <td>-</td>
+            <td>Nov 16, 2024</td>
+        </tr>
+          <tr>
+            <td>Backend</td>
+            <td>feature/user</td>
+            <td>84ed5d6c84bf95d6e88bfa61721b2e3fd177c4f1</td>
+            <td>update user</td>
+            <td>-</td>
+            <td>Nov 17, 2024</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+En esta sección, el equipo presenta el conjunto de pruebas automatizadas realizadas durante el Sprint 2, incluyendo Unit Tests, Integration Tests y Acceptance Tests. Se detallan las clases y comportamientos asociados a cada test, y se incluyen ejemplos de los archivos .feature y Steps para los tests de BDD. También proporcionamos la ruta del repositorio y los commits relacionados con los avances en testing.
+
+Usamos la herramienta de selenium para testear:
+
+**Landing page**
+<img src="assets/images/LandingTesting.jpg">
+
+**Aplicacion Web**
+<img src="assets/images/AplicacionTesting.jpg">
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+En esta sección, se proporciona un resumen de los logros alcanzados durante el Sprint 2. Se incluyen capturas de pantalla de las principales vistas implementadas, y se añade un enlace a un video que muestra y explica la visualización y navegación logradas durante este Sprint.
+
+**Aplicacion Web**
+
+- Inicio de sesión
+Pantalla de inicio de sesión con un fondo de color crema oscuro. En el centro, hay un formulario de inicio de sesión con los siguientes campos y elementos:
+
+<img src="assets/images/login.jpg">
+
+- Vista monitoring
+
+El home muestra un bottom que dirigi a la plataforma de azure portal donde se mostrara en 2d la estructura del colegio
+
+<img src="assets/images/moritoring.jpg">
+
+<img src="assets/images/estructura.jpg">
+
+- Vista report
+
+En esta vista se visualizara todo los reportes que se hayan identificado y adicionalmente tambien podemos registrar un reporte
+
+<img src="assets/images/report.jpg">
+
+- Vista planning
+
+En esta vista se visualizara todo los eventos registrados que hay durante el mes de curso
+
+<img src="assets/images/planning.jpg">
+
+- Modelo digital
+
+En esta fase, se desarrolló el modelo digital final de la infraestructura escolar salón de clases y del colegio, configurando la integración de datos básicos y la representación visual de áreas de riesgo en el mapa. Este modelo permite a los administradores monitorear el estado estructural en tiempo real.
+
+<img src="assets/images/clases.jpg">
+
+<img src="assets/images/colegio2.jpg">
+
+<img src="assets/images/colegio3.jpg">
+
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros terminados en la documentación de los Web Services para este Sprint. La sección incluye los detalles del endpoint del backend desplegado en Railway.
+
+- **Endpoint Documentado**: `/api/v1/users`
+  - **URL Pública**: [https://clever-vibrancy-production.up.railway.app/api/v1/users](https://clever-vibrancy-production.up.railway.app/api/v1/users)
+  - **Método**: GET
+  - **Descripción**: Devuelve un listado de todos los usuarios registrados en el sistema.
+  - **Respuesta Ejemplo**:
+    ```json
+    [
+      {
+        "id": 1,
+        "email": "user1@example.com",
+        "username": "user1",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "email": "user2@example.com",
+        "username": "user2",
+        "role": "teacher"
+      }
+    ]
+    ```
+  - **Parámetros de Respuesta**:
+    - **id**: Identificador único del usuario.
+    - **email**: Correo electrónico del usuario.
+    - **username**: Nombre de usuario.
+    - **role**: Rol del usuario en el sistema (e.g., "admin", "teacher").
+  - **Pruebas Realizadas**: Se realizaron pruebas para verificar la accesibilidad del endpoint y la estructura de la respuesta.
+
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se presentan los detalles del despliegue del software realizado durante el Sprint 2, específicamente de la landing page y la aplicación web principal. A continuación, se describen los entornos de despliegue, así como los pasos seguidos para su implementación en Vercel y Netlify respectivamente.
+
+### **Despliegue de la Landing Page en Vercel**
+
+La landing page del proyecto fue desplegada utilizando Vercel. Vercel se seleccionó por su facilidad de uso y la integración eficiente con los repositorios de GitHub. Los pasos seguidos para el despliegue fueron los siguientes:
+
+1. **Configuración del Repositorio**:
+   - Asegurarse de que la landing page estuviera almacenada en un repositorio de GitHub, en la rama principal o en una rama específica preparada para producción.
+
+2. **Inicio de Sesión en Vercel**:
+   - Iniciar sesión en [Vercel](https://vercel.com/) con una cuenta existente o crear una nueva.
+
+3. **Importación del Proyecto**:
+   - Hacer clic en el botón "New Project" y conectar Vercel con GitHub.
+   - Seleccionar el repositorio correspondiente a la landing page.
+
+   <img src="assets/images/despliegue.jpg">
+
+4. **Configuración del Proyecto**:
+   - Configurar el proyecto en Vercel, eligiendo la rama desde la cual se desea realizar el despliegue (por ejemplo, `main`).
+   - Establecer configuraciones adicionales como variables de entorno (si aplican).
+
+5. **Despliegue Automático**:
+   - Vercel realiza automáticamente el despliegue al seleccionar el repositorio y la rama correcta.
+   - Luego de unos minutos, Vercel proporciona una URL donde la landing page está accesible públicamente.
+
+6. **Verificación y Pruebas**:
+   - Se verificó el funcionamiento de la landing page visitando la URL proporcionada y realizando pruebas para asegurar la correcta carga y navegación.
+
+### **Despliegue de la Aplicación Web en Netlify**
+
+La aplicación web principal fue desplegada en Netlify, aprovechando su capacidad para manejar aplicaciones modernas basadas en JAMstack. A continuación, se describen los pasos seguidos:
+
+1. **Configuración del Repositorio**:
+   - Confirmar que la aplicación web estuviera almacenada en un repositorio de GitHub (o GitLab/Bitbucket), en una rama lista para producción.
+
+2. **Inicio de Sesión en Netlify**:
+   - Iniciar sesión en [Netlify](https://netlify.com/) o crear una cuenta nueva si no se tenía una.
+
+3. **Vinculación del Repositorio**:
+   - Dentro de la página de Netlify, hacer clic en "New site from Git".
+   - Autorizar a Netlify para que acceda al repositorio en GitHub y seleccionar el repositorio donde está la aplicación web.
+
+4. **Configuración del Despliegue**:
+   - Seleccionar la rama que se desea desplegar (por ejemplo, `main`).
+   - Configurar las opciones de build, indicando los comandos de build (si es necesario) y la carpeta de salida (generalmente, `build` o `dist`).
+
+5. **Build y Despliegue**:
+   - Netlify comienza automáticamente la compilación y despliega el sitio una vez configurado.
+   - Después de completar el proceso, se proporciona una URL pública donde la aplicación web puede ser visitada.
+
+6. **Pruebas Post-despliegue**:
+   - Se realizó una verificación completa del sitio web utilizando la URL pública proporcionada por Netlify.
+   - Se llevaron a cabo pruebas de las funcionalidades principales para asegurar la correcta implementación.
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+En esta sección, se muestran los avances y la colaboración entre los miembros del equipo durante el Sprint 3. A continuación, se describen las implementaciones realizadas en los diferentes productos del sistema.
+
+- App web
+
+<img src="assets/images/front.jpg">
+
+- Backend
+
+<img src="assets/images/back.jpg">
 
 ## 7.3. Validation Interviews. 
 
